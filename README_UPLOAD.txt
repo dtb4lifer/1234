@@ -12,7 +12,7 @@ PlasmaGAGMirrorFull/PV/...
 
 The loader already points to:
 
-https://raw.githubusercontent.com/dtb4lifer/1234/refs/heads/main/PlasmaGAGMirrorFull
+https://raw.githubusercontent.com/dtb4lifer/1234/main
 
 If you upload it somewhere else, replace that base URL inside:
 

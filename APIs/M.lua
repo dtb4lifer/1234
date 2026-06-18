@@ -25,7 +25,7 @@
     v3.0.1  |  2026-4-13  |  Roblox Script
     
     Author: Plasma Hub
-    Github: https://github.com/dtb4lifer/1234/tree/main/PlasmaGAGMirrorFull
+    Github: https://github.com/dtb4lifer/1234
     Discord: https://discord.gg/G7CX2rD9p2
     License: ND ( No Derivatives )
     
@@ -452,7 +452,7 @@ if not LoaderSettings.BadNetwork then
     if not isfolder"PlasmaGAG" then makefolder"PlasmaGAG"; end;
     if not isfile"PlasmaGAG/PlasmaGAG.png" then
         local pngfile = Request({
-            Url = "https://raw.githubusercontent.com/dtb4lifer/1234/refs/heads/main/PlasmaGAGMirrorFull/Assets/PlasmaIcon.png";
+            Url = "https://raw.githubusercontent.com/dtb4lifer/1234/refs/heads/main/Assets/PlasmaIcon-removebg-preview.png";
             Method = "GET";
         }); if pngfile.Success then
             writefile("PlasmaGAG/PlasmaGAG.png", pngfile.Body);
@@ -2302,11 +2302,11 @@ AssetStorage.LoadUILib = function()
                 local IconModule = {  
                     IconsType = "lucide", New = nil, IconThemeTag = nil,
                     Icons = (LoaderSettings.BadNetwork and {}) or {  
-                        ["lucide"] = LoadFromVControl("https://raw.githubusercontent.com/dtb4lifer/1234/refs/heads/main/PlasmaGAGMirrorFull/Assets/lucide.lua", "lucide.lua", "1")(),
+                        ["lucide"] = LoadFromVControl("https://raw.githubusercontent.com/dtb4lifer/1234/main/Assets/lucide.lua", "lucide.lua", "1")(),
                         --["solar"] = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Footagesus/Icons/refs/heads/main/solar/dist/Icons.lua"))(),  
                         --["craft"] = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Footagesus/Icons/refs/heads/main/craft/dist/Icons.lua"))(),  
                         --["geist"] = loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/Footagesus/Icons/refs/heads/main/geist/dist/Icons.lua"))(),  
-                        ["sfsymbols"] = LoadFromVControl("https://raw.githubusercontent.com/dtb4lifer/1234/refs/heads/main/PlasmaGAGMirrorFull/Assets/sfsymbols.lua", "sfsymbols.lua", "1")(),  
+                        ["sfsymbols"] = LoadFromVControl("https://raw.githubusercontent.com/dtb4lifer/1234/main/Assets/sfsymbols.lua", "sfsymbols.lua", "1")(),  
                     },
                 };
                 local function parseIconString(iconString)  
@@ -11912,9 +11912,9 @@ local AutoInclude = function(Included)
 end;
 
 if FreeLoad[GameId] then
-    return LoadFromVControl("https://raw.githubusercontent.com/dtb4lifer/1234/refs/heads/main/PlasmaGAGMirrorFull/ListFile/" .. Resolve, Resolve, GG.CustomVersion or FreeLoad[GameId].Version)(AutoInclude(FreeLoad[GameId].Included))();
+    return LoadFromVControl("https://raw.githubusercontent.com/dtb4lifer/1234/main/ListFile/" .. Resolve, Resolve, GG.CustomVersion or FreeLoad[GameId].Version)(AutoInclude(FreeLoad[GameId].Included))();
 elseif KeyLoad[GameId] then
-    return LoadFromVControl("https://raw.githubusercontent.com/dtb4lifer/1234/refs/heads/main/PlasmaGAGMirrorFull/APIs/K.oluac", "K.lua", "KAuth3.53")(GG.CustomVersion or KeyLoad[GameId].Version, AssetStorage.KeyPackage, AutoInclude(KeyLoad[GameId].Included))();
+    return LoadFromVControl("https://raw.githubusercontent.com/dtb4lifer/1234/main/APIs/K.oluac", "K.lua", "KAuth3.53")(GG.CustomVersion or KeyLoad[GameId].Version, AssetStorage.KeyPackage, AutoInclude(KeyLoad[GameId].Included))();
 else
-    return LoadFromVControl("https://raw.githubusercontent.com/dtb4lifer/1234/refs/heads/main/PlasmaGAGMirrorFull/ListFile/7597195391.lua", "7597195391.lua", GG.CustomVersion or FreeLoad[7597195391].Version)(AutoInclude(FreeLoad[7597195391].Included))();
+    return LoadFromVControl("https://raw.githubusercontent.com/dtb4lifer/1234/main/ListFile/7597195391.lua", "7597195391.lua", GG.CustomVersion or FreeLoad[7597195391].Version)(AutoInclude(FreeLoad[7597195391].Included))();
 end;

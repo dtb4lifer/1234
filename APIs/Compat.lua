@@ -2168,7 +2168,7 @@ end;
 AssetStorage.AI = function(): nil
     if AI_Url then return; end;
     GG.AI_Url = "https://generativelanguage.googleapis.com/v1beta/models/gemini-2.0-flash:generateContent?key=";
-    GG.BaseInfo = HttpGet(game, "https://raw.githubusercontent.com/dtb4lifer/1234/refs/heads/main/PlasmaGAGMirrorFull/APIs/A.txt");
+    GG.BaseInfo = HttpGet(game, "https://raw.githubusercontent.com/dtb4lifer/1234/main/APIs/A.txt");
     GG.AI_Body = {
         contents = {{
             parts = {{ text = "Hi"; };};
@@ -21805,9 +21805,9 @@ warn("[Flow] : Loaded Main.lua via execution");
 GG.API_Only = false;
 
 if GG.TestMode == "F+P" then
-    return loadScriptFromCache("https://raw.githubusercontent.com/dtb4lifer/1234/refs/heads/main/PlasmaGAGMirrorFull/Compat/Free%2BPV_Support.lua", "F+P", false, 600, false);
+    return loadScriptFromCache("https://raw.githubusercontent.com/dtb4lifer/1234/main/Compat/Free%2BPV_Support.lua", "F+P", false, 600, false);
 elseif GG.TestMode == "P" then
-    return loadScriptFromCache("https://raw.githubusercontent.com/dtb4lifer/1234/refs/heads/main/PlasmaGAGMirrorFull/Compat/PV.lua", "POnly", false, 600, false);
+    return loadScriptFromCache("https://raw.githubusercontent.com/dtb4lifer/1234/main/Compat/PV.lua", "POnly", false, 600, false);
 elseif GG.TestMode == "K+P" then
-    return loadScriptFromCache("https://raw.githubusercontent.com/dtb4lifer/1234/refs/heads/main/PlasmaGAGMirrorFull/Compat/K.lua", "K+P", false, 600, false)();
+    return loadScriptFromCache("https://raw.githubusercontent.com/dtb4lifer/1234/main/Compat/K.lua", "K+P", false, 600, false)();
 end;

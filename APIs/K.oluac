@@ -1,0 +1,300 @@
+local GG=GG; if not GG then return game:GetService("Players").LocalPlayer:Kick("[Plasma Hub] : Really? Your account is now at risk for the next ban wave."); end;
+
+local ScriptCache = GG.ScriptCache;
+local userIdentify = ScriptCache.userIdentify;
+local debu = debug;
+local str = string;
+
+local GameId = game.GameId;
+local PlaceId = game.PlaceId;
+
+local Request = GG.Request;
+local ResetC  = GG.ResetC;
+local LowerC  = GG.LowerC;
+local infor   = debu.info;
+local getinfo = getinfo or debu.getinfo;
+
+local HttpService = GG.HttpService
+local EnCodeJ = HttpService.JSONEncode;
+local DeCodeJ = HttpService.JSONDecode;
+
+local defineLuaExec = userIdentify.unc_infos.require;
+local install = (ResetC and IB_NO_VIRTUALIZE(function(...)
+    local GetENV = ...; if isfunctionhooked(GetENV) then
+        ResetC(GetENV);
+    else
+        pcall(function()
+            ResetC(GetENV);
+        end); 
+    end;
+end)) or IB_NO_VIRTUALIZE(function(...)
+    return;
+end);
+
+local encrypt = function(text, key)
+    local encryptedText = ""; for i = 1, #text do
+        local char = str.byte(text, i);
+        local encryptedChar = (char + key) % 256;
+        encryptedText = encryptedText .. str.char(encryptedChar);
+    end; return encryptedText;
+end;
+local decrypt = function(encryptedText ,key)
+	local decryptedText = ""; for i = 1, #encryptedText do
+		local char = str.byte(encryptedText, i);
+		local decryptedChar = (char - key) % 256;
+		if decryptedChar < 0 then
+			decryptedChar = decryptedChar + 256;
+		end; decryptedText = decryptedText .. str.char(decryptedChar);
+	end; return decryptedText;
+end;
+
+local InvalidTable = [[{
+	"OwnerSecretID": "68bffa9ef8948d329c5754d216b9830d3a08ce227d174f55d4189f7c6a186e9e",
+	"Registered_ServiceID": "Plasma",
+	"Authentication": "cc4dd48a9316360d006bed2e77a8eb18be233f79f555aa34e9d9805716006cd8",
+	"V2_Authentication": "false",
+	"Key_Information": {
+		"NoKey_Requirement": false,
+		"Hardware_ID": "6845479d3e20888934c28df70ccf9a2e9c8825cf3e2d0ff438e55377b8bf1d18",
+		"Premium_Mode": false,
+		"Notes": "Generated Key (V2)",
+		"expiresAt": "Tue Sep 03 4763 05:22:44 GMT-0700 (Pacific Daylight Time)"
+	}
+	}]];
+
+local KeyProcessor = function(script_key)
+    local SUS_Validation = false;
+    
+    pcall(IB_NO_VIRTUALIZE(function() ResetC(pcall); end));
+    install(isfunctionhooked); install(getinfo); install(error);
+    install(print); install(warn);
+
+    if getinfo(getinfo).what ~= "[C]" and getinfo(getinfo).what ~= "C" then
+        if defineLuaExec ~= "Lua" then
+            return 1;
+        end;
+    end; if defineLuaExec == "Lua" then
+        install(newlclosure); install(newcclosure);
+        local FakeCClosure_Of_getinfo = newlclosure(clonefunction(getinfo));
+        if getinfo(FakeCClosure_Of_getinfo).what ~= "Lua" then
+            return 2;
+        end;
+    end; install(Request);
+
+    if getinfo(Request).what ~= "[C]" and getinfo(Request).what ~= "C" then
+        if defineLuaExec ~= "Lua" then
+            return 3;
+        end;
+    end; install(Request);
+
+    if userIdentify.unc_infos["request"] ~= getinfo(Request).what then
+        return 4;
+    end; install(EnCodeJ); install(DeCodeJ); install(getinfo);
+
+    if getinfo(EnCodeJ).what ~= "[C]" and getinfo(EnCodeJ).what ~= "C" then
+        if defineLuaExec ~= "Lua" then
+            return 5;
+        end;
+    end; if getinfo(DeCodeJ).what ~= "[C]" and getinfo(DeCodeJ).what ~= "C" then
+        if defineLuaExec ~= "Lua" then
+            return 6;
+        end;
+    end; install(isfunctionhooked);
+
+    if isfunctionhooked then
+        if getinfo(isfunctionhooked).what ~= "[C]" and getinfo(isfunctionhooked).what ~= "C" then
+            if defineLuaExec ~= "Lua" and not protecthook then
+                local serve1=tick(); isfunctionhooked(print); local serve2=tick();
+                local serve3 = serve2 - serve1; if serve3 < 0.0000000728955078125 or serve3 > 0.00000250928955078125 then
+                    return 7, P.LocalPlayer:Kick("Plasma_ID7");
+                end;
+            end;
+        end;
+        if isfunctionhooked(Request) or isfunctionhooked(EnCodeJ) or isfunctionhooked(DeCodeJ) or isfunctionhooked(require) or isfunctionhooked(getinfo) or isfunctionhooked(newcclosure) or isfunctionhooked(newlclosure) then
+            return 8;
+        end;
+    else
+        if defineLuaExec ~= "Lua" then
+            SUS_Validation = true;
+        end;
+    end;
+
+    if LowerC and not isfile("SecurityVoltSharp.txt") then
+        install(getinfo); install(LowerC); install(Request);
+        LowerC(Request, function(...) return "New"; end);
+        if getinfo(Request).what ~= "[C]" and getinfo(Request).what ~= "C" then
+            if defineLuaExec ~= "Lua" then
+                return 9;
+            end;
+        end;
+        
+        local success, funRequest = pcall(Request);
+        if not success then
+            if not str.find(funRequest, "Headers") then
+                return 10.5
+            end
+        elseif funRequest ~= "New" then
+            return 10
+        end
+    end; install(Request); if pcall(IB_NO_VIRTUALIZE(function() Request(); end)) then
+        return 11;
+    end; 
+
+    local InvalidDecoded = DeCodeJ(HttpService, InvalidTable);
+    if InvalidDecoded.Registered_ServiceID == "Plasmahub" then
+        return 12;
+    end;
+    if InvalidDecoded.V2_Authentication == "success" then
+        return 13;
+    end;
+    if InvalidDecoded.Key_Information.Premium_Mode == true then
+        return 14;
+    end;
+    if InvalidDecoded.Key_Information.Hardware_ID == gethwid() then
+        return 15;
+    end; install(getinfo); install(pcall); install(newcclosure);
+
+    if defineLuaExec ~= "Lua" then
+        if getrawmetatable then
+            install(getrawmetatable);
+            if getinfo(getrawmetatable).what ~= "[C]" and getinfo(getrawmetatable).what ~= "C" then
+                if defineLuaExec ~= "Lua" then
+                    return 16;
+                end;
+            end; local rawMeta = getrawmetatable(game);
+            if rawMeta then
+                local Suc = pcall(IB_NO_VIRTUALIZE(function() return rawMeta.__index; end));
+                if Suc then
+                    if getinfo(rawMeta.__index).what ~= 'C' and getinfo(rawMeta.__index).what ~= '[C]' then
+                        return 17;
+                    end;
+                end;
+            end;
+        end;
+    end; install(tick); install(Request);
+    
+    if getinfo(tick).what ~= "[C]" and getinfo(tick).what ~= "C" then
+        if defineLuaExec ~= "Lua" then
+            return 18;
+        end;
+    end; install(infor);
+
+    if infor(Request, "s") ~= "C" and infor(Request, "s") ~= "[C]" and not IsVolcano then
+        if defineLuaExec ~= "Lua" then
+            return 19;
+        end;
+    end; if infor(EnCodeJ, "s") ~= "C" and infor(EnCodeJ, "s") ~= "[C]" and not IsVolcano then
+        if defineLuaExec ~= "Lua" then
+            return 20;
+        end;
+    end; if infor(DeCodeJ, "s") ~= "C" and infor(DeCodeJ, "s") ~= "[C]" and not IsVolcano then
+        if defineLuaExec ~= "Lua" then
+            return 21;
+        end;
+    end;
+
+    if isfunctionhooked then
+        if infor(DeCodeJ, "s") ~= "[C]" and infor(DeCodeJ, "s") ~= "C" and not IsVolcano then
+            if defineLuaExec ~= "Lua" then
+                return 22;
+            end;
+        end;
+        if isfunctionhooked(Request) or isfunctionhooked(EnCodeJ) or isfunctionhooked(DeCodeJ) or isfunctionhooked(require) or isfunctionhooked(getinfo) or isfunctionhooked(newcclosure) or isfunctionhooked(newlclosure) then
+            return 23;
+        end;
+    else
+        if defineLuaExec ~= "Lua" then
+            SUS_Validation = true;
+        end;
+    end; if infor(getinfo, "s") ~= "C" and infor(getinfo, "s") ~= "[C]" and not IsVolcano then
+        if defineLuaExec ~= "Lua" then
+            return 24;
+        end;
+    end; install(tick); install(Request);
+    
+    local a_Identification, rr = tick(), Request({
+        Url = "https://new.pandadevelopment.net/api/v1/keys/validate";
+        Headers = {["Content-Type"] = "application/json"}, Method = "POST",
+        Body = EnCodeJ(HttpService, {
+            ServiceID = "Plasmahub",
+            HWID = gethwid(),
+            Key = script_key
+        });
+    }); local b_Identification=tick();
+    if SUS_Validation then
+        return 1000;
+    end; if GG.DebugModeAuth then
+        return tEach(rr, print);
+    end; install(DeCodeJ); install(warn);
+
+    if rr and (rr.Success or rr.StatusCode == 200) then
+        local ValidData = DeCodeJ(HttpService, rr.Body);
+        if ValidData then
+            if b_Identification - a_Identification <= 0.02999 then
+                return 100;
+            else
+                if ValidData.Authenticated_Status == "Success" then
+                    if GG.IsPremium and ValidData.Key_Premium then
+                        local ValidData2 = DeCodeJ(HttpService, rr.Body);
+                        if ValidData2 and decrypt(ValidData2.Note, 4) == GG.DiscordId then
+                            return 201;
+                        end;
+                    end;
+                    return 200;
+                else
+                    return 300;
+                end;
+            end;
+        else
+            return 400;
+        end;
+    else
+        if LowerC and ResetC then
+            if getexecutorname and getexecutorname() == "Volt" or getexecutorname() == "Wave" then
+                return writefile("SecurityVoltSharp.txt", "AnyTrue"), P.LocalPlayer:Kick("ID500:V");
+            end;
+        end; return 200;
+    end;
+end; if defineLuaExec ~= "Lua" then
+    KeyProcessor = newcclosure(KeyProcessor);
+end;
+
+return {
+    Version = "KAuth3.53",
+    Function = function(version, KeyPackage, ...)
+        local ToGo = {...}; GG.InKey = function()
+            local GlobCrLoad = KeyPackage();
+            local g2, tbl    = nil, nil;
+
+            g2, tbl = GlobCrLoad.new({
+                Auth = function(key)
+                    local Result = KeyProcessor(key);
+                    -- silent key result
+                    if Result == 200 or Result == 201 then
+                        writefile("PlasmaGAGKey.txt", key);
+                        pcall(IB_NO_VIRTUALIZE(function()
+                            return tbl:fadeAndTween({
+                                g2["f"], g2["10"]
+                            }, g2["e"]), task.wait(1), g2["1"]:Destroy(), GG.LoadingSignal:Fire(false);
+                        end)); return GG.LoadFromVControl("https://raw.githubusercontent.com/dtb4lifer/1234/refs/heads/main/PlasmaGAGMirrorFull/ListFile/"..tostring(GameId) .. ".lua", tostring(GameId) .. ".lua", version)(unpack(ToGo))(encrypt(HttpService:GenerateGUID(false), 4) .. encrypt(HttpService:GenerateGUID(false), 4) .. "+++os()" .. encrypt(encrypt(HttpService:GenerateGUID(false), 1) .. "+++os()" .. encrypt("emptyspace" .. Result, 3) .. "+++os()" .. encrypt("emptyspace"..P.LocalPlayer.UserId, 2) .. "+++os()" .. encrypt(HttpService:GenerateGUID(false), 1), 3).. "+++os()" .. encrypt(HttpService:GenerateGUID(false), 2));
+                    end;
+                end,
+                GetKey = IB_NO_VIRTUALIZE(function(...)
+                    return GlobCrLoad.newCopy();
+                end)
+            });
+        end; if isfile and isfile("PlasmaGAGKey.txt") then
+            local Keytxt = readfile("PlasmaGAGKey.txt");
+            if Keytxt then
+                local Result = KeyProcessor(Keytxt);
+                if Result == 200 or Result == 201 then
+                    GG.LoadingSignal:Fire(false);
+                    GG.LoadFromVControl("https://raw.githubusercontent.com/dtb4lifer/1234/refs/heads/main/PlasmaGAGMirrorFull/ListFile/"..tostring(GameId) .. ".lua", tostring(GameId)..".lua", version)(...)(encrypt(HttpService:GenerateGUID(false), 4) .. encrypt(HttpService:GenerateGUID(false), 4) .. "+++os()" .. encrypt(encrypt(HttpService:GenerateGUID(false), 1) .. "+++os()" .. encrypt("emptyspace" .. Result, 3) .. "+++os()" .. encrypt("emptyspace"..P.LocalPlayer.UserId, 2) .. "+++os()" .. encrypt(HttpService:GenerateGUID(false), 1), 3).. "+++os()" .. encrypt(HttpService:GenerateGUID(false), 2));
+                    return IB_NO_VIRTUALIZE(function() end);
+                end;
+            end;
+        end; task.delay(2, IB_NO_VIRTUALIZE(function()
+            return GG.LoadingSignal:Fire(true);
+        end)); return GG.InKey;
+    end;
+};

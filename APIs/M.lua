@@ -370,6 +370,18 @@ ScriptCache.userIdentify.unc_infos = {
 local LoadFromVControl = nil;
 LoadFromVControl = function(srcName, fileName, selectversion)
     local cacheFile = "PlasmaGAG/" .. tostring(fileName);
+    -- PlasmaGAG_NOAUTH cache clear: force the old auth-locked GAG module out of executor workspace cache.
+    if tostring(fileName) == "10200395747.lua" then
+        pcall(function()
+            if isfile and isfile(cacheFile) then
+                if delfile then
+                    delfile(cacheFile);
+                elseif writefile then
+                    writefile(cacheFile, "");
+                end;
+            end;
+        end);
+    end;
     if LoaderSettings.AllowCache then
         if isfile(cacheFile) then
             local loadc = loadstring(readfile(cacheFile))();
@@ -10734,6 +10746,7 @@ if FreeLoad[GameId] then
 else
     return LoadFromVControl("https://raw.githubusercontent.com/dtb4lifer/1234/main/ListFile/7597195391.lua?v=" .. tostring(GG.CustomVersion or FreeLoad[7597195391].Version), "7597195391.lua", GG.CustomVersion or FreeLoad[7597195391].Version)(AutoInclude(FreeLoad[7597195391].Included))();
 end;
+
 
 
 

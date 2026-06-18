@@ -1,4 +1,4 @@
-﻿local GG=GG; if not GG then return game:GetService("Players").LocalPlayer:Kick("[Plasma Hub] : Really? Your account is now at risk for the next ban wave."); end;
+local GG=GG; if not GG then return game:GetService("Players").LocalPlayer:Kick("[Plasma Hub] : Really? Your account is now at risk for the next ban wave."); end;
 
 local ScriptCache = GG.ScriptCache;
 local LoaderSettings = GG.LoaderSettings;

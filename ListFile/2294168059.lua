@@ -1,4 +1,4 @@
-local GG=GG; if not GG then return game:GetService("Players").LocalPlayer:Kick("[Plasma Hub] : Really? Your account is now at risk for the next ban wave."); end;
+﻿local GG=GG; if not GG then return game:GetService("Players").LocalPlayer:Kick("[Plasma Hub] : Really? Your account is now at risk for the next ban wave."); end;
 
 local ScriptCache = GG.ScriptCache;
 local LoaderSettings = GG.LoaderSettings;
@@ -205,7 +205,7 @@ return {
             AnsweredMother = {
                 ["cult name?"] = "Kiiroibara Cult";
                 ["I bloom"] = "Cherry Blossom";
-                ["Four I shaped in shadows dire—"] = "Evil God";
+                ["Four I shaped in shadows direâ€”"] = "Evil God";
                 ["pink"] = " Hiachi Masashige";
                 ["quietly"] = "Torii Gate";
                 ["pathetic"] = "Me";
@@ -1292,7 +1292,7 @@ return {
                     local dialogueSequence = {}
                     local dialogues = {
                         {
-                            Message = "You: Oh god… there’s no way everyone is...",
+                            Message = "You: Oh godâ€¦ thereâ€™s no way everyone is...",
                             Time = 3,
                             Typewriter = { Speed = 0.01 }
                         },
@@ -1302,37 +1302,37 @@ return {
                             Typewriter = { Speed = 0.01 }
                         },
                         {
-                            Message = "You: Mr. Ishitoku? Don’t worry, I’ll help you! Thank god you’re still alive.",
+                            Message = "You: Mr. Ishitoku? Donâ€™t worry, Iâ€™ll help you! Thank god youâ€™re still alive.",
                             Time = 4,
                             Typewriter = { Speed = 0.01 }
                         },
                         {
-                            Message = "Boss: *cough* Not for long. It’s getting harder to— God— what happened to your body?",
+                            Message = "Boss: *cough* Not for long. Itâ€™s getting harder toâ€” Godâ€” what happened to your body?",
                             Time = 5,
                             Typewriter = { Speed = 0.01 }
                         },
                         {
-                            Message = "You: It's a long story. Hang on, I’m gonna call for help. *reaches for the landline telephone*",
+                            Message = "You: It's a long story. Hang on, Iâ€™m gonna call for help. *reaches for the landline telephone*",
                             Time = 5,
                             Typewriter = { Speed = 0.01 }
                         },
                         {
-                            Message = "Don’t even bother using that *cough* the dang thing’s busted.",
+                            Message = "Donâ€™t even bother using that *cough* the dang thingâ€™s busted.",
                             Time = 5,
                             Typewriter = { Speed = 0.01 }
                         },
                         {
-                            Message = "Boss: You know the mall near the office? Last I remembered it hasn’t been knocked down yet, so you can try to go there and maybe find something you could use.",
+                            Message = "Boss: You know the mall near the office? Last I remembered it hasnâ€™t been knocked down yet, so you can try to go there and maybe find something you could use.",
                             Time = 6,
                             Typewriter = { Speed = 0.01 }
                         },
                         {
-                            Message = "You: Alright, I’ll go check it out. Hang in there sir.",
+                            Message = "You: Alright, Iâ€™ll go check it out. Hang in there sir.",
                             Time = 3,
                             Typewriter = { Speed = 0.01 }
                         },
                         {
-                            Message = "Boss: I don't- think I’m gonna make it. Promise me something. The twisted hyakki yagyō out there is dangerous. Their rampage is cough far from over. Watch your back and save anyone you can. That’s all I ask. cough It’s been nice working with you, Isamu. I--",
+                            Message = "Boss: I don't- think Iâ€™m gonna make it. Promise me something. The twisted hyakki yagyÅ out there is dangerous. Their rampage is cough far from over. Watch your back and save anyone you can. Thatâ€™s all I ask. cough Itâ€™s been nice working with you, Isamu. I--",
                             Time = 9,
                             Typewriter = { Speed = 0.01 }
                         },
@@ -1419,12 +1419,12 @@ return {
                 local finalDialogue = {}
                 local dialogues = {
                     {
-                        Message = "You: The entrance collapsed! How am I gonna- wait... There should be a shovel in the storage room. That’ll help me clear out the debris.",
+                        Message = "You: The entrance collapsed! How am I gonna- wait... There should be a shovel in the storage room. Thatâ€™ll help me clear out the debris.",
                         Time = 7,
                         Typewriter = { Speed = 0.01 }
                     },
                     {
-                        Message = "You: They must’ve changed the code. I wonder if I could find the new one around the office",
+                        Message = "You: They mustâ€™ve changed the code. I wonder if I could find the new one around the office",
                         Time = 4,
                         Typewriter = { Speed = 0.01 }
                     }
@@ -2689,20 +2689,20 @@ return {
             ClientTab = {
                 {type="Group", dats={
                     {dat={
-                        {type="Toggle", EN="Auto Free Yourself", EN2="Auto free yourself if the game ask you to do the quick time event.", TH1="ออโต้หลบหนี", TH2="ออโต้กด E เวลามีมินิเกม Free yourself ขึ้นมา", Path="Client/Auto Free Yourself"},
-                        {type="Button", EN="Visual Lantern", EN2="Give you all lanterns in lobby.", TH1="โคมไฟปลอมๆ", TH2="ใช้ใน Lobby", Callback=Functions.GiveLantern},
-                        {type="Toggle", EN="Full Bright", EN2="Make the game brighter, easier to see or look around.", TH1="แมพสว่าง", TH2="มองเห็นง่ายขึ้น", Path="Client/Full Bright"},
-                        {type="Toggle", EN="Instant Prompt", EN2="On some prompt/maps, this can flag anti cheat so remember to turn it off when you have to.", TH1="กด Prompt เร็วขึ้น", TH2="กดพวกปุ่มที่มันขึ้นมาให้กดเร็วขึ้น (Class:Prompt)", Path="Client/Instant Prompt"},
-                        {type="Toggle", EN="Float", EN2="Make your character float in the air.", TH1="ลอย", TH2="ทำให้ตัวละครเดินบนอากาศได้", Path="Client/Float"},
-                        {type="Toggle", EN="Noclip", EN2="Allow you to walk through walls.", TH1="เดินทะลุกำแพง", TH2="ต้องอธิบายด้วยหรอ", Path="Client/Noclip"},
-                        {type="Slider", EN="Walk Speed", EN2="Change the speed of your walk.", TH1="ความเร็วในการเดิน", TH2="ปรับความเร็วการเดิน", Value={Min=1, Max=100}, Path="Client/WalkSpeed"},
-                        {type="Toggle", EN="Enable Walk Speed", EN2="Enable walk speed modification.", TH1="เปิดใช้งานความเร็วในการเดิน", TH2="ปรับความเร็วในการเดิน", Path="Client/Enable WalkSpeed"},
-                        {type="Slider", EN="Teleport Walk Speed", EN2="Change the speed of teleport walk.", TH1="ความเร็วในการเดินแบบวาร์ป", TH2="ปรับความเร็วในการเดินแบบวาร์ป", Value={Min=1, Max=10}, Path="Client/TeleportWalk Speed"},
-                        {type="Toggle", EN="Enable Teleport Walk", EN2="Enable teleport walk.", TH1="เปิดใช้งานเดินแบบวาร์ป", TH2="เปิดใช้งานเดินโดยการวาร์ปไปเรื่อยๆ", Path="Client/Enable TeleportWalk"},
-                        {type="Slider", EN="Jump Power", EN2="Change the power of your jump.", TH1="ความแรงในการกระโดด", TH2="ปรับความแรงในการกระโดด", Value={Min=1, Max=300}, Path="Client/JumpPower"},
-                        {type="Toggle", EN="Enable Jump Power", EN2="Enable jump power modification.", TH1="เปิดใช้งานความแรงในการกระโดด", TH2="ปรับความแรงในการกระโดด", Path="Client/Enable JumpPower"},
-                        {type="Slider", EN="Fly Speed", EN2="Change the speed of your flight.", TH1="ความเร็วในการบิน", TH2="ปรับความเร็วในการบิน", Value={Min=1, Max=10}, Path="Client/FlySpeed"},
-                        {type="Toggle", EN="Enable Fly", EN2="Allow you to fly.", TH1="บิน", TH2="บินได้", Path="Client/Enable Fly"},
+                        {type="Toggle", EN="Auto Free Yourself", EN2="Auto free yourself if the game ask you to do the quick time event.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸«à¸¥à¸šà¸«à¸™à¸µ", TH2="à¸­à¸­à¹‚à¸•à¹‰à¸à¸” E à¹€à¸§à¸¥à¸²à¸¡à¸µà¸¡à¸´à¸™à¸´à¹€à¸à¸¡ Free yourself à¸‚à¸¶à¹‰à¸™à¸¡à¸²", Path="Client/Auto Free Yourself"},
+                        {type="Button", EN="Visual Lantern", EN2="Give you all lanterns in lobby.", TH1="à¹‚à¸„à¸¡à¹„à¸Ÿà¸›à¸¥à¸­à¸¡à¹†", TH2="à¹ƒà¸Šà¹‰à¹ƒà¸™ Lobby", Callback=Functions.GiveLantern},
+                        {type="Toggle", EN="Full Bright", EN2="Make the game brighter, easier to see or look around.", TH1="à¹à¸¡à¸žà¸ªà¸§à¹ˆà¸²à¸‡", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™à¸‡à¹ˆà¸²à¸¢à¸‚à¸¶à¹‰à¸™", Path="Client/Full Bright"},
+                        {type="Toggle", EN="Instant Prompt", EN2="On some prompt/maps, this can flag anti cheat so remember to turn it off when you have to.", TH1="à¸à¸” Prompt à¹€à¸£à¹‡à¸§à¸‚à¸¶à¹‰à¸™", TH2="à¸à¸”à¸žà¸§à¸à¸›à¸¸à¹ˆà¸¡à¸—à¸µà¹ˆà¸¡à¸±à¸™à¸‚à¸¶à¹‰à¸™à¸¡à¸²à¹ƒà¸«à¹‰à¸à¸”à¹€à¸£à¹‡à¸§à¸‚à¸¶à¹‰à¸™ (Class:Prompt)", Path="Client/Instant Prompt"},
+                        {type="Toggle", EN="Float", EN2="Make your character float in the air.", TH1="à¸¥à¸­à¸¢", TH2="à¸—à¸³à¹ƒà¸«à¹‰à¸•à¸±à¸§à¸¥à¸°à¸„à¸£à¹€à¸”à¸´à¸™à¸šà¸™à¸­à¸²à¸à¸²à¸¨à¹„à¸”à¹‰", Path="Client/Float"},
+                        {type="Toggle", EN="Noclip", EN2="Allow you to walk through walls.", TH1="à¹€à¸”à¸´à¸™à¸—à¸°à¸¥à¸¸à¸à¸³à¹à¸žà¸‡", TH2="à¸•à¹‰à¸­à¸‡à¸­à¸˜à¸´à¸šà¸²à¸¢à¸”à¹‰à¸§à¸¢à¸«à¸£à¸­", Path="Client/Noclip"},
+                        {type="Slider", EN="Walk Speed", EN2="Change the speed of your walk.", TH1="à¸„à¸§à¸²à¸¡à¹€à¸£à¹‡à¸§à¹ƒà¸™à¸à¸²à¸£à¹€à¸”à¸´à¸™", TH2="à¸›à¸£à¸±à¸šà¸„à¸§à¸²à¸¡à¹€à¸£à¹‡à¸§à¸à¸²à¸£à¹€à¸”à¸´à¸™", Value={Min=1, Max=100}, Path="Client/WalkSpeed"},
+                        {type="Toggle", EN="Enable Walk Speed", EN2="Enable walk speed modification.", TH1="à¹€à¸›à¸´à¸”à¹ƒà¸Šà¹‰à¸‡à¸²à¸™à¸„à¸§à¸²à¸¡à¹€à¸£à¹‡à¸§à¹ƒà¸™à¸à¸²à¸£à¹€à¸”à¸´à¸™", TH2="à¸›à¸£à¸±à¸šà¸„à¸§à¸²à¸¡à¹€à¸£à¹‡à¸§à¹ƒà¸™à¸à¸²à¸£à¹€à¸”à¸´à¸™", Path="Client/Enable WalkSpeed"},
+                        {type="Slider", EN="Teleport Walk Speed", EN2="Change the speed of teleport walk.", TH1="à¸„à¸§à¸²à¸¡à¹€à¸£à¹‡à¸§à¹ƒà¸™à¸à¸²à¸£à¹€à¸”à¸´à¸™à¹à¸šà¸šà¸§à¸²à¸£à¹Œà¸›", TH2="à¸›à¸£à¸±à¸šà¸„à¸§à¸²à¸¡à¹€à¸£à¹‡à¸§à¹ƒà¸™à¸à¸²à¸£à¹€à¸”à¸´à¸™à¹à¸šà¸šà¸§à¸²à¸£à¹Œà¸›", Value={Min=1, Max=10}, Path="Client/TeleportWalk Speed"},
+                        {type="Toggle", EN="Enable Teleport Walk", EN2="Enable teleport walk.", TH1="à¹€à¸›à¸´à¸”à¹ƒà¸Šà¹‰à¸‡à¸²à¸™à¹€à¸”à¸´à¸™à¹à¸šà¸šà¸§à¸²à¸£à¹Œà¸›", TH2="à¹€à¸›à¸´à¸”à¹ƒà¸Šà¹‰à¸‡à¸²à¸™à¹€à¸”à¸´à¸™à¹‚à¸”à¸¢à¸à¸²à¸£à¸§à¸²à¸£à¹Œà¸›à¹„à¸›à¹€à¸£à¸·à¹ˆà¸­à¸¢à¹†", Path="Client/Enable TeleportWalk"},
+                        {type="Slider", EN="Jump Power", EN2="Change the power of your jump.", TH1="à¸„à¸§à¸²à¸¡à¹à¸£à¸‡à¹ƒà¸™à¸à¸²à¸£à¸à¸£à¸°à¹‚à¸”à¸”", TH2="à¸›à¸£à¸±à¸šà¸„à¸§à¸²à¸¡à¹à¸£à¸‡à¹ƒà¸™à¸à¸²à¸£à¸à¸£à¸°à¹‚à¸”à¸”", Value={Min=1, Max=300}, Path="Client/JumpPower"},
+                        {type="Toggle", EN="Enable Jump Power", EN2="Enable jump power modification.", TH1="à¹€à¸›à¸´à¸”à¹ƒà¸Šà¹‰à¸‡à¸²à¸™à¸„à¸§à¸²à¸¡à¹à¸£à¸‡à¹ƒà¸™à¸à¸²à¸£à¸à¸£à¸°à¹‚à¸”à¸”", TH2="à¸›à¸£à¸±à¸šà¸„à¸§à¸²à¸¡à¹à¸£à¸‡à¹ƒà¸™à¸à¸²à¸£à¸à¸£à¸°à¹‚à¸”à¸”", Path="Client/Enable JumpPower"},
+                        {type="Slider", EN="Fly Speed", EN2="Change the speed of your flight.", TH1="à¸„à¸§à¸²à¸¡à¹€à¸£à¹‡à¸§à¹ƒà¸™à¸à¸²à¸£à¸šà¸´à¸™", TH2="à¸›à¸£à¸±à¸šà¸„à¸§à¸²à¸¡à¹€à¸£à¹‡à¸§à¹ƒà¸™à¸à¸²à¸£à¸šà¸´à¸™", Value={Min=1, Max=10}, Path="Client/FlySpeed"},
+                        {type="Toggle", EN="Enable Fly", EN2="Allow you to fly.", TH1="à¸šà¸´à¸™", TH2="à¸šà¸´à¸™à¹„à¸”à¹‰", Path="Client/Enable Fly"},
                     }, Title="Client", Open=true};
                 }};
             };
@@ -2714,63 +2714,63 @@ return {
                                 tble.insert(tbl, i);
                             end; return tbl;
                         end)(); Path="Select Emote"},
-                        {type="Button", EN="Play Emote", EN2="Play selected emote.", TH1="เล่น Emote", TH2="เล่น Emote ที่เลือก", Callback=Functions.PlayEmote};
-                        {type="Button", EN="Cancel Emote", EN2="Cancel selected emote.", TH1="หยุด Emote", TH2="หยุด Emote", Callback=Functions.StopEmote};
+                        {type="Button", EN="Play Emote", EN2="Play selected emote.", TH1="à¹€à¸¥à¹ˆà¸™ Emote", TH2="à¹€à¸¥à¹ˆà¸™ Emote à¸—à¸µà¹ˆà¹€à¸¥à¸·à¸­à¸", Callback=Functions.PlayEmote};
+                        {type="Button", EN="Cancel Emote", EN2="Cancel selected emote.", TH1="à¸«à¸¢à¸¸à¸” Emote", TH2="à¸«à¸¢à¸¸à¸” Emote", Callback=Functions.StopEmote};
                     }, Title="Emote", Open=true};
                 }};
             };
             B1C1Tab = {
                 {type="Group", dats={
                     {dat={
-                        {type="Button", EN="Auto Complete Game", EN2="Teleport to the end of the game.", TH1="ออโต้จบเกม", TH2="วาปไปที่ด่านสุดท้ายของเกม", Callback=Functions.AutoCompleteBook1};
-                        {type="Toggle", EN="ESP Monsters", EN2="Show monster's hitbox & name", Path="ESP/Monsters", TH1="ESP ผี", TH2="มองเห็นผี", Callback=Functions.ESPMonsterBook1};
+                        {type="Button", EN="Auto Complete Game", EN2="Teleport to the end of the game.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸ˆà¸šà¹€à¸à¸¡", TH2="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¸”à¹ˆà¸²à¸™à¸ªà¸¸à¸”à¸—à¹‰à¸²à¸¢à¸‚à¸­à¸‡à¹€à¸à¸¡", Callback=Functions.AutoCompleteBook1};
+                        {type="Toggle", EN="ESP Monsters", EN2="Show monster's hitbox & name", Path="ESP/Monsters", TH1="ESP à¸œà¸µ", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™à¸œà¸µ", Callback=Functions.ESPMonsterBook1};
                     }, Title="All In One", Open=true};
                 }}; {type="Space"};
             };
             B1C2Tab = {
                 {type="Group", dats={
                     {dat={
-                        {type="Button", EN="Auto Complete Game", EN2="Teleport to the end of the game.", TH1="ออโต้จบเกม", TH2="วาปไปที่ด่านสุดท้ายของเกม", Callback=Functions.AutoCompleteBook1};
-                        {type="Toggle", EN="ESP Monsters", EN2="Show monster's hitbox & name", Path="ESP/Monsters", TH1="ESP ผี", TH2="มองเห็นผี", Callback=Functions.ESPMonsterBook1};
-                        {type="Toggle", EN="ESP Items", EN2="Show item's box & name", Path="ESP/Items", TH1="ESP ไอเทม", TH2="มองเห็นไอเทม", Callback=Functions.ESPItemBook1};
+                        {type="Button", EN="Auto Complete Game", EN2="Teleport to the end of the game.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸ˆà¸šà¹€à¸à¸¡", TH2="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¸”à¹ˆà¸²à¸™à¸ªà¸¸à¸”à¸—à¹‰à¸²à¸¢à¸‚à¸­à¸‡à¹€à¸à¸¡", Callback=Functions.AutoCompleteBook1};
+                        {type="Toggle", EN="ESP Monsters", EN2="Show monster's hitbox & name", Path="ESP/Monsters", TH1="ESP à¸œà¸µ", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™à¸œà¸µ", Callback=Functions.ESPMonsterBook1};
+                        {type="Toggle", EN="ESP Items", EN2="Show item's box & name", Path="ESP/Items", TH1="ESP à¹„à¸­à¹€à¸—à¸¡", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™à¹„à¸­à¹€à¸—à¸¡", Callback=Functions.ESPItemBook1};
                     }, Title="All In One", Open=true};
                 }}; {type="Space"};
             };
             B1C4Tab = {
                 {type="Group", dats={
                     {dat={
-                        {type="Button", EN="Auto Complete Game", EN2="Teleport to the end of the game.", TH1="ออโต้จบเกม", TH2="วาปไปที่ด่านสุดท้ายของเกม", Callback=Functions.B1C4AutoComplete};
-                        {type="Toggle", EN="ESP Monsters", EN2="Show monster's hitbox & name", Path="ESP/Monsters", TH1="ESP ผี", TH2="มองเห็นผี", Callback=Functions.ESPMonsterBook1};
-                        {type="Toggle", EN="ESP Items", EN2="Show item's box & name", Path="ESP/Items", TH1="ESP ไอเทม", TH2="มองเห็นไอเทม", Callback=Functions.ESPItemBook1};
+                        {type="Button", EN="Auto Complete Game", EN2="Teleport to the end of the game.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸ˆà¸šà¹€à¸à¸¡", TH2="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¸”à¹ˆà¸²à¸™à¸ªà¸¸à¸”à¸—à¹‰à¸²à¸¢à¸‚à¸­à¸‡à¹€à¸à¸¡", Callback=Functions.B1C4AutoComplete};
+                        {type="Toggle", EN="ESP Monsters", EN2="Show monster's hitbox & name", Path="ESP/Monsters", TH1="ESP à¸œà¸µ", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™à¸œà¸µ", Callback=Functions.ESPMonsterBook1};
+                        {type="Toggle", EN="ESP Items", EN2="Show item's box & name", Path="ESP/Items", TH1="ESP à¹„à¸­à¹€à¸—à¸¡", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™à¹„à¸­à¹€à¸—à¸¡", Callback=Functions.ESPItemBook1};
                     }, Title="Map 1"};
                 }, Title="Map 1"}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Button", EN="Auto Complete Game", EN2="Teleport to the end of the game.", TH1="ออโต้จบเกม", TH2="วาปไปที่ด่านสุดท้ายของเกม", Callback=Functions.B1C4AutoComplete};
-                        {type="Toggle", EN="ESP Monsters", EN2="Show monster's hitbox & name", Path="ESP/Monsters", TH1="ESP ผี", TH2="มองเห็นผี", Callback=Functions.ESPMonsterBook1};
-                        {type="Toggle", EN="ESP Items", EN2="Show item's box & name", Path="ESP/Items", TH1="ESP ไอเทม", TH2="มองเห็นไอเทม", Callback=Functions.ESPItemBook1};
+                        {type="Button", EN="Auto Complete Game", EN2="Teleport to the end of the game.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸ˆà¸šà¹€à¸à¸¡", TH2="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¸”à¹ˆà¸²à¸™à¸ªà¸¸à¸”à¸—à¹‰à¸²à¸¢à¸‚à¸­à¸‡à¹€à¸à¸¡", Callback=Functions.B1C4AutoComplete};
+                        {type="Toggle", EN="ESP Monsters", EN2="Show monster's hitbox & name", Path="ESP/Monsters", TH1="ESP à¸œà¸µ", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™à¸œà¸µ", Callback=Functions.ESPMonsterBook1};
+                        {type="Toggle", EN="ESP Items", EN2="Show item's box & name", Path="ESP/Items", TH1="ESP à¹„à¸­à¹€à¸—à¸¡", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™à¹„à¸­à¹€à¸—à¸¡", Callback=Functions.ESPItemBook1};
                     }, Title="Map 2"};
                 }, Title="Map 2"}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Button", EN="Auto Complete Game", EN2="Teleport & Collect cursed items and burn them.", TH1="ออโต้จบเกม", TH2="วาปเก็บไอเทมแล้วเผา", Callback=Functions.B1C4AutoComplete};
-                        {type="Toggle", EN="ESP Monsters", EN2="Show monster's hitbox & name", Path="ESP/Monsters", TH1="ESP ผี", TH2="มองเห็นผี", Callback=Functions.ESPMonsterBook1};
-                        {type="Toggle", EN="ESP Items", EN2="Show item's box & name", Path="ESP/Items", TH1="ESP ไอเทม", TH2="มองเห็นไอเทม", Callback=Functions.ESPItemBook1};
+                        {type="Button", EN="Auto Complete Game", EN2="Teleport & Collect cursed items and burn them.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸ˆà¸šà¹€à¸à¸¡", TH2="à¸§à¸²à¸›à¹€à¸à¹‡à¸šà¹„à¸­à¹€à¸—à¸¡à¹à¸¥à¹‰à¸§à¹€à¸œà¸²", Callback=Functions.B1C4AutoComplete};
+                        {type="Toggle", EN="ESP Monsters", EN2="Show monster's hitbox & name", Path="ESP/Monsters", TH1="ESP à¸œà¸µ", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™à¸œà¸µ", Callback=Functions.ESPMonsterBook1};
+                        {type="Toggle", EN="ESP Items", EN2="Show item's box & name", Path="ESP/Items", TH1="ESP à¹„à¸­à¹€à¸—à¸¡", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™à¹„à¸­à¹€à¸—à¸¡", Callback=Functions.ESPItemBook1};
                     }, Title="Map 3"};
                 }, Title="Map 3"}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Toggle", EN="Auto Kill Sama", EN2="Automatically destroy hearts.", TH1="ออโต้ทำลายหัวใจ", TH2="ทำลายหัวใจผี", Path="Auto Kill Sama"};
-                        {type="Toggle", EN="Auto Kill Saigomo", EN2="Automatically kill saigomo.", TH1="ออโต้ฆ่า Saigomo", TH2="ออโต้ฆ่าผี", Path="Auto Kill Saigomo"};
-                        {type="Toggle", EN="ESP Monsters", EN2="Show monster's hitbox & name", Path="ESP/Monsters", TH1="ESP ผี", TH2="มองเห็นผี", Callback=Functions.ESPMonsterBook1};
-                        {type="Toggle", EN="ESP Hearts", EN2="Show item's box & name", Path="ESP/Items", TH1="ESP ไอเทม", TH2="มองเห็นไอเทม", Callback=Functions.ESPItemBook1}; {type="Space"};
+                        {type="Toggle", EN="Auto Kill Sama", EN2="Automatically destroy hearts.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸—à¸³à¸¥à¸²à¸¢à¸«à¸±à¸§à¹ƒà¸ˆ", TH2="à¸—à¸³à¸¥à¸²à¸¢à¸«à¸±à¸§à¹ƒà¸ˆà¸œà¸µ", Path="Auto Kill Sama"};
+                        {type="Toggle", EN="Auto Kill Saigomo", EN2="Automatically kill saigomo.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸†à¹ˆà¸² Saigomo", TH2="à¸­à¸­à¹‚à¸•à¹‰à¸†à¹ˆà¸²à¸œà¸µ", Path="Auto Kill Saigomo"};
+                        {type="Toggle", EN="ESP Monsters", EN2="Show monster's hitbox & name", Path="ESP/Monsters", TH1="ESP à¸œà¸µ", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™à¸œà¸µ", Callback=Functions.ESPMonsterBook1};
+                        {type="Toggle", EN="ESP Hearts", EN2="Show item's box & name", Path="ESP/Items", TH1="ESP à¹„à¸­à¹€à¸—à¸¡", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™à¹„à¸­à¹€à¸—à¸¡", Callback=Functions.ESPItemBook1}; {type="Space"};
                     }, Title="Map 4"};
                 }, Title="Map 4"};
             };
             B2C1Tab = {
                 {type="Group", dats={
                     {dat={
-                        {type="Button", EN="Auto Complete", EN2="Teleport to that one room.", TH1="ออโต้ผ่านด่าน", TH2="วาปไปในห้องนั้นแหละ เออห้องนั้นแหละ", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Auto Complete", EN2="Teleport to that one room.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸œà¹ˆà¸²à¸™à¸”à¹ˆà¸²à¸™", TH2="à¸§à¸²à¸›à¹„à¸›à¹ƒà¸™à¸«à¹‰à¸­à¸‡à¸™à¸±à¹‰à¸™à¹à¸«à¸¥à¸° à¹€à¸­à¸­à¸«à¹‰à¸­à¸‡à¸™à¸±à¹‰à¸™à¹à¸«à¸¥à¸°", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C1Func("City/Complete");
                         end)};
                     }, Title="Section 1 | City"}
@@ -2779,26 +2779,26 @@ return {
                     {dat={
                         {type="Group", dats={
                             {dat={
-                                {type="Button", EN="Read Book", EN2="Read the book as it is part of the gameplay.", TH1="อ่านหนังสือ", TH2="อ่านหนังสือเพื่อเล่นต่อ", Callback=IB_NO_VIRTUALIZE(function()
+                                {type="Button", EN="Read Book", EN2="Read the book as it is part of the gameplay.", TH1="à¸­à¹ˆà¸²à¸™à¸«à¸™à¸±à¸‡à¸ªà¸·à¸­", TH2="à¸­à¹ˆà¸²à¸™à¸«à¸™à¸±à¸‡à¸ªà¸·à¸­à¹€à¸žà¸·à¹ˆà¸­à¹€à¸¥à¹ˆà¸™à¸•à¹ˆà¸­", Callback=IB_NO_VIRTUALIZE(function()
                                     return Functions:B2C1Func("Rat/Read");
                                 end)};
-                                {type="Button", EN="Auto Rat", EN2="Grab rat and poisoned it then ring the bell.", TH1="ออโต้หนู", TH2="วาปเก็บหนูไปให้ผีกิน", Callback=IB_NO_VIRTUALIZE(function()
+                                {type="Button", EN="Auto Rat", EN2="Grab rat and poisoned it then ring the bell.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸«à¸™à¸¹", TH2="à¸§à¸²à¸›à¹€à¸à¹‡à¸šà¸«à¸™à¸¹à¹„à¸›à¹ƒà¸«à¹‰à¸œà¸µà¸à¸´à¸™", Callback=IB_NO_VIRTUALIZE(function()
                                     return Functions:B2C1Func("Rat/Auto");
                                 end)};
-                                {type="Button", EN="Exit", EN2="Teleport to exit door and interact.", TH1="ออกจากที่นี่", TH2="วาปไปที่ประตูทางออกแล้วกดออก", Callback=IB_NO_VIRTUALIZE(function()
+                                {type="Button", EN="Exit", EN2="Teleport to exit door and interact.", TH1="à¸­à¸­à¸à¸ˆà¸²à¸à¸—à¸µà¹ˆà¸™à¸µà¹ˆ", TH2="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¸›à¸£à¸°à¸•à¸¹à¸—à¸²à¸‡à¸­à¸­à¸à¹à¸¥à¹‰à¸§à¸à¸”à¸­à¸­à¸", Callback=IB_NO_VIRTUALIZE(function()
                                     return Functions:B2C1Func("Rat/Exit");
                                 end)};
-                                {type="Button", EN="Auto Run", EN2="Tween to the exit in the chase sequence.", TH1="ออโต้วิ่ง", TH2="ค่อยๆบินไปที่ทางออกในด่านวิ่ง", Callback=IB_NO_VIRTUALIZE(function()
+                                {type="Button", EN="Auto Run", EN2="Tween to the exit in the chase sequence.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸§à¸´à¹ˆà¸‡", TH2="à¸„à¹ˆà¸­à¸¢à¹†à¸šà¸´à¸™à¹„à¸›à¸—à¸µà¹ˆà¸—à¸²à¸‡à¸­à¸­à¸à¹ƒà¸™à¸”à¹ˆà¸²à¸™à¸§à¸´à¹ˆà¸‡", Callback=IB_NO_VIRTUALIZE(function()
                                     return Functions:B2C1Func("Rat/Run");
                                 end)};
                             }, Title="Main"}
                         }}; {type="Space"}; {type="Space"};
                         {type="Group", dats={
                             {dat={
-                                {type="Button", EN="ESP Monster", EN2="Show monster's hitbox & name", TH1="ESP ผี", TH2="มองเห็นผี", Callback=IB_NO_VIRTUALIZE(function()
+                                {type="Button", EN="ESP Monster", EN2="Show monster's hitbox & name", TH1="ESP à¸œà¸µ", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™à¸œà¸µ", Callback=IB_NO_VIRTUALIZE(function()
                                     return Functions:B2C1ESP("Rat/Monsters");
                                 end)};
-                                {type="Button", EN="ESP Objective Objects", EN2="Show object's box & name", TH1="ESP วัตถุสำหรับภารกิจนี้", TH2="มองเห็นวัตถุสำหรับภารกิจที่นี่", Callback=IB_NO_VIRTUALIZE(function()
+                                {type="Button", EN="ESP Objective Objects", EN2="Show object's box & name", TH1="ESP à¸§à¸±à¸•à¸–à¸¸à¸ªà¸³à¸«à¸£à¸±à¸šà¸ à¸²à¸£à¸à¸´à¸ˆà¸™à¸µà¹‰", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™à¸§à¸±à¸•à¸–à¸¸à¸ªà¸³à¸«à¸£à¸±à¸šà¸ à¸²à¸£à¸à¸´à¸ˆà¸—à¸µà¹ˆà¸™à¸µà¹ˆ", Callback=IB_NO_VIRTUALIZE(function()
                                     return Functions:B2C1ESP("Rat/Objects");
                                 end)};
                             }, Title="ESP"}
@@ -2807,35 +2807,35 @@ return {
                 }}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Button", EN="Auto Complete", EN2="Tween to the entrance of the cave.", TH1="ออโต้ผ่านด่าน", TH2="ค่อยๆบินไปทางเข้าถ้ำ", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Auto Complete", EN2="Tween to the entrance of the cave.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸œà¹ˆà¸²à¸™à¸”à¹ˆà¸²à¸™", TH2="à¸„à¹ˆà¸­à¸¢à¹†à¸šà¸´à¸™à¹„à¸›à¸—à¸²à¸‡à¹€à¸‚à¹‰à¸²à¸–à¹‰à¸³", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C1Func("Nagisa/Auto");
                         end)};
-                        {type="Button", EN="Auto Run", EN2="Tween to the exit of the cave in the chase sequence.", TH1="ออโต้วิ่ง", TH2="ค่อยๆบินไปที่ทางออกถ้ำในด่านวิ่ง", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Auto Run", EN2="Tween to the exit of the cave in the chase sequence.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸§à¸´à¹ˆà¸‡", TH2="à¸„à¹ˆà¸­à¸¢à¹†à¸šà¸´à¸™à¹„à¸›à¸—à¸µà¹ˆà¸—à¸²à¸‡à¸­à¸­à¸à¸–à¹‰à¸³à¹ƒà¸™à¸”à¹ˆà¸²à¸™à¸§à¸´à¹ˆà¸‡", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C1Func("Nagisa/Run");
                         end)}; {type="Space"};
                     }, Title="Section 3 | Nagisa"}
                 }}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Button", EN="Enter Zone", EN2="Tween to the main village.", TH1="เข้าหมูบ้าน", TH2="ค่อยๆบินไปที่หมู่บ้านหลัก", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Enter Zone", EN2="Tween to the main village.", TH1="à¹€à¸‚à¹‰à¸²à¸«à¸¡à¸¹à¸šà¹‰à¸²à¸™", TH2="à¸„à¹ˆà¸­à¸¢à¹†à¸šà¸´à¸™à¹„à¸›à¸—à¸µà¹ˆà¸«à¸¡à¸¹à¹ˆà¸šà¹‰à¸²à¸™à¸«à¸¥à¸±à¸", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C1Func("Vil/Zone");
                         end)};
-                        {type="Button", EN="Talk (1)", EN2="Talk to the NPC.", TH1="คุย (1)", TH2="คุยกับ NPC", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Talk (1)", EN2="Talk to the NPC.", TH1="à¸„à¸¸à¸¢ (1)", TH2="à¸„à¸¸à¸¢à¸à¸±à¸š NPC", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C1Func("Vil/Talk");
                         end)};
-                        {type="Button", EN="Key (2)", EN2="Grab the key.", TH1="กุญแจ (2)", TH2="เก็บกุญแจ", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Key (2)", EN2="Grab the key.", TH1="à¸à¸¸à¸à¹à¸ˆ (2)", TH2="à¹€à¸à¹‡à¸šà¸à¸¸à¸à¹à¸ˆ", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C1Func("Vil/Key");
                         end)};
-                        {type="Button", EN="Paint (3)", EN2="Teleport to painting where you have to paint but doesn not draw for you.", TH1="วาดรูป (3)", TH2="วาปอย่างเดียว ออโต้วาดอยู่ด่านอื่น อิอิ", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Paint (3)", EN2="Teleport to painting where you have to paint but doesn not draw for you.", TH1="à¸§à¸²à¸”à¸£à¸¹à¸› (3)", TH2="à¸§à¸²à¸›à¸­à¸¢à¹ˆà¸²à¸‡à¹€à¸”à¸µà¸¢à¸§ à¸­à¸­à¹‚à¸•à¹‰à¸§à¸²à¸”à¸­à¸¢à¸¹à¹ˆà¸”à¹ˆà¸²à¸™à¸­à¸·à¹ˆà¸™ à¸­à¸´à¸­à¸´", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C1Func("Vil/Paint");
                         end)};
-                        {type="Button", EN="Picture Datas (4)", EN2="Teleport to all pictures to collect data, This is needed for auto candles.", TH1="รูปภาพ (4)", TH2="วาปเก็บข้อมูลเพื่อนำไปใช้ในออโต้จุดเทียน", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Picture Datas (4)", EN2="Teleport to all pictures to collect data, This is needed for auto candles.", TH1="à¸£à¸¹à¸›à¸ à¸²à¸ž (4)", TH2="à¸§à¸²à¸›à¹€à¸à¹‡à¸šà¸‚à¹‰à¸­à¸¡à¸¹à¸¥à¹€à¸žà¸·à¹ˆà¸­à¸™à¸³à¹„à¸›à¹ƒà¸Šà¹‰à¹ƒà¸™à¸­à¸­à¹‚à¸•à¹‰à¸ˆà¸¸à¸”à¹€à¸—à¸µà¸¢à¸™", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C1Func("Vil/Pics");
                         end)};
-                        {type="Button", EN="Room (5)", EN2="Leave your current room first before use this, This will teleport you to the objective room.", TH1="ห้อง (5)", TH2="ออกจากห้องที่ตัวเองอยู่ก่อนค่อยกด กดแล้วจะพาวาปไปห้องที่ใช้ทำภารกิจ", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Room (5)", EN2="Leave your current room first before use this, This will teleport you to the objective room.", TH1="à¸«à¹‰à¸­à¸‡ (5)", TH2="à¸­à¸­à¸à¸ˆà¸²à¸à¸«à¹‰à¸­à¸‡à¸—à¸µà¹ˆà¸•à¸±à¸§à¹€à¸­à¸‡à¸­à¸¢à¸¹à¹ˆà¸à¹ˆà¸­à¸™à¸„à¹ˆà¸­à¸¢à¸à¸” à¸à¸”à¹à¸¥à¹‰à¸§à¸ˆà¸°à¸žà¸²à¸§à¸²à¸›à¹„à¸›à¸«à¹‰à¸­à¸‡à¸—à¸µà¹ˆà¹ƒà¸Šà¹‰à¸—à¸³à¸ à¸²à¸£à¸à¸´à¸ˆ", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C1Func("Vil/Room");
                         end)};
-                        {type="Button", EN="Auto Candles (6)", EN2="Auto light all the candles.", TH1="จุดเทียน (6)", TH2="ออโต้จุดเทียนทั้งหมด", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Auto Candles (6)", EN2="Auto light all the candles.", TH1="à¸ˆà¸¸à¸”à¹€à¸—à¸µà¸¢à¸™ (6)", TH2="à¸­à¸­à¹‚à¸•à¹‰à¸ˆà¸¸à¸”à¹€à¸—à¸µà¸¢à¸™à¸—à¸±à¹‰à¸‡à¸«à¸¡à¸”", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C1Func("Vil/Candles");
                         end)}; {type="Space"};
                     }, Title="Section 4 | Village"}
@@ -2844,17 +2844,17 @@ return {
                     {dat={
                         {type="Group", dats={
                             {dat={
-                                {type="Button", EN="Enter Zone", EN2="Teleport to the ship entrance in the cave.", TH1="ทางเข้าเรือ", TH2="วาปไปที่ทางเข้าเรือตอนอยู่ในถ้ำ", Callback=IB_NO_VIRTUALIZE(function()
+                                {type="Button", EN="Enter Zone", EN2="Teleport to the ship entrance in the cave.", TH1="à¸—à¸²à¸‡à¹€à¸‚à¹‰à¸²à¹€à¸£à¸·à¸­", TH2="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¸—à¸²à¸‡à¹€à¸‚à¹‰à¸²à¹€à¸£à¸·à¸­à¸•à¸­à¸™à¸­à¸¢à¸¹à¹ˆà¹ƒà¸™à¸–à¹‰à¸³", Callback=IB_NO_VIRTUALIZE(function()
                                     return Functions:B2C1Func("Ship/Zone");
                                 end)};
-                                {type="Button", EN="Auto Run", EN2="Tween to the exit in the chase sequence.", TH1="ออโต้วิ่ง", TH2="ค่อยบินไปที่ทางออกในด่านวิ่ง", Callback=IB_NO_VIRTUALIZE(function()
+                                {type="Button", EN="Auto Run", EN2="Tween to the exit in the chase sequence.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸§à¸´à¹ˆà¸‡", TH2="à¸„à¹ˆà¸­à¸¢à¸šà¸´à¸™à¹„à¸›à¸—à¸µà¹ˆà¸—à¸²à¸‡à¸­à¸­à¸à¹ƒà¸™à¸”à¹ˆà¸²à¸™à¸§à¸´à¹ˆà¸‡", Callback=IB_NO_VIRTUALIZE(function()
                                     return Functions:B2C1Func("Ship/Run");
                                 end)};
                             }, Title="Main"}
                         }}; {type="Space"}; {type="Space"};
                         {type="Group", dats={
                             {dat={
-                                {type="Button", EN="ESP Monsters", EN2="Show monster's hitbox & name", TH1="ESP ผี", TH2="มองเห็นผี", Callback=IB_NO_VIRTUALIZE(function()
+                                {type="Button", EN="ESP Monsters", EN2="Show monster's hitbox & name", TH1="ESP à¸œà¸µ", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™à¸œà¸µ", Callback=IB_NO_VIRTUALIZE(function()
                                     return Functions:B2C1ESP("Ship/Monsters");
                                 end)};
                             }, Title="ESP"}
@@ -2865,14 +2865,14 @@ return {
             B2C2Tab = {
                 {type="Group", dats={
                     {dat={
-                        {type="Button", EN="Auto Complete", EN2="Tween to the gate and wait around 30 seconds.", TH1="ออโต้ผ่านด่าน", TH2="บินไปที่ประตูแล้วรอประมาณ 30 วินาที", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Auto Complete", EN2="Tween to the gate and wait around 30 seconds.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸œà¹ˆà¸²à¸™à¸”à¹ˆà¸²à¸™", TH2="à¸šà¸´à¸™à¹„à¸›à¸—à¸µà¹ˆà¸›à¸£à¸°à¸•à¸¹à¹à¸¥à¹‰à¸§à¸£à¸­à¸›à¸£à¸°à¸¡à¸²à¸“ 30 à¸§à¸´à¸™à¸²à¸—à¸µ", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C2Func("Statue");
                         end)},
                     }, Title="Section 1 | Statue"};
                 }}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Button", EN="Auto Complete", EN2="Tween to the door and wait around 70 seconds.", TH1="ออโต้ผ่านด่าน", TH2="บินไปที่ประตูแล้วรอประมาณ 70 วินาที", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Auto Complete", EN2="Tween to the door and wait around 70 seconds.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸œà¹ˆà¸²à¸™à¸”à¹ˆà¸²à¸™", TH2="à¸šà¸´à¸™à¹„à¸›à¸—à¸µà¹ˆà¸›à¸£à¸°à¸•à¸¹à¹à¸¥à¹‰à¸§à¸£à¸­à¸›à¸£à¸°à¸¡à¸²à¸“ 70 à¸§à¸´à¸™à¸²à¸—à¸µ", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C2Func("Crounch");
                         end)},
                     }, Title="Section 2 | Crounch"};
@@ -2881,24 +2881,24 @@ return {
                     {dat={
                         {type="Group", dats={
                             {dat={
-                                {type="Button", EN="Talk", EN2="Teleport to the NPC but does not talk for you due to anti cheat.", TH1="คุย", TH2="วาปไปหา NPC แต่จะไม่คุยให้เรื่องจากกันโปร", Callback=IB_NO_VIRTUALIZE(function()
+                                {type="Button", EN="Talk", EN2="Teleport to the NPC but does not talk for you due to anti cheat.", TH1="à¸„à¸¸à¸¢", TH2="à¸§à¸²à¸›à¹„à¸›à¸«à¸² NPC à¹à¸•à¹ˆà¸ˆà¸°à¹„à¸¡à¹ˆà¸„à¸¸à¸¢à¹ƒà¸«à¹‰à¹€à¸£à¸·à¹ˆà¸­à¸‡à¸ˆà¸²à¸à¸à¸±à¸™à¹‚à¸›à¸£", Callback=IB_NO_VIRTUALIZE(function()
                                     return Functions:B2C2Func("Meat/Talk");
                                 end)};
-                                {type="Button", EN="Teleport To Meat", EN2="Teleport the meat but does not collect for you.", TH1="วาปไปหาเนื้อ", TH2="วาปไปหาเนื้อ แต่จะไม่เก็บให้", Callback=IB_NO_VIRTUALIZE(function()
+                                {type="Button", EN="Teleport To Meat", EN2="Teleport the meat but does not collect for you.", TH1="à¸§à¸²à¸›à¹„à¸›à¸«à¸²à¹€à¸™à¸·à¹‰à¸­", TH2="à¸§à¸²à¸›à¹„à¸›à¸«à¸²à¹€à¸™à¸·à¹‰à¸­ à¹à¸•à¹ˆà¸ˆà¸°à¹„à¸¡à¹ˆà¹€à¸à¹‡à¸šà¹ƒà¸«à¹‰", Callback=IB_NO_VIRTUALIZE(function()
                                     return Functions:B2C2Func("Meat/TpMeat");
                                 end)};
-                                {type="Button", EN="Exit", EN2="Teleport to the exit door &  interact for you.", TH1="ออก", TH2="วาปไปที่ประตูทางออกแล้วกดออกให้", Callback=IB_NO_VIRTUALIZE(function()
+                                {type="Button", EN="Exit", EN2="Teleport to the exit door &  interact for you.", TH1="à¸­à¸­à¸", TH2="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¸›à¸£à¸°à¸•à¸¹à¸—à¸²à¸‡à¸­à¸­à¸à¹à¸¥à¹‰à¸§à¸à¸”à¸­à¸­à¸à¹ƒà¸«à¹‰", Callback=IB_NO_VIRTUALIZE(function()
                                     return Functions:B2C2Func("Meat/Exit");
                                 end)};
                             }, Title="Main"};
                         }}; {type="Space"}; {type="Space"};
                         {type="Group", dats={
                             {dat={
-                                {type="Toggle", EN="ESP Monster", EN2="Show monster's hitbox", TH1="ESP ผี", TH2="มองเห็นผี", Path="Ashina", Callback=IB_NO_VIRTUALIZE(function(state)
+                                {type="Toggle", EN="ESP Monster", EN2="Show monster's hitbox", TH1="ESP à¸œà¸µ", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™à¸œà¸µ", Path="Ashina", Callback=IB_NO_VIRTUALIZE(function(state)
                                     Configs.B2C2.ESP["Ashina"] = state;
                                     return Functions:B2C2ESP("Meat/Monster", state);
                                 end)};
-                                {type="Toggle", EN="ESP Meats", EN2="Show meat's box", TH1="ESP เนื้อ", TH2="มองเห็นเนื้อ", Path="Meats", Callback=IB_NO_VIRTUALIZE(function(state)
+                                {type="Toggle", EN="ESP Meats", EN2="Show meat's box", TH1="ESP à¹€à¸™à¸·à¹‰à¸­", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™à¹€à¸™à¸·à¹‰à¸­", Path="Meats", Callback=IB_NO_VIRTUALIZE(function(state)
                                     Configs.B2C2.ESP["Meats"] = state;
                                     return Functions:B2C2ESP("Meat/Meats", state);
                                 end)}
@@ -2910,17 +2910,17 @@ return {
                     {dat={
                         {type="Group", dats={
                             {dat={
-                                {type="Button", EN="Auto Complete", EN2="Enter chase sequence and auto complete it.", TH1="ออโต้ผ่านด่าน", TH2="วาปเข้าด่านวิ่งแล้ววาปไปที่ทางออกให้", Callback=IB_NO_VIRTUALIZE(function()
+                                {type="Button", EN="Auto Complete", EN2="Enter chase sequence and auto complete it.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸œà¹ˆà¸²à¸™à¸”à¹ˆà¸²à¸™", TH2="à¸§à¸²à¸›à¹€à¸‚à¹‰à¸²à¸”à¹ˆà¸²à¸™à¸§à¸´à¹ˆà¸‡à¹à¸¥à¹‰à¸§à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¸—à¸²à¸‡à¸­à¸­à¸à¹ƒà¸«à¹‰", Callback=IB_NO_VIRTUALIZE(function()
                                     return Functions:B2C2Func("Chase/Full");
                                 end)};
                             }, Title="Main"}
                         }}; {type="Space"}; {type="Space"};
                         {type="Group", dats={
                             {dat={
-                                {type="Button", EN="Enter Zone", EN2="Enter chase sequence for you.", TH1="วาปเข้าด่านวิ่ง", TH2="วาปเข้าด่านวิ่งเพื่อเริ่มคัทซีน", Callback=IB_NO_VIRTUALIZE(function()
+                                {type="Button", EN="Enter Zone", EN2="Enter chase sequence for you.", TH1="à¸§à¸²à¸›à¹€à¸‚à¹‰à¸²à¸”à¹ˆà¸²à¸™à¸§à¸´à¹ˆà¸‡", TH2="à¸§à¸²à¸›à¹€à¸‚à¹‰à¸²à¸”à¹ˆà¸²à¸™à¸§à¸´à¹ˆà¸‡à¹€à¸žà¸·à¹ˆà¸­à¹€à¸£à¸´à¹ˆà¸¡à¸„à¸±à¸—à¸‹à¸µà¸™", Callback=IB_NO_VIRTUALIZE(function()
                                     return Functions:B2C2Func("Chase/Enter");
                                 end)};
-                                {type="Button", EN="Auto Run", EN2="Teleport to the exit.", TH1="ออโต้ผ่านด่าน", TH2="วาปไปที่ทางออก", Callback=IB_NO_VIRTUALIZE(function()
+                                {type="Button", EN="Auto Run", EN2="Teleport to the exit.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸œà¹ˆà¸²à¸™à¸”à¹ˆà¸²à¸™", TH2="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¸—à¸²à¸‡à¸­à¸­à¸", Callback=IB_NO_VIRTUALIZE(function()
                                     return Functions:B2C2Func("Chase/Run");
                                 end)}
                             }, Title="Seperated"};
@@ -2929,10 +2929,10 @@ return {
                 }}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Button", EN="Enter Zone", EN2="Teleport & Interact with white doo.", TH1="วาปเข้าด่าน", TH2="วาปไปที่ประตูสีขาวแล้วกดออกให้", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Enter Zone", EN2="Teleport & Interact with white doo.", TH1="à¸§à¸²à¸›à¹€à¸‚à¹‰à¸²à¸”à¹ˆà¸²à¸™", TH2="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¸›à¸£à¸°à¸•à¸¹à¸ªà¸µà¸‚à¸²à¸§à¹à¸¥à¹‰à¸§à¸à¸”à¸­à¸­à¸à¹ƒà¸«à¹‰", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C2Func("Lever/Enter");
                         end)};
-                        {type="Button", EN="Auto Levers", EN2="Teleport & Interact with levers.", TH1="ออโต้สับคันโยก", TH2="ออโต้สับคันโยกด้วยการวาป", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Auto Levers", EN2="Teleport & Interact with levers.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸ªà¸±à¸šà¸„à¸±à¸™à¹‚à¸¢à¸", TH2="à¸­à¸­à¹‚à¸•à¹‰à¸ªà¸±à¸šà¸„à¸±à¸™à¹‚à¸¢à¸à¸”à¹‰à¸§à¸¢à¸à¸²à¸£à¸§à¸²à¸›", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C2Func("Lever/Auto");
                         end)}
                     }, Title="Section 5 | Lever"};
@@ -2941,14 +2941,14 @@ return {
                     {dat={
                         {type="Group", dats={
                             {dat={
-                                {type="Button", EN="Auto Complete", EN2="Teleport you to the cooking area ( Skip current section ).", TH1="ออโต้ผ่านด่าน", TH2="วาปไปที่ด่านถัดไป ( ข้ามด่านปัจจุบัน )", Callback=IB_NO_VIRTUALIZE(function()
+                                {type="Button", EN="Auto Complete", EN2="Teleport you to the cooking area ( Skip current section ).", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸œà¹ˆà¸²à¸™à¸”à¹ˆà¸²à¸™", TH2="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¸”à¹ˆà¸²à¸™à¸–à¸±à¸”à¹„à¸› ( à¸‚à¹‰à¸²à¸¡à¸”à¹ˆà¸²à¸™à¸›à¸±à¸ˆà¸ˆà¸¸à¸šà¸±à¸™ )", Callback=IB_NO_VIRTUALIZE(function()
                                     return Functions:B2C2Func("Math");
                                 end)};
                             }, Title="Main"}
                         }}; {type="Space"}; {type="Space"};
                         {type="Group", dats={
                             {dat={
-                                {type="Button", EN="Reveal Number", EN2="Create the correct symbol at the exit door.", TH1="แสดงตัวเลขที่ถูกต้อง", TH2="สร้างสัญลักษ์ที่ถูกต้องที่ประตูทางออก. ", Callback=IB_NO_VIRTUALIZE(function()
+                                {type="Button", EN="Reveal Number", EN2="Create the correct symbol at the exit door.", TH1="à¹à¸ªà¸”à¸‡à¸•à¸±à¸§à¹€à¸¥à¸‚à¸—à¸µà¹ˆà¸–à¸¹à¸à¸•à¹‰à¸­à¸‡", TH2="à¸ªà¸£à¹‰à¸²à¸‡à¸ªà¸±à¸à¸¥à¸±à¸à¸©à¹Œà¸—à¸µà¹ˆà¸–à¸¹à¸à¸•à¹‰à¸­à¸‡à¸—à¸µà¹ˆà¸›à¸£à¸°à¸•à¸¹à¸—à¸²à¸‡à¸­à¸­à¸. ", Callback=IB_NO_VIRTUALIZE(function()
                                     return Functions:B2C2ESP("Math", true);
                                 end)};
                             }, Title="Seperated"};
@@ -2957,8 +2957,8 @@ return {
                 }}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Toggle", EN="Auto Complete", EN2="Cooking food for you. This isn't instant toggle so if you want to turn it off; You have to wait. ( Singleplayer )", TH1="ออโต้ผ่านด่าน", TH2="ทำอาหารให้แต่ใช้ได้แค่เวลาเล่นคนเดียว เวลากดปิดจะไม่ปิดทันที", Path="AutoCook"};
-                        {type="Button", EN="Auto Run", EN2="Tween to the exit of this cave.", TH1="ออโต้วิ่ง", TH2="ค่อยๆบินไปที่ทางออกถ้ำ", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Toggle", EN="Auto Complete", EN2="Cooking food for you. This isn't instant toggle so if you want to turn it off; You have to wait. ( Singleplayer )", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸œà¹ˆà¸²à¸™à¸”à¹ˆà¸²à¸™", TH2="à¸—à¸³à¸­à¸²à¸«à¸²à¸£à¹ƒà¸«à¹‰à¹à¸•à¹ˆà¹ƒà¸Šà¹‰à¹„à¸”à¹‰à¹à¸„à¹ˆà¹€à¸§à¸¥à¸²à¹€à¸¥à¹ˆà¸™à¸„à¸™à¹€à¸”à¸µà¸¢à¸§ à¹€à¸§à¸¥à¸²à¸à¸”à¸›à¸´à¸”à¸ˆà¸°à¹„à¸¡à¹ˆà¸›à¸´à¸”à¸—à¸±à¸™à¸—à¸µ", Path="AutoCook"};
+                        {type="Button", EN="Auto Run", EN2="Tween to the exit of this cave.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸§à¸´à¹ˆà¸‡", TH2="à¸„à¹ˆà¸­à¸¢à¹†à¸šà¸´à¸™à¹„à¸›à¸—à¸µà¹ˆà¸—à¸²à¸‡à¸­à¸­à¸à¸–à¹‰à¸³", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C2Func("Cook/AfterCook");
                         end)};
                     }, Title="Section 7 | Gordon Ramsey"};
@@ -2967,17 +2967,17 @@ return {
                     {dat={
                         {type="Group", dats={
                             {dat={
-                                {type="Button", EN="Auto Complete", EN2="Tween you to the entrance of Cursed Zone 2.", TH1="ออโต้ผ่านด่าน", TH2="วาปไปที่ประตูทางเข้าด่าน 2", Callback=IB_NO_VIRTUALIZE(function()
+                                {type="Button", EN="Auto Complete", EN2="Tween you to the entrance of Cursed Zone 2.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸œà¹ˆà¸²à¸™à¸”à¹ˆà¸²à¸™", TH2="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¸›à¸£à¸°à¸•à¸¹à¸—à¸²à¸‡à¹€à¸‚à¹‰à¸²à¸”à¹ˆà¸²à¸™ 2", Callback=IB_NO_VIRTUALIZE(function()
                                     return Functions:B2C2Func("Cursed/1");
                                 end)};
                             }, Title="Cursed Zone 1"}
                         }}; {type="Space"}; {type="Space"};
                         {type="Group", dats={
                             {dat={
-                                {type="Button", EN="Enter Zone", EN2="Tween you to Cursed Zone 2.", TH1="เข้าด่าน2", TH2="บินไปที่ด่าน 2", Callback=IB_NO_VIRTUALIZE(function()
+                                {type="Button", EN="Enter Zone", EN2="Tween you to Cursed Zone 2.", TH1="à¹€à¸‚à¹‰à¸²à¸”à¹ˆà¸²à¸™2", TH2="à¸šà¸´à¸™à¹„à¸›à¸—à¸µà¹ˆà¸”à¹ˆà¸²à¸™ 2", Callback=IB_NO_VIRTUALIZE(function()
                                     return Functions:B2C2Func("Cursed/2");
                                 end)};
-                                {type="Button", EN="Remove Monster", EN2="This is client side so if you are with your friend, tell them not to go to 2nd floor. You must click this before enter 2nd floor to make it work.", TH1="ลบผีทิ้ง", TH2="ต้องกดก่อนเดินขึ้นไปข้างบน และถ้ามากับเพื่อนบอกให้เพื่อนอยู่แต่ด้านล่าง", Callback=IB_NO_VIRTUALIZE(function()
+                                {type="Button", EN="Remove Monster", EN2="This is client side so if you are with your friend, tell them not to go to 2nd floor. You must click this before enter 2nd floor to make it work.", TH1="à¸¥à¸šà¸œà¸µà¸—à¸´à¹‰à¸‡", TH2="à¸•à¹‰à¸­à¸‡à¸à¸”à¸à¹ˆà¸­à¸™à¹€à¸”à¸´à¸™à¸‚à¸¶à¹‰à¸™à¹„à¸›à¸‚à¹‰à¸²à¸‡à¸šà¸™ à¹à¸¥à¸°à¸–à¹‰à¸²à¸¡à¸²à¸à¸±à¸šà¹€à¸žà¸·à¹ˆà¸­à¸™à¸šà¸­à¸à¹ƒà¸«à¹‰à¹€à¸žà¸·à¹ˆà¸­à¸™à¸­à¸¢à¸¹à¹ˆà¹à¸•à¹ˆà¸”à¹‰à¸²à¸™à¸¥à¹ˆà¸²à¸‡", Callback=IB_NO_VIRTUALIZE(function()
                                     return Functions:B2C2Func("Cursed/Remove");
                                 end)};
                             }, Title="Cursed Zone 2"};
@@ -2986,50 +2986,50 @@ return {
                 }}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Button", EN="Repair files", EN2="Only for people who load the game from save.", TH1="ซ่อมแซมไฟล์", TH2="ใช้เวลาโหลดเกมจากเซฟ", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Repair files", EN2="Only for people who load the game from save.", TH1="à¸‹à¹ˆà¸­à¸¡à¹à¸‹à¸¡à¹„à¸Ÿà¸¥à¹Œ", TH2="à¹ƒà¸Šà¹‰à¹€à¸§à¸¥à¸²à¹‚à¸«à¸¥à¸”à¹€à¸à¸¡à¸ˆà¸²à¸à¹€à¸‹à¸Ÿ", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C2Func("Kid/Files");
                         end)};
-                        {type="Button", EN="Find Kid", EN2="Teleport to the kid.", TH1="หาเด็ก", TH2="วาปไปหาเด็ก", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Find Kid", EN2="Teleport to the kid.", TH1="à¸«à¸²à¹€à¸”à¹‡à¸", TH2="à¸§à¸²à¸›à¹„à¸›à¸«à¸²à¹€à¸”à¹‡à¸", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C2Func("Kid/Find");
                         end)};
-                        {type="Toggle", EN="Anti Mother", EN2="Teleport to safe spot when mother is near.", TH1="หลบแม่", TH2="วาปกลับจุดเกิดเวลาเจอแม่", Path="Anti Mother"}; {type="Space"};
-                        {type="Button", EN="Teleport To Gate", EN2="Teleport & Interact with white door.", TH1="วาปเข้าประตู", TH2="วาปเข้าประตูสีขาว", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Toggle", EN="Anti Mother", EN2="Teleport to safe spot when mother is near.", TH1="à¸«à¸¥à¸šà¹à¸¡à¹ˆ", TH2="à¸§à¸²à¸›à¸à¸¥à¸±à¸šà¸ˆà¸¸à¸”à¹€à¸à¸´à¸”à¹€à¸§à¸¥à¸²à¹€à¸ˆà¸­à¹à¸¡à¹ˆ", Path="Anti Mother"}; {type="Space"};
+                        {type="Button", EN="Teleport To Gate", EN2="Teleport & Interact with white door.", TH1="à¸§à¸²à¸›à¹€à¸‚à¹‰à¸²à¸›à¸£à¸°à¸•à¸¹", TH2="à¸§à¸²à¸›à¹€à¸‚à¹‰à¸²à¸›à¸£à¸°à¸•à¸¹à¸ªà¸µà¸‚à¸²à¸§", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C2Func("Kid/Gate");
                         end)};
-                        {type="Button", EN="Auto Collect Notes", EN2="Teleport & Collect notes.", TH1="ออโต้เก็บโน๊ต", TH2="วาปและเก็บโน๊ต", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Auto Collect Notes", EN2="Teleport & Collect notes.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¹€à¸à¹‡à¸šà¹‚à¸™à¹Šà¸•", TH2="à¸§à¸²à¸›à¹à¸¥à¸°à¹€à¸à¹‡à¸šà¹‚à¸™à¹Šà¸•", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C2Func("Kid/Notes");
                         end)}; {type="Space"};
                     }, Title="Section 9 | Kid"};
                 }}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Toggle", EN="Auto Get Cannon Balls", EN2="Teleport & Grab cannon balls when out of it.", TH1="ออโต้หยิบลูกปืนใหญ่", TH2="วาปและหยิบลูกปืนใหญ่เมื่อเหลือ 0", Path="Auto Get Cannon Balls"};
-                        {type="Toggle", EN="Anti Nagisa Beam", EN2="Teleport to safe spot when nagisa uses her beam.", TH1="ออโต้หลบกลิ่นปาก", TH2="วาปไปที่ปลอดภัยเวลามันพ่นกลิ่นปาก", Path="Anti Nagisa Beam"}; {type="Space"};
+                        {type="Toggle", EN="Auto Get Cannon Balls", EN2="Teleport & Grab cannon balls when out of it.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸«à¸¢à¸´à¸šà¸¥à¸¹à¸à¸›à¸·à¸™à¹ƒà¸«à¸à¹ˆ", TH2="à¸§à¸²à¸›à¹à¸¥à¸°à¸«à¸¢à¸´à¸šà¸¥à¸¹à¸à¸›à¸·à¸™à¹ƒà¸«à¸à¹ˆà¹€à¸¡à¸·à¹ˆà¸­à¹€à¸«à¸¥à¸·à¸­ 0", Path="Auto Get Cannon Balls"};
+                        {type="Toggle", EN="Anti Nagisa Beam", EN2="Teleport to safe spot when nagisa uses her beam.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸«à¸¥à¸šà¸à¸¥à¸´à¹ˆà¸™à¸›à¸²à¸", TH2="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¸›à¸¥à¸­à¸”à¸ à¸±à¸¢à¹€à¸§à¸¥à¸²à¸¡à¸±à¸™à¸žà¹ˆà¸™à¸à¸¥à¸´à¹ˆà¸™à¸›à¸²à¸", Path="Anti Nagisa Beam"}; {type="Space"};
                     }, Title="Section 10 | Nagisa"};
                 }}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Toggle", EN="Auto Kill Nagisa Serpent", EN2="Teleport & Spam katana", TH1="ออโต้ฆ่า Nagisa Serpent", TH2="วาปและสแปมดาบ", Path="Auto Kill Nagisa Serpent"}; {type="Space"};
+                        {type="Toggle", EN="Auto Kill Nagisa Serpent", EN2="Teleport & Spam katana", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸†à¹ˆà¸² Nagisa Serpent", TH2="à¸§à¸²à¸›à¹à¸¥à¸°à¸ªà¹à¸›à¸¡à¸”à¸²à¸š", Path="Auto Kill Nagisa Serpent"}; {type="Space"};
                     }, Title="Section 10 | Nagisa Serpent"};
                 }}; {type="Space"};
             };
             B2C3Tab = {
                 {type="Group", dats={
                     {dat={
-                        {type="Button", EN="Auto Complete", EN2="Teleport the the entrance", TH1="ออโต้ผ่านด่าน", TH2="วาปไปที่ทางเข้า", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Auto Complete", EN2="Teleport the the entrance", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸œà¹ˆà¸²à¸™à¸”à¹ˆà¸²à¸™", TH2="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¸—à¸²à¸‡à¹€à¸‚à¹‰à¸²", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C3Func("Gozu");
                         end)};
                     }, Title="Section 1 | Gozu & Mezu"};
                 }}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Button", EN="Talk", EN2="Teleport to the NPC.", TH1="คุย", TH2="วาปไปหา NPC", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Talk", EN2="Teleport to the NPC.", TH1="à¸„à¸¸à¸¢", TH2="à¸§à¸²à¸›à¹„à¸›à¸«à¸² NPC", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C3Func("Heart/Talk");
                         end)};
-                        {type="Button", EN="Auto Hearts", EN2="Teleport & Collect hearts.", TH1="ออโต้เก็บหัวใจ", TH2="วาปเก็บหัวใจ", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Auto Hearts", EN2="Teleport & Collect hearts.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¹€à¸à¹‡à¸šà¸«à¸±à¸§à¹ƒà¸ˆ", TH2="à¸§à¸²à¸›à¹€à¸à¹‡à¸šà¸«à¸±à¸§à¹ƒà¸ˆ", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C3Func("Heart/Auto");
                         end)};
-                        {type="Button", EN="Auto Run", EN2="Teleport to the exit in the chase sequence.", TH1="ออโต้วิ่ง", TH2="วาปไปที่ทางออกในด่านวิ่ง", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Auto Run", EN2="Teleport to the exit in the chase sequence.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸§à¸´à¹ˆà¸‡", TH2="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¸—à¸²à¸‡à¸­à¸­à¸à¹ƒà¸™à¸”à¹ˆà¸²à¸™à¸§à¸´à¹ˆà¸‡", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C3Func("Heart/Run");
                         end)};
                     }, Title="Section 2 | Heart"};
@@ -3038,20 +3038,20 @@ return {
                     {dat={
                         {type="Group", dats={
                             {dat={
-                                {type="Button", EN="Auto Craft", EN2="Teleport, collect items and craft a torch for you.", TH1="ออโต้คราฟ", TH2="วาปเก็บไอเทมมาคราฟแท่งไฟ", Callback=IB_NO_VIRTUALIZE(function()
+                                {type="Button", EN="Auto Craft", EN2="Teleport, collect items and craft a torch for you.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸„à¸£à¸²à¸Ÿ", TH2="à¸§à¸²à¸›à¹€à¸à¹‡à¸šà¹„à¸­à¹€à¸—à¸¡à¸¡à¸²à¸„à¸£à¸²à¸Ÿà¹à¸—à¹ˆà¸‡à¹„à¸Ÿ", Callback=IB_NO_VIRTUALIZE(function()
                                     return Functions:B2C3Func("Maze/Craft");
                                 end)};
-                                {type="Button", EN="Get Fire", EN2="Teleport & light up your torch. You must equip your torch to use this.", TH1="จุดไฟ", TH2="วาปไปจุดไฟแต่ต้องถือแท่งไฟก่อน", Callback=IB_NO_VIRTUALIZE(function()
+                                {type="Button", EN="Get Fire", EN2="Teleport & light up your torch. You must equip your torch to use this.", TH1="à¸ˆà¸¸à¸”à¹„à¸Ÿ", TH2="à¸§à¸²à¸›à¹„à¸›à¸ˆà¸¸à¸”à¹„à¸Ÿà¹à¸•à¹ˆà¸•à¹‰à¸­à¸‡à¸–à¸·à¸­à¹à¸—à¹ˆà¸‡à¹„à¸Ÿà¸à¹ˆà¸­à¸™", Callback=IB_NO_VIRTUALIZE(function()
                                     return Functions:B2C3Func("Maze/Fire");
                                 end)};
-                                {type="Button", EN="Escape", EN2="Teleport to the exit.", TH1="ออก", TH2="วาปไปที่ทางออก", Callback=IB_NO_VIRTUALIZE(function()
+                                {type="Button", EN="Escape", EN2="Teleport to the exit.", TH1="à¸­à¸­à¸", TH2="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¸—à¸²à¸‡à¸­à¸­à¸", Callback=IB_NO_VIRTUALIZE(function()
                                     return Functions:B2C3Func("Maze/Escape");
                                 end)};
                             }, Title="Main"}
                         }}; {type="Space"}; {type="Space"};
                         {type="Group", dats={
                             {dat={
-                                {type="Toggle", EN="ESP Monster", EN2="Show monster's hitbox.", TH1="ESP ผี", TH2="มองเห็นผี", Path="ESP/Maze", Callback=IB_NO_VIRTUALIZE(function(state)
+                                {type="Toggle", EN="ESP Monster", EN2="Show monster's hitbox.", TH1="ESP à¸œà¸µ", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™à¸œà¸µ", Path="ESP/Maze", Callback=IB_NO_VIRTUALIZE(function(state)
                                     B2C3Con.ESP.Maze = state
                                     return Functions:B2C3ESP("Maze", state);
                                 end)};
@@ -3061,13 +3061,13 @@ return {
                 }}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Button", EN="Enter Zone", EN2="Teleport to the cutscene.", TH1="วาปเข้าด่าน", TH2="วาปไปที่คัตซีน", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Enter Zone", EN2="Teleport to the cutscene.", TH1="à¸§à¸²à¸›à¹€à¸‚à¹‰à¸²à¸”à¹ˆà¸²à¸™", TH2="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¸„à¸±à¸•à¸‹à¸µà¸™", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C3Func("Bell/Zone");
                         end)};
-                        {type="Button", EN="Kill All Flys", EN2="Teleport & kill all flys.", TH1="ออโต้ฆ่าแมลง", TH2="วาปฆ่าแมลง", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Kill All Flys", EN2="Teleport & kill all flys.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸†à¹ˆà¸²à¹à¸¡à¸¥à¸‡", TH2="à¸§à¸²à¸›à¸†à¹ˆà¸²à¹à¸¡à¸¥à¸‡", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C3Func("Bell/Flys");
                         end)};
-                        {type="Button", EN="Auto Bell", EN2="Auto ring the bell and attack the monster.", TH1="ออโต้ระฆัง", TH2="ออโต้ตีระฆังและเดี่ยวกับผี", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Auto Bell", EN2="Auto ring the bell and attack the monster.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸£à¸°à¸†à¸±à¸‡", TH2="à¸­à¸­à¹‚à¸•à¹‰à¸•à¸µà¸£à¸°à¸†à¸±à¸‡à¹à¸¥à¸°à¹€à¸”à¸µà¹ˆà¸¢à¸§à¸à¸±à¸šà¸œà¸µ", Callback=IB_NO_VIRTUALIZE(function()
                             return WindUI:Notify({
                                 Title = "<font color='rgb(255,0,0)'>WARNING</font>",
                                 Content = "Hold on, Script is Intilizing, Do not press again.",
@@ -3082,62 +3082,62 @@ return {
                                 });
                             end), Functions:B2C3Func("Bell/Auto");
                         end)}; {type="Space"}; {type="Space"};
-                        {type="Button", EN="Teleport To Door", EN2="Teleport to the puzzle door but does not complete for you.", TH1="วาปไปที่ประตู", TH2="วาปไปที่ประตูเพื่อแก้ปริศนา", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Teleport To Door", EN2="Teleport to the puzzle door but does not complete for you.", TH1="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¸›à¸£à¸°à¸•à¸¹", TH2="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¸›à¸£à¸°à¸•à¸¹à¹€à¸žà¸·à¹ˆà¸­à¹à¸à¹‰à¸›à¸£à¸´à¸¨à¸™à¸²", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C3Func("Bell/TpDoor");
                         end)};
-                        {type="Button", EN="Auto Complete Puzzle", EN2="Auto complete the puzzle but you have to be near the door.", TH1="ออโต้แก้ปริศนา", TH2="ออโต้แก้ปริศนาแต่ต้องอยู่ใกล้ประตู", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Auto Complete Puzzle", EN2="Auto complete the puzzle but you have to be near the door.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¹à¸à¹‰à¸›à¸£à¸´à¸¨à¸™à¸²", TH2="à¸­à¸­à¹‚à¸•à¹‰à¹à¸à¹‰à¸›à¸£à¸´à¸¨à¸™à¸²à¹à¸•à¹ˆà¸•à¹‰à¸­à¸‡à¸­à¸¢à¸¹à¹ˆà¹ƒà¸à¸¥à¹‰à¸›à¸£à¸°à¸•à¸¹", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C3Func("Bell/Puzzle");
                         end)};
-                        {type="Button", EN="Auto Run", EN2="Teleport to the exit.", TH1="ออโต้วิ่ง", TH2="วาปไปที่ทางออก", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Auto Run", EN2="Teleport to the exit.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸§à¸´à¹ˆà¸‡", TH2="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¸—à¸²à¸‡à¸­à¸­à¸", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C3Func("Bell/Run");
                         end)};
                     }, Title="Section 4 | Bell"};
                 }}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Button", EN="Enter Zone", EN2="Teleport to enzukai.", TH1="วาปเข้าด่าน", TH2="วาปไปที่ผี", Locked=true};
-                        {type="Button", EN="Auto Complete", EN2="Auto interact with Enzukai.", TH1="ออโต้ผ่านด่าน", TH2="ออโต้คุยกับผีตอนอยู่บนแพ", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Enter Zone", EN2="Teleport to enzukai.", TH1="à¸§à¸²à¸›à¹€à¸‚à¹‰à¸²à¸”à¹ˆà¸²à¸™", TH2="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¸œà¸µ", Locked=true};
+                        {type="Button", EN="Auto Complete", EN2="Auto interact with Enzukai.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸œà¹ˆà¸²à¸™à¸”à¹ˆà¸²à¸™", TH2="à¸­à¸­à¹‚à¸•à¹‰à¸„à¸¸à¸¢à¸à¸±à¸šà¸œà¸µà¸•à¸­à¸™à¸­à¸¢à¸¹à¹ˆà¸šà¸™à¹à¸ž", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C3Func("Enzukai/Auto");
                         end)};
                     }, Title="Section 5 | Enzukai"};
                 }}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Button", EN="Disable Isamu", EN2="Ignore his action bro he's not gonna kill us.", TH1="เพิกเฉยต่อการโจมตีของ Isamu", TH2="สนใจทำไมก็แค่ผีตัวนึง", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Disable Isamu", EN2="Ignore his action bro he's not gonna kill us.", TH1="à¹€à¸žà¸´à¸à¹€à¸‰à¸¢à¸•à¹ˆà¸­à¸à¸²à¸£à¹‚à¸ˆà¸¡à¸•à¸µà¸‚à¸­à¸‡ Isamu", TH2="à¸ªà¸™à¹ƒà¸ˆà¸—à¸³à¹„à¸¡à¸à¹‡à¹à¸„à¹ˆà¸œà¸µà¸•à¸±à¸§à¸™à¸¶à¸‡", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C3Func("Father/Isamu");
                         end)};
-                        {type="Button", EN="Teleport To Safe Spot", EN2="Your sanity will drain but last long enough to survive each night.", TH1="วาปไปจุดที่ปลอดภัย", TH2="ค่าสติจะลดไวขึ้นแต่ก็อยู่ได้นานพอสำหรับคืนถัดไป", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Teleport To Safe Spot", EN2="Your sanity will drain but last long enough to survive each night.", TH1="à¸§à¸²à¸›à¹„à¸›à¸ˆà¸¸à¸”à¸—à¸µà¹ˆà¸›à¸¥à¸­à¸”à¸ à¸±à¸¢", TH2="à¸„à¹ˆà¸²à¸ªà¸•à¸´à¸ˆà¸°à¸¥à¸”à¹„à¸§à¸‚à¸¶à¹‰à¸™à¹à¸•à¹ˆà¸à¹‡à¸­à¸¢à¸¹à¹ˆà¹„à¸”à¹‰à¸™à¸²à¸™à¸žà¸­à¸ªà¸³à¸«à¸£à¸±à¸šà¸„à¸·à¸™à¸–à¸±à¸”à¹„à¸›", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C3Func("Father/Auto");
                         end)};
                     }, Title="Section 6 | Father"};
                 }}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Button", EN="Enter Zone", EN2="Teleport to the arrival area.", TH1="วาปเข้าด่าน", TH2="วาปไปที่รถไฟ", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Enter Zone", EN2="Teleport to the arrival area.", TH1="à¸§à¸²à¸›à¹€à¸‚à¹‰à¸²à¸”à¹ˆà¸²à¸™", TH2="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¸£à¸–à¹„à¸Ÿ", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C3Func("Train");
                         end)};
                     }, Title="Section 7 | Train"};
                 }}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Button", EN="Auto Complete", EN2="Teleport & collect larves then feed to the... dog?", TH1="ออโต้ผ่านด่าน", TH2="วาปเก็บหนอนไปให้... หมา? กิน", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Auto Complete", EN2="Teleport & collect larves then feed to the... dog?", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸œà¹ˆà¸²à¸™à¸”à¹ˆà¸²à¸™", TH2="à¸§à¸²à¸›à¹€à¸à¹‡à¸šà¸«à¸™à¸­à¸™à¹„à¸›à¹ƒà¸«à¹‰... à¸«à¸¡à¸²? à¸à¸´à¸™", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C3Func("Larves");
                         end)};
                     }, Title="Section 8 | Larves"};
                 }}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Button", EN="Auto Complete", EN2="Teleport to the exit.", TH1="ออโต้ผ่านด่าน", TH2="วาปไปทางออก", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Auto Complete", EN2="Teleport to the exit.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸œà¹ˆà¸²à¸™à¸”à¹ˆà¸²à¸™", TH2="à¸§à¸²à¸›à¹„à¸›à¸—à¸²à¸‡à¸­à¸­à¸", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C3Func("Mud");
                         end)};
                     }, Title="Section 9 | Mud"};
                 }}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Button", EN="Teleport To House", EN2="Teleport to the house; right at the interaction.", TH1="วาปเข้าบ้าน", TH2="วาปไปที่บ้าน จุดที่เอาไว้แก้ปริศนา", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Teleport To House", EN2="Teleport to the house; right at the interaction.", TH1="à¸§à¸²à¸›à¹€à¸‚à¹‰à¸²à¸šà¹‰à¸²à¸™", TH2="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¸šà¹‰à¸²à¸™ à¸ˆà¸¸à¸”à¸—à¸µà¹ˆà¹€à¸­à¸²à¹„à¸§à¹‰à¹à¸à¹‰à¸›à¸£à¸´à¸¨à¸™à¸²", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C3Func("Yurei/House");
                         end)};
-                        {type="Button", EN="Auto Click Items", EN2="Click all cursed items.", TH1="ออโต้กดไอเทม", TH2="ออโต้กดคลิกไอเทมที่ถูกต้อง", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Auto Click Items", EN2="Click all cursed items.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸à¸”à¹„à¸­à¹€à¸—à¸¡", TH2="à¸­à¸­à¹‚à¸•à¹‰à¸à¸”à¸„à¸¥à¸´à¸à¹„à¸­à¹€à¸—à¸¡à¸—à¸µà¹ˆà¸–à¸¹à¸à¸•à¹‰à¸­à¸‡", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C3Func("Yurei/Click");
                         end)};
                     }, Title="Section 10 | Yurei"};
@@ -3146,18 +3146,18 @@ return {
                     {dat={
                         {type="Group", dats={
                             {dat={
-                                {type="Toggle", EN="Auto Complete", EN2="Auto kill Yurei. Do not turn this on before the fight has started.", TH1="ออโต้ผ่านด่าน", TH2="ออโต้ฆ่าผี ห้ามเปิดก่อนที่สงครามจะเริ่ม", Path="Auto Kill Yurei"};
+                                {type="Toggle", EN="Auto Complete", EN2="Auto kill Yurei. Do not turn this on before the fight has started.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸œà¹ˆà¸²à¸™à¸”à¹ˆà¸²à¸™", TH2="à¸­à¸­à¹‚à¸•à¹‰à¸†à¹ˆà¸²à¸œà¸µ à¸«à¹‰à¸²à¸¡à¹€à¸›à¸´à¸”à¸à¹ˆà¸­à¸™à¸—à¸µà¹ˆà¸ªà¸‡à¸„à¸£à¸²à¸¡à¸ˆà¸°à¹€à¸£à¸´à¹ˆà¸¡", Path="Auto Kill Yurei"};
                             }, Title="Main"}
                         }}; {type="Space"}; {type="Space"};
                         {type="Group", dats={
                             {dat={
-                                {type="Button", EN="Clear Map", EN2="Remove map's border.", TH1="เคลียพื้นที่", TH2="ลบกำแพงแมพออก", Callback=IB_NO_VIRTUALIZE(function()
+                                {type="Button", EN="Clear Map", EN2="Remove map's border.", TH1="à¹€à¸„à¸¥à¸µà¸¢à¸žà¸·à¹‰à¸™à¸—à¸µà¹ˆ", TH2="à¸¥à¸šà¸à¸³à¹à¸žà¸‡à¹à¸¡à¸žà¸­à¸­à¸", Callback=IB_NO_VIRTUALIZE(function()
                                     return Functions:B2C3Func("Boss/Clear");
                                 end)};
-                                {type="Button", EN="Teleport To Safe Spot", EN2="Teleport you outside the border.", TH1="วาปไปจุดที่ปลอดภัย", TH2="วาปออกไปนอกกำแพงแมพ", Callback=IB_NO_VIRTUALIZE(function()
+                                {type="Button", EN="Teleport To Safe Spot", EN2="Teleport you outside the border.", TH1="à¸§à¸²à¸›à¹„à¸›à¸ˆà¸¸à¸”à¸—à¸µà¹ˆà¸›à¸¥à¸­à¸”à¸ à¸±à¸¢", TH2="à¸§à¸²à¸›à¸­à¸­à¸à¹„à¸›à¸™à¸­à¸à¸à¸³à¹à¸žà¸‡à¹à¸¡à¸ž", Callback=IB_NO_VIRTUALIZE(function()
                                     return Functions:B2C3Func("Boss/TpSafe");
                                 end)};
-                                {type="Button", EN="Get Katanas", EN2="Teleport & grab katanas", TH1="เก็บดาบ", TH2="วาปเก็บดาบ", Callback=IB_NO_VIRTUALIZE(function()
+                                {type="Button", EN="Get Katanas", EN2="Teleport & grab katanas", TH1="à¹€à¸à¹‡à¸šà¸”à¸²à¸š", TH2="à¸§à¸²à¸›à¹€à¸à¹‡à¸šà¸”à¸²à¸š", Callback=IB_NO_VIRTUALIZE(function()
                                     return Functions:B2C3Func("Boss/Katanas");
                                 end)};
                             }, Title="Other"};
@@ -3166,8 +3166,8 @@ return {
                 }}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Button", EN="Talk", EN2="Teleport to Shinigami.", TH1="คุย", TH2="วาปไปหาผี", Locked=true};
-                        {type="Button", EN="Auto Run", EN2="Teleport to the exit.", TH1="ออโต้ผ่านด่าน", TH2="วาปไปทางออก", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Talk", EN2="Teleport to Shinigami.", TH1="à¸„à¸¸à¸¢", TH2="à¸§à¸²à¸›à¹„à¸›à¸«à¸²à¸œà¸µ", Locked=true};
+                        {type="Button", EN="Auto Run", EN2="Teleport to the exit.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸œà¹ˆà¸²à¸™à¸”à¹ˆà¸²à¸™", TH2="à¸§à¸²à¸›à¹„à¸›à¸—à¸²à¸‡à¸­à¸­à¸", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C3Func("Hell/Run");
                         end)};
                     }, Title="Section 12 | Hell"};
@@ -3176,13 +3176,13 @@ return {
             B2C4Tab = {
                 {type="Group", dats={
                     {dat={
-                        {type="Button", EN="Patched Reporter Cutscene", EN2="In the 6 floor building, there is an NPC for you to talk with but sometime the anti cheat can break your cutscene.", TH1="แก้บัคอัคซีนของนักข่าว", TH2="ในด่านตึก 6 ชั้นจะมี NPC ให้เราไปคุยแล้วในบางตัวรันมันโดนกันโปรทำบัค ให้กดปุ่มนี้เวลาบัค", Callback=Functions.B2C4BP1};
-                        {type="Button", EN="Patched Mother's Game", EN2="In the minigame where mother will be asking you questions and you have to answer, the anti cheat will stop the answer from appearing, use this to fix it.", TH1="แก้บัคคำถามของแม่", TH2="ในด่านมินิเกมที่แม่จะถามคำถามแล้วเราต้องตอบ ในบางตัวรันมันโดนกันโปรทำบัค ให้กดปุ่มนี้เวลาบัค", Callback=Functions.B2C4BP2};
+                        {type="Button", EN="Patched Reporter Cutscene", EN2="In the 6 floor building, there is an NPC for you to talk with but sometime the anti cheat can break your cutscene.", TH1="à¹à¸à¹‰à¸šà¸±à¸„à¸­à¸±à¸„à¸‹à¸µà¸™à¸‚à¸­à¸‡à¸™à¸±à¸à¸‚à¹ˆà¸²à¸§", TH2="à¹ƒà¸™à¸”à¹ˆà¸²à¸™à¸•à¸¶à¸ 6 à¸Šà¸±à¹‰à¸™à¸ˆà¸°à¸¡à¸µ NPC à¹ƒà¸«à¹‰à¹€à¸£à¸²à¹„à¸›à¸„à¸¸à¸¢à¹à¸¥à¹‰à¸§à¹ƒà¸™à¸šà¸²à¸‡à¸•à¸±à¸§à¸£à¸±à¸™à¸¡à¸±à¸™à¹‚à¸”à¸™à¸à¸±à¸™à¹‚à¸›à¸£à¸—à¸³à¸šà¸±à¸„ à¹ƒà¸«à¹‰à¸à¸”à¸›à¸¸à¹ˆà¸¡à¸™à¸µà¹‰à¹€à¸§à¸¥à¸²à¸šà¸±à¸„", Callback=Functions.B2C4BP1};
+                        {type="Button", EN="Patched Mother's Game", EN2="In the minigame where mother will be asking you questions and you have to answer, the anti cheat will stop the answer from appearing, use this to fix it.", TH1="à¹à¸à¹‰à¸šà¸±à¸„à¸„à¸³à¸–à¸²à¸¡à¸‚à¸­à¸‡à¹à¸¡à¹ˆ", TH2="à¹ƒà¸™à¸”à¹ˆà¸²à¸™à¸¡à¸´à¸™à¸´à¹€à¸à¸¡à¸—à¸µà¹ˆà¹à¸¡à¹ˆà¸ˆà¸°à¸–à¸²à¸¡à¸„à¸³à¸–à¸²à¸¡à¹à¸¥à¹‰à¸§à¹€à¸£à¸²à¸•à¹‰à¸­à¸‡à¸•à¸­à¸š à¹ƒà¸™à¸šà¸²à¸‡à¸•à¸±à¸§à¸£à¸±à¸™à¸¡à¸±à¸™à¹‚à¸”à¸™à¸à¸±à¸™à¹‚à¸›à¸£à¸—à¸³à¸šà¸±à¸„ à¹ƒà¸«à¹‰à¸à¸”à¸›à¸¸à¹ˆà¸¡à¸™à¸µà¹‰à¹€à¸§à¸¥à¸²à¸šà¸±à¸„", Callback=Functions.B2C4BP2};
                     }, Title="Sepcial | Bypass"};
                 }}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Button", EN="Auto Complete", EN2="Teleport to the exit of this cave.", TH1="ออโต้ผ่านด่าน", TH2="วาปไปที่ทางออกถ้ำ", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Auto Complete", EN2="Teleport to the exit of this cave.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸œà¹ˆà¸²à¸™à¸”à¹ˆà¸²à¸™", TH2="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¸—à¸²à¸‡à¸­à¸­à¸à¸–à¹‰à¸³", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C4Func("Cave");
                         end)};
                     }, Title="Section 1 | Cave"};
@@ -3191,21 +3191,21 @@ return {
                     {dat={
                         {type="Group", dats={
                             {dat={
-                                {type="Button", EN="Auto Complete", EN2="Teleport to the white door.", TH1="ออโต้ผ่านด่าน", TH2="วาปไปที่ประตูสีขาว", Callback=IB_NO_VIRTUALIZE(function()
+                                {type="Button", EN="Auto Complete", EN2="Teleport to the white door.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸œà¹ˆà¸²à¸™à¸”à¹ˆà¸²à¸™", TH2="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¸›à¸£à¸°à¸•à¸¹à¸ªà¸µà¸‚à¸²à¸§", Callback=IB_NO_VIRTUALIZE(function()
                                     return Functions:B2C4Func("City/Auto");
                                 end)};
                             }, Title="Main"}
                         }}; {type="Space"}; {type="Space"};
                         {type="Group", dats={
                             {dat={
-                                {type="Button", EN="Destroy Glass", EN2="Remove glasses from the floor.", TH1="ลบกระจกออก", TH2="ลบกระจกที่อยู่บนพื้นออก", Callback=IB_NO_VIRTUALIZE(function()
+                                {type="Button", EN="Destroy Glass", EN2="Remove glasses from the floor.", TH1="à¸¥à¸šà¸à¸£à¸°à¸ˆà¸à¸­à¸­à¸", TH2="à¸¥à¸šà¸à¸£à¸°à¸ˆà¸à¸—à¸µà¹ˆà¸­à¸¢à¸¹à¹ˆà¸šà¸™à¸žà¸·à¹‰à¸™à¸­à¸­à¸", Callback=IB_NO_VIRTUALIZE(function()
                                     return Functions:B2C4Func("City/Glass");
                                 end)};
-                                {type="Toggle", EN="ESP Glass", EN2="Show glass's hitbox.", TH1="ESP กระจก", TH2="มองเห็นกระจก", Path="ESP/Glass", Callback=IB_NO_VIRTUALIZE(function(state)
+                                {type="Toggle", EN="ESP Glass", EN2="Show glass's hitbox.", TH1="ESP à¸à¸£à¸°à¸ˆà¸", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™à¸à¸£à¸°à¸ˆà¸", Path="ESP/Glass", Callback=IB_NO_VIRTUALIZE(function(state)
                                     B2C4Con.ESP.Glass = state;
                                     return Functions:B2C4ESP("City/Glass", state);
                                 end)};
-                                {type="Toggle", EN="ESP Enzukai", EN2="Show Enzukai's hitbox.", TH1="ESP ผี", TH2="มองเห็นผี", Path="ESP/Enzukai", Callback=IB_NO_VIRTUALIZE(function(state)
+                                {type="Toggle", EN="ESP Enzukai", EN2="Show Enzukai's hitbox.", TH1="ESP à¸œà¸µ", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™à¸œà¸µ", Path="ESP/Enzukai", Callback=IB_NO_VIRTUALIZE(function(state)
                                     return Functions:B2C4ESP("City/Enzukai", state);
                                 end)};
                             }, Title="Other"};
@@ -3214,17 +3214,17 @@ return {
                 }}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Button", EN="Talk", EN2="Teleport to NPC.", TH1="คุย", TH2="วาปไปหา NPC", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Talk", EN2="Teleport to NPC.", TH1="à¸„à¸¸à¸¢", TH2="à¸§à¸²à¸›à¹„à¸›à¸«à¸² NPC", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C4Func("Floor/Talk");
                         end)};
-                        {type="Button", EN="Auto Codes", EN2="You have to interact with the keypad first.", TH1="ออโต้ใส่โค้ด", TH2="ต้องกดปุ่มที่ประตูก่อน", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Auto Codes", EN2="You have to interact with the keypad first.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¹ƒà¸ªà¹ˆà¹‚à¸„à¹‰à¸”", TH2="à¸•à¹‰à¸­à¸‡à¸à¸”à¸›à¸¸à¹ˆà¸¡à¸—à¸µà¹ˆà¸›à¸£à¸°à¸•à¸¹à¸à¹ˆà¸­à¸™", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C4Func("Floor/Auto");
                         end)};
                     }, Title="Section 3 | 6 Floor"};
                 }}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Button", EN="Auto Complete", EN2="Teleport, collect item, and escape.", TH1="ออโต้ผ่านด่าน", TH2="วาปเก็บไอเทมและออก", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Auto Complete", EN2="Teleport, collect item, and escape.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸œà¹ˆà¸²à¸™à¸”à¹ˆà¸²à¸™", TH2="à¸§à¸²à¸›à¹€à¸à¹‡à¸šà¹„à¸­à¹€à¸—à¸¡à¹à¸¥à¸°à¸­à¸­à¸", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C4Func("Floor/Top");
                         end)};
                     }, Title="Section 3.5 | Top Floor"};
@@ -3233,34 +3233,34 @@ return {
                     {dat={
                         {type="Group", dats={
                             {dat={
-                                {type="Button", EN="Auto Walkie Talkis", EN2="Teleport & interact with walkie talkie", TH1="ออโต้กดวอสื่อสาร", TH2="วาปและกดใช้งาน", Callback=IB_NO_VIRTUALIZE(function()
+                                {type="Button", EN="Auto Walkie Talkis", EN2="Teleport & interact with walkie talkie", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸à¸”à¸§à¸­à¸ªà¸·à¹ˆà¸­à¸ªà¸²à¸£", TH2="à¸§à¸²à¸›à¹à¸¥à¸°à¸à¸”à¹ƒà¸Šà¹‰à¸‡à¸²à¸™", Callback=IB_NO_VIRTUALIZE(function()
                                     return Functions:B2C4Func("Mall/Talk");
                                 end)};
-                                {type="Button", EN="Auto Trigger Escape", EN2="Teleport to the entrance to trigger the game event.", TH1="ออโต้หลบหนี", TH2="วาปไปที่ทางเข้าเพื่อเริ่คัตซีน", Callback=IB_NO_VIRTUALIZE(function()
+                                {type="Button", EN="Auto Trigger Escape", EN2="Teleport to the entrance to trigger the game event.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸«à¸¥à¸šà¸«à¸™à¸µ", TH2="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¸—à¸²à¸‡à¹€à¸‚à¹‰à¸²à¹€à¸žà¸·à¹ˆà¸­à¹€à¸£à¸´à¹ˆà¸„à¸±à¸•à¸‹à¸µà¸™", Callback=IB_NO_VIRTUALIZE(function()
                                     return Functions:B2C4Func("Mall/Trigger");
                                 end)};
-                                {type="Button", EN="Auto Punch Eyes", EN2="Teleport & punch eyes.", TH1="ออโต้ต่อยดวงตา", TH2="วาปและต่อยดวงตา", Callback=IB_NO_VIRTUALIZE(function()
+                                {type="Button", EN="Auto Punch Eyes", EN2="Teleport & punch eyes.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸•à¹ˆà¸­à¸¢à¸”à¸§à¸‡à¸•à¸²", TH2="à¸§à¸²à¸›à¹à¸¥à¸°à¸•à¹ˆà¸­à¸¢à¸”à¸§à¸‡à¸•à¸²", Callback=IB_NO_VIRTUALIZE(function()
                                     return Functions:B2C4Func("Mall/Eyes");
                                 end)};
-                                {type="Button", EN="Grab Speaker", EN2="Teleport & grab the speaker.", TH1="เก็บลำโพง", TH2="วาปและเก็บลำโพง", Callback=IB_NO_VIRTUALIZE(function()
+                                {type="Button", EN="Grab Speaker", EN2="Teleport & grab the speaker.", TH1="à¹€à¸à¹‡à¸šà¸¥à¸³à¹‚à¸žà¸‡", TH2="à¸§à¸²à¸›à¹à¸¥à¸°à¹€à¸à¹‡à¸šà¸¥à¸³à¹‚à¸žà¸‡", Callback=IB_NO_VIRTUALIZE(function()
                                     return Functions:B2C4Func("Mall/Grab");
                                 end)};
-                                {type="Button", EN="Place Speaker", EN2="Teleport & place the speaker.", TH1="วางลำโพลง", TH2="วาปและวางลำโพง", Callback=IB_NO_VIRTUALIZE(function()
+                                {type="Button", EN="Place Speaker", EN2="Teleport & place the speaker.", TH1="à¸§à¸²à¸‡à¸¥à¸³à¹‚à¸žà¸¥à¸‡", TH2="à¸§à¸²à¸›à¹à¸¥à¸°à¸§à¸²à¸‡à¸¥à¸³à¹‚à¸žà¸‡", Callback=IB_NO_VIRTUALIZE(function()
                                     return Functions:B2C4Func("Mall/Place");
                                 end)};
                             }, Title="Main"}
                         }}; {type="Space"}; {type="Space"};
                         {type="Group", dats={
                             {dat={
-                                {type="Toggle", EN="ESP Coins", EN2="Show coin's box.", TH1="ESP เหรียญ", TH2="มองเห็นเหรียญ", Path="ESP/Coins", Callback=IB_NO_VIRTUALIZE(function(state)
+                                {type="Toggle", EN="ESP Coins", EN2="Show coin's box.", TH1="ESP à¹€à¸«à¸£à¸µà¸¢à¸", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™à¹€à¸«à¸£à¸µà¸¢à¸", Path="ESP/Coins", Callback=IB_NO_VIRTUALIZE(function(state)
                                     B2C4Con.ESP.Coins = state;
                                     return Functions:B2C4ESP("Mall/Coins", state);
                                 end)};
-                                {type="Toggle", EN="ESP Walkie Talkies", EN2="Show walkie talkie's box.", TH1="ESP วอสื่อสาร", TH2="มองเห็นวอสื่อสาร", Path="ESP/Glass", Callback=IB_NO_VIRTUALIZE(function(state)
+                                {type="Toggle", EN="ESP Walkie Talkies", EN2="Show walkie talkie's box.", TH1="ESP à¸§à¸­à¸ªà¸·à¹ˆà¸­à¸ªà¸²à¸£", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™à¸§à¸­à¸ªà¸·à¹ˆà¸­à¸ªà¸²à¸£", Path="ESP/Glass", Callback=IB_NO_VIRTUALIZE(function(state)
                                     B2C4Con.ESP.Walkie = state;
                                     return Functions:B2C4ESP("Mall/Talk", state);
                                 end)};
-                                {type="Toggle", EN="ESP Monsters", EN2="Show monster's hitbox.", TH1="ESP ผี", TH2="มองเห็นผี", Path="ESP/Mall Monsters", Callback=IB_NO_VIRTUALIZE(function(state)
+                                {type="Toggle", EN="ESP Monsters", EN2="Show monster's hitbox.", TH1="ESP à¸œà¸µ", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™à¸œà¸µ", Path="ESP/Mall Monsters", Callback=IB_NO_VIRTUALIZE(function(state)
                                     B2C4Con.ESP.MallMonsters = state;
                                     return Functions:B2C4ESP("Mall/Monsters", state);
                                 end)};
@@ -3270,20 +3270,20 @@ return {
                 }}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Button", EN="Auto Chase 1", EN2="The floor at the end of the chase must fall so that mean everything must be loaded before you use this. You can watch my YouTube tutorial to use this one.", TH1="ออโต้วิ่ง 1", TH2="พื้นห้างในตอนท้ายพัง หมายความว่าก่อนกดใช้งานต้องมั่นใจก่อนว่าแมพโหลดเสร็จแล้ว หรือลองเปิด YouTube ดูก็ได้", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Auto Chase 1", EN2="The floor at the end of the chase must fall so that mean everything must be loaded before you use this. You can watch my YouTube tutorial to use this one.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸§à¸´à¹ˆà¸‡ 1", TH2="à¸žà¸·à¹‰à¸™à¸«à¹‰à¸²à¸‡à¹ƒà¸™à¸•à¸­à¸™à¸—à¹‰à¸²à¸¢à¸žà¸±à¸‡ à¸«à¸¡à¸²à¸¢à¸„à¸§à¸²à¸¡à¸§à¹ˆà¸²à¸à¹ˆà¸­à¸™à¸à¸”à¹ƒà¸Šà¹‰à¸‡à¸²à¸™à¸•à¹‰à¸­à¸‡à¸¡à¸±à¹ˆà¸™à¹ƒà¸ˆà¸à¹ˆà¸­à¸™à¸§à¹ˆà¸²à¹à¸¡à¸žà¹‚à¸«à¸¥à¸”à¹€à¸ªà¸£à¹‡à¸ˆà¹à¸¥à¹‰à¸§ à¸«à¸£à¸·à¸­à¸¥à¸­à¸‡à¹€à¸›à¸´à¸” YouTube à¸”à¸¹à¸à¹‡à¹„à¸”à¹‰", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C4Func("Mall/Chase1");
                         end)};
-                        {type="Button", EN="Auto Chase 2", EN2="Teleport to the elevator.", TH1="ออโต้วิ่ง 2", TH2="วาปไปที่ลิฟ", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Auto Chase 2", EN2="Teleport to the elevator.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸§à¸´à¹ˆà¸‡ 2", TH2="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¸¥à¸´à¸Ÿ", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C4Func("Mall/Chase2");
                         end)};
                     }, Title="Section 5 | Mall Chase"};
                 }}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Button", EN="Auto Collect Car Parts", EN2="Teleport & collect all car parts.", TH1="ออโต้เก็บชิ้นส่วนรถ", TH2="วาปแล้วเก็บชิ้นส่วนรถทั้งหมด", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Auto Collect Car Parts", EN2="Teleport & collect all car parts.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¹€à¸à¹‡à¸šà¸Šà¸´à¹‰à¸™à¸ªà¹ˆà¸§à¸™à¸£à¸–", TH2="à¸§à¸²à¸›à¹à¸¥à¹‰à¸§à¹€à¸à¹‡à¸šà¸Šà¸´à¹‰à¸™à¸ªà¹ˆà¸§à¸™à¸£à¸–à¸—à¸±à¹‰à¸‡à¸«à¸¡à¸”", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C4Func("Car/Collect");
                         end)};
-                        {type="Button", EN="Answer", EN2="Give mother the correct answer.", TH1="ตอบคำถาม", TH2="แม่!!! ผมตอบถูกแล้ว", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Answer", EN2="Give mother the correct answer.", TH1="à¸•à¸­à¸šà¸„à¸³à¸–à¸²à¸¡", TH2="à¹à¸¡à¹ˆ!!! à¸œà¸¡à¸•à¸­à¸šà¸–à¸¹à¸à¹à¸¥à¹‰à¸§", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C4Func("Car/Answer");
                         end)};
                     }, Title="Section 6 | Parking Area"};
@@ -3292,25 +3292,25 @@ return {
                     {dat={
                         {type="Group", dats={
                             {dat={
-                                {type="Button", EN="Draw", EN2="This only draw for you; Enter by yourself.", TH1="วาดรูป", TH2="วาดอย่างเดียว ไม่มีการวาปให้", Callback=IB_NO_VIRTUALIZE(function()
+                                {type="Button", EN="Draw", EN2="This only draw for you; Enter by yourself.", TH1="à¸§à¸²à¸”à¸£à¸¹à¸›", TH2="à¸§à¸²à¸”à¸­à¸¢à¹ˆà¸²à¸‡à¹€à¸”à¸µà¸¢à¸§ à¹„à¸¡à¹ˆà¸¡à¸µà¸à¸²à¸£à¸§à¸²à¸›à¹ƒà¸«à¹‰", Callback=IB_NO_VIRTUALIZE(function()
                                     return Functions:B2C4Func("Draw/Draw");
                                 end)};
-                                {type="Button", EN="Collect Quest Items", EN2="Teleport & collect item dropped.", TH1="ออโต้เก็บไอเทมจากผี", TH2="วาปและเก็บไอเทมที่ดรอปจากผี", Callback=IB_NO_VIRTUALIZE(function()
+                                {type="Button", EN="Collect Quest Items", EN2="Teleport & collect item dropped.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¹€à¸à¹‡à¸šà¹„à¸­à¹€à¸—à¸¡à¸ˆà¸²à¸à¸œà¸µ", TH2="à¸§à¸²à¸›à¹à¸¥à¸°à¹€à¸à¹‡à¸šà¹„à¸­à¹€à¸—à¸¡à¸—à¸µà¹ˆà¸”à¸£à¸­à¸›à¸ˆà¸²à¸à¸œà¸µ", Callback=IB_NO_VIRTUALIZE(function()
                                     return Functions:B2C4Func("Draw/Item");
                                 end)};
                             }, Title="Main"}
                         }}; {type="Space"}; {type="Space"};
                         {type="Group", dats={
                             {dat={
-                                {type="Toggle", EN="ESP Senzai", EN2="Show Senzai's hitbox.", TH1="ESP ผี", TH2="มองเห็นผี", Callback=IB_NO_VIRTUALIZE(function(state)
+                                {type="Toggle", EN="ESP Senzai", EN2="Show Senzai's hitbox.", TH1="ESP à¸œà¸µ", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™à¸œà¸µ", Callback=IB_NO_VIRTUALIZE(function(state)
                                     B2C4Con.ESP.Senzai = state;
                                     return Functions:B2C4ESP("Draw/Senzai", state);
                                 end)};
-                                {type="Toggle", EN="ESP Ingredients", EN2="Show ingredient's box.", TH1="ESP วัตถุดิบ", TH2="มองเห็นวัตถุดิบ", Path="ESP/Glass", Callback=IB_NO_VIRTUALIZE(function(state)
+                                {type="Toggle", EN="ESP Ingredients", EN2="Show ingredient's box.", TH1="ESP à¸§à¸±à¸•à¸–à¸¸à¸”à¸´à¸š", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™à¸§à¸±à¸•à¸–à¸¸à¸”à¸´à¸š", Path="ESP/Glass", Callback=IB_NO_VIRTUALIZE(function(state)
                                     B2C4Con.ESP.Ingredients = state;
                                     return Functions:B2C4ESP("Draw/Ingredients", state);
                                 end)};
-                                {type="Toggle", EN="ESP Drawings", EN2="Show pad's box.", TH1="ESP แท่นวาดรูป", TH2="มองเห็นแท่นวาดรูป", Callback=IB_NO_VIRTUALIZE(function(state)
+                                {type="Toggle", EN="ESP Drawings", EN2="Show pad's box.", TH1="ESP à¹à¸—à¹ˆà¸™à¸§à¸²à¸”à¸£à¸¹à¸›", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™à¹à¸—à¹ˆà¸™à¸§à¸²à¸”à¸£à¸¹à¸›", Callback=IB_NO_VIRTUALIZE(function(state)
                                     B2C4Con.ESP.Drawings = state;
                                     return Functions:B2C4ESP("Draw/Drawings", state);
                                 end)};
@@ -3320,41 +3320,41 @@ return {
                 }}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Button", EN="Auto Help Survivors", EN2="Teleport & interact with survivors.", TH1="ออโต้ช่วยคน", TH2="วาปและช่วยเหลือ", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Auto Help Survivors", EN2="Teleport & interact with survivors.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸Šà¹ˆà¸§à¸¢à¸„à¸™", TH2="à¸§à¸²à¸›à¹à¸¥à¸°à¸Šà¹ˆà¸§à¸¢à¹€à¸«à¸¥à¸·à¸­", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions:B2C4Func("Survivors");
                         end)};
-                        {type="Toggle", EN="ESP Survivors", EN2="Show survivor's box.", TH1="ESP ผู้รอดชีวิต", TH2="มองเห็นผู้รอดชีวิต", Path="ESP/Survivors", Callback=IB_NO_VIRTUALIZE(function(state)
+                        {type="Toggle", EN="ESP Survivors", EN2="Show survivor's box.", TH1="ESP à¸œà¸¹à¹‰à¸£à¸­à¸”à¸Šà¸µà¸§à¸´à¸•", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™à¸œà¸¹à¹‰à¸£à¸­à¸”à¸Šà¸µà¸§à¸´à¸•", Path="ESP/Survivors", Callback=IB_NO_VIRTUALIZE(function(state)
                             B2C4Con.ESP.Survivors = state;
                             return Functions:B2C4ESP("Survivors", state);
                         end)}; {type="Space"}; {type="Space"};
-                        {type="Toggle", EN="Auto Kill Enzukai-Ryu", EN2="Auto get supercharge and kill Enzukai.", TH1="ออโต้ฆ่า Enzukai", TH2="ออโต้ชาจและฆ่า Enzukai", Path="Auto Kill Enzukai-Ryu"};
-                        {type="Toggle", EN="Auto Kill Monsters", EN2="Auto kill Enzukai's follower.", TH1="ออโต้ฆ่าผี", TH2="ออโต้ฆ่าลูกน้อง Enzukai", Path="Auto Kill Enzukai Followers"};
+                        {type="Toggle", EN="Auto Kill Enzukai-Ryu", EN2="Auto get supercharge and kill Enzukai.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸†à¹ˆà¸² Enzukai", TH2="à¸­à¸­à¹‚à¸•à¹‰à¸Šà¸²à¸ˆà¹à¸¥à¸°à¸†à¹ˆà¸² Enzukai", Path="Auto Kill Enzukai-Ryu"};
+                        {type="Toggle", EN="Auto Kill Monsters", EN2="Auto kill Enzukai's follower.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸†à¹ˆà¸²à¸œà¸µ", TH2="à¸­à¸­à¹‚à¸•à¹‰à¸†à¹ˆà¸²à¸¥à¸¹à¸à¸™à¹‰à¸­à¸‡ Enzukai", Path="Auto Kill Enzukai Followers"};
                     }, Title="Section 8 | Enzuaki"};
                 }}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Toggle", EN="Auto Kill Final Boss", EN2="Auto kill EnzukaiRyu-Jin.", TH1="ออโต้ฆ่าบอส", TH2="ออโต้ฆ่า EnzukaiRyu-Jin", Path="Auto Kill Final Boss"};
+                        {type="Toggle", EN="Auto Kill Final Boss", EN2="Auto kill EnzukaiRyu-Jin.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸†à¹ˆà¸²à¸šà¸­à¸ª", TH2="à¸­à¸­à¹‚à¸•à¹‰à¸†à¹ˆà¸² EnzukaiRyu-Jin", Path="Auto Kill Final Boss"};
                     }, Title="Section 9 | Boss"};
                 }}; {type="Space"};
             };
             JigokuTab = {
-                {type="Button", Title="Teleport To Place", TH1="วาปไปที่แมพ Jigoku", Callback=IB_NO_VIRTUALIZE(function()
+                {type="Button", Title="Teleport To Place", TH1="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¹à¸¡à¸ž Jigoku", Callback=IB_NO_VIRTUALIZE(function()
                     return TTeleport(GG.TeleportService, 7618863566, selff);
                 end)}; {type="Space"};
-                {type="Button", EN="Full Auto Complete", EN2="Talk & auto collect orbs with a perfect 5 seconds waiting time so you don't die.", TH1="ออโต้จบเกม", TH2="คุยและวาปเก็บ Orbs โดยมีการคำนวณเวลาเพื่อไม่ให้ตาย", Callback=IB_NO_VIRTUALIZE(function()
+                {type="Button", EN="Full Auto Complete", EN2="Talk & auto collect orbs with a perfect 5 seconds waiting time so you don't die.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸ˆà¸šà¹€à¸à¸¡", TH2="à¸„à¸¸à¸¢à¹à¸¥à¸°à¸§à¸²à¸›à¹€à¸à¹‡à¸š Orbs à¹‚à¸”à¸¢à¸¡à¸µà¸à¸²à¸£à¸„à¸³à¸™à¸§à¸“à¹€à¸§à¸¥à¸²à¹€à¸žà¸·à¹ˆà¸­à¹„à¸¡à¹ˆà¹ƒà¸«à¹‰à¸•à¸²à¸¢", Callback=IB_NO_VIRTUALIZE(function()
                     return Functions.JigokuFunc("Talk"), twait(11), Functions.JigokuFunc("Complete");
                 end)}; {type="Space"};
-                {type="Button", EN="Talk", EN2="Teleport to talk with Shinigami", TH1="คุย", TH2="วาปไปคุยกับ Shinigami", Callback=IB_NO_VIRTUALIZE(function()
+                {type="Button", EN="Talk", EN2="Teleport to talk with Shinigami", TH1="à¸„à¸¸à¸¢", TH2="à¸§à¸²à¸›à¹„à¸›à¸„à¸¸à¸¢à¸à¸±à¸š Shinigami", Callback=IB_NO_VIRTUALIZE(function()
                     return Functions.JigokuFunc("Talk");
                 end)};
-                {type="Button", EN="Auto Collect Orbs", EN2="Teleport & collect all orbs", TH1="ออโต้เก็บ Orbs", TH2="วาปเก็บ Orb ทั้งหมด", Callback=IB_NO_VIRTUALIZE(function()
+                {type="Button", EN="Auto Collect Orbs", EN2="Teleport & collect all orbs", TH1="à¸­à¸­à¹‚à¸•à¹‰à¹€à¸à¹‡à¸š Orbs", TH2="à¸§à¸²à¸›à¹€à¸à¹‡à¸š Orb à¸—à¸±à¹‰à¸‡à¸«à¸¡à¸”", Callback=IB_NO_VIRTUALIZE(function()
                     return Functions.JigokuFunc("Complete");
                 end)};
             };
             WitchTrialTab = {
                 {type="Group", dats={
                     {dat={
-                        {type="Button", EN="Auto Complete", EN2="Teleport to the exit.", TH1="ออโต้จบเกม", TH2="วาปไปที่ทางออก", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Auto Complete", EN2="Teleport to the exit.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸ˆà¸šà¹€à¸à¸¡", TH2="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¸—à¸²à¸‡à¸­à¸­à¸", Callback=IB_NO_VIRTUALIZE(function()
                             local GameTPTWT = FindFirstChild(W, "Game Teleporter", true);
                             if GameTPTWT then
                                 ForceFloat = true;
@@ -3365,13 +3365,13 @@ return {
                 }}; {type="Space"}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Button", EN="Teleport To Fireplace 1", EN2="This is where you burn the butterfly A.", TH1="วาปไปที่เตาเผา 1", TH2="เผาผีเสื้ออันแรก", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Teleport To Fireplace 1", EN2="This is where you burn the butterfly A.", TH1="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¹€à¸•à¸²à¹€à¸œà¸² 1", TH2="à¹€à¸œà¸²à¸œà¸µà¹€à¸ªà¸·à¹‰à¸­à¸­à¸±à¸™à¹à¸£à¸", Callback=IB_NO_VIRTUALIZE(function()
                             return CommonF.Tp(HumRSelf, CFr(2621.90186, 111.203804, 1453.71765));
                         end)};
-                        {type="Button", EN="Teleport To Fireplace 2", EN2="This is where you burn the butterfly B.", TH1="วาปไปที่เตาเผา 2", TH2="เผาผีเสื้ออันที่สอง", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Teleport To Fireplace 2", EN2="This is where you burn the butterfly B.", TH1="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¹€à¸•à¸²à¹€à¸œà¸² 2", TH2="à¹€à¸œà¸²à¸œà¸µà¹€à¸ªà¸·à¹‰à¸­à¸­à¸±à¸™à¸—à¸µà¹ˆà¸ªà¸­à¸‡", Callback=IB_NO_VIRTUALIZE(function()
                             return CommonF.Tp(HumRSelf, CFr(2426.72583, 185.146057, 1457.37292));
                         end)}; {type="Space"};
-                        {type="Button", EN="Get Butterfly", EN2="Teleport to witches and grab butterflies.", TH1="เก็บผีเสื้อ", TH2="วาปไปเก็บผีเสื้อจากแม่มด", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Get Butterfly", EN2="Teleport to witches and grab butterflies.", TH1="à¹€à¸à¹‡à¸šà¸œà¸µà¹€à¸ªà¸·à¹‰à¸­", TH2="à¸§à¸²à¸›à¹„à¸›à¹€à¸à¹‡à¸šà¸œà¸µà¹€à¸ªà¸·à¹‰à¸­à¸ˆà¸²à¸à¹à¸¡à¹ˆà¸¡à¸”", Callback=IB_NO_VIRTUALIZE(function()
                             for i, v in pairs(GetChildren(GameAI)) do
                                 if v then
                                     local TWTPRompt = FindFirstChildWhichIsA(v, "ProximityPrompt", true);
@@ -3388,10 +3388,10 @@ return {
             NightmareCircusTab = {
                 {type="Group", dats={
                     {dat={
-                        {type="Button", EN="Auto Complete", EN2="Teleport to the next section.", TH1="ออโต้ผ่านด่าน", TH2="วาปไปที่ด่านต่อไป", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Auto Complete", EN2="Teleport to the next section.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸œà¹ˆà¸²à¸™à¸”à¹ˆà¸²à¸™", TH2="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¸”à¹ˆà¸²à¸™à¸•à¹ˆà¸­à¹„à¸›", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions.NMCSFunc("Jukebox");
                         end)}, {type="Space"}, {type="Space"},
-                        {type="Toggle", EN="ESP Monster", EN2="Show monster's hitbox", TH1="ESP ผี", TH2="มองเห็นผี", Path="Jukebox/ESP/Clown", Callback=IB_NO_VIRTUALIZE(function(state)
+                        {type="Toggle", EN="ESP Monster", EN2="Show monster's hitbox", TH1="ESP à¸œà¸µ", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™à¸œà¸µ", Path="Jukebox/ESP/Clown", Callback=IB_NO_VIRTUALIZE(function(state)
                             NMCSCon.Jukebox.ESP.Clown = state;
                             return Functions.NMCSESP("Clown", state);
                         end)},
@@ -3399,14 +3399,14 @@ return {
                 }}; {type="Space"},
                 {type="Group", dats={
                     {dat={
-                        {type="Button", EN="Auto Complete", EN2="Teleport & flip cards.", TH1="ออโต้ผ่านด่าน", TH2="วาปไปเปิดไพ่", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Auto Complete", EN2="Teleport & flip cards.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸œà¹ˆà¸²à¸™à¸”à¹ˆà¸²à¸™", TH2="à¸§à¸²à¸›à¹„à¸›à¹€à¸›à¸´à¸”à¹„à¸žà¹ˆ", Callback=IB_NO_VIRTUALIZE(function()
                             return Functions.NMCSFunc("Cards");
                         end)},
                     }, Title="Cards"};
                 }}; {type="Space"},
                 {type="Group", dats={
                     {dat={
-                        {type="Toggle", EN="Auto Kill Ringmaster", EN2="You must enable Float so you don't fall at the end of this game.", TH1="ออโต้ฆ่านักมายากล", TH2="เปิดลอยก่อนใช้งานฟีเจอร์นี้ เพื่อไม่ให้ตกโลก", Path="Ringmaster/AutoKill"},
+                        {type="Toggle", EN="Auto Kill Ringmaster", EN2="You must enable Float so you don't fall at the end of this game.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸†à¹ˆà¸²à¸™à¸±à¸à¸¡à¸²à¸¢à¸²à¸à¸¥", TH2="à¹€à¸›à¸´à¸”à¸¥à¸­à¸¢à¸à¹ˆà¸­à¸™à¹ƒà¸Šà¹‰à¸‡à¸²à¸™à¸Ÿà¸µà¹€à¸ˆà¸­à¸£à¹Œà¸™à¸µà¹‰ à¹€à¸žà¸·à¹ˆà¸­à¹„à¸¡à¹ˆà¹ƒà¸«à¹‰à¸•à¸à¹‚à¸¥à¸", Path="Ringmaster/AutoKill"},
                     }, Title="Ringmaster"};
                 }}; {type="Space"},
             };
@@ -3527,21 +3527,8 @@ return {
 
             ScriptCache.WindUI = WindUI; ScriptCache.Window = Window;
         end; local LSecureLoad = function(AUTH_KEY)
-            Storing_AUTHENTICATION = Storing_AUTHENTICATION or AUTH_KEY;
-            if not Storing_AUTHENTICATION then return selff:Kick("Invalid Authentication 1PAC"); end;
-            local Splited1 = str.split(Storing_AUTHENTICATION, "+++os()");
-            local Splited2 = str.split(decrypt(Splited1[2], 3), "+++os()");
-            local D1Auth = decrypt(Splited2[2], 3);
-            local D2Auth = decrypt(Splited2[3], 2);
-            D1Auth = D1Auth:gsub("emptyspace", "");
-            D2Auth = D2Auth:gsub("emptyspace", "");
-            if D1Auth == "200" then
-                PremiumCheck = false;
-            elseif D1Auth == "201" then
-                PremiumCheck = true;
-            else
-                return selff:Kick("Invalid Authentication 2PAC");
-            end; local OneRunCallMain, OneRunErrorMain = pcall(function()
+            PremiumCheck = false;
+            local OneRunCallMain, OneRunErrorMain = pcall(function()
                 CoreDestroyed = false; PromptPackage.UpdateState(false);
                 ClientCon.WalkSpeed = HumSelf and HumSelf.WalkSpeed or 16;
                 ClientCon.JumpPower = HumSelf and HumSelf.JumpPower or 50;
@@ -3635,3 +3622,5 @@ return {
         end; GG.LSecureLoad = LSecureLoad; return LSecureLoad;
     end;
 };
+
+

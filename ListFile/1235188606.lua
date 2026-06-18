@@ -1,4 +1,4 @@
-local GG=GG; if not GG then return game:GetService("Players").LocalPlayer:Kick("[Plasma Hub] : Really? Your account is now at risk for the next ban wave."); end;
+﻿local GG=GG; if not GG then return game:GetService("Players").LocalPlayer:Kick("[Plasma Hub] : Really? Your account is now at risk for the next ban wave."); end;
 
 local ScriptCache = GG.ScriptCache;
 local LoaderSettings = GG.LoaderSettings;
@@ -1073,22 +1073,22 @@ return {
             ClientTab = {
                 {type="Group", dats={
                     {dat={
-                        {type="Toggle", EN="Auto Click Minigame", EN2="Click the circle being show while collecting eggs.", TH1="กดมินิเกมอัตโนมัติ", TH2="กดวงกลมที่แสดงขณะเก็บไข่", Path="Client/Auto Click Minigame"},
-                        {type="Toggle", EN="Full Bright", EN2="Make the game brighter, easier to see or look around.", TH1="แมพสว่าง", TH2="มองเห็นง่ายขึ้น", Path="Client/Full Bright"},
-                        {type="Toggle", EN="Instant Prompt", EN2="On some prompt/maps, this can flag anti cheat so remember to turn it off when you have to.", TH1="กด Prompt เร็วขึ้น", TH2="กดพวกปุ่มที่มันขึ้นมาให้กดเร็วขึ้น (Class:Prompt)", Path="Client/Instant Prompt"},
-                        {type="Toggle", EN="Float", EN2="Make your character float in the air.", TH1="ลอย", TH2="ทำให้ตัวละครเดินบนอากาศได้", Path="Client/Float"},
-                        {type="Toggle", EN="Noclip", EN2="Allow you to walk through walls.", TH1="เดินทะลุกำแพง", TH2="ต้องอธิบายด้วยหรอ", Path="Client/Noclip"},
-                        {type="Slider", EN="Walk Speed", EN2="Change the speed of your walk.", TH1="ความเร็วในการเดิน", TH2="ปรับความเร็วการเดิน", Value={Min=1, Max=100}, Path="Client/WalkSpeed"},
-                        {type="Toggle", EN="Enable Walk Speed", EN2="Enable walk speed modification.", TH1="เปิดใช้งานความเร็วในการเดิน", TH2="ปรับความเร็วในการเดิน", Path="Client/Enable WalkSpeed"},
-                        {type="Slider", EN="Teleport Walk Speed", EN2="Change the speed of teleport walk.", TH1="ความเร็วในการเดินแบบวาร์ป", TH2="ปรับความเร็วในการเดินแบบวาร์ป", Value={Min=1, Max=10}, Path="Client/TeleportWalk Speed"},
-                        {type="Toggle", EN="Enable Teleport Walk", EN2="Enable teleport walk.", TH1="เปิดใช้งานเดินแบบวาร์ป", TH2="เปิดใช้งานเดินโดยการวาร์ปไปเรื่อยๆ", Path="Client/Enable TeleportWalk"},
-                        {type="Slider", EN="Jump Power", EN2="Change the power of your jump.", TH1="ความแรงในการกระโดด", TH2="ปรับความแรงในการกระโดด", Value={Min=1, Max=300}, Path="Client/JumpPower"},
-                        {type="Toggle", EN="Enable Jump Power", EN2="Enable jump power modification.", TH1="เปิดใช้งานความแรงในการกระโดด", TH2="ปรับความแรงในการกระโดด", Path="Client/Enable JumpPower"}, {type="Space"},
+                        {type="Toggle", EN="Auto Click Minigame", EN2="Click the circle being show while collecting eggs.", TH1="à¸à¸”à¸¡à¸´à¸™à¸´à¹€à¸à¸¡à¸­à¸±à¸•à¹‚à¸™à¸¡à¸±à¸•à¸´", TH2="à¸à¸”à¸§à¸‡à¸à¸¥à¸¡à¸—à¸µà¹ˆà¹à¸ªà¸”à¸‡à¸‚à¸“à¸°à¹€à¸à¹‡à¸šà¹„à¸‚à¹ˆ", Path="Client/Auto Click Minigame"},
+                        {type="Toggle", EN="Full Bright", EN2="Make the game brighter, easier to see or look around.", TH1="à¹à¸¡à¸žà¸ªà¸§à¹ˆà¸²à¸‡", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™à¸‡à¹ˆà¸²à¸¢à¸‚à¸¶à¹‰à¸™", Path="Client/Full Bright"},
+                        {type="Toggle", EN="Instant Prompt", EN2="On some prompt/maps, this can flag anti cheat so remember to turn it off when you have to.", TH1="à¸à¸” Prompt à¹€à¸£à¹‡à¸§à¸‚à¸¶à¹‰à¸™", TH2="à¸à¸”à¸žà¸§à¸à¸›à¸¸à¹ˆà¸¡à¸—à¸µà¹ˆà¸¡à¸±à¸™à¸‚à¸¶à¹‰à¸™à¸¡à¸²à¹ƒà¸«à¹‰à¸à¸”à¹€à¸£à¹‡à¸§à¸‚à¸¶à¹‰à¸™ (Class:Prompt)", Path="Client/Instant Prompt"},
+                        {type="Toggle", EN="Float", EN2="Make your character float in the air.", TH1="à¸¥à¸­à¸¢", TH2="à¸—à¸³à¹ƒà¸«à¹‰à¸•à¸±à¸§à¸¥à¸°à¸„à¸£à¹€à¸”à¸´à¸™à¸šà¸™à¸­à¸²à¸à¸²à¸¨à¹„à¸”à¹‰", Path="Client/Float"},
+                        {type="Toggle", EN="Noclip", EN2="Allow you to walk through walls.", TH1="à¹€à¸”à¸´à¸™à¸—à¸°à¸¥à¸¸à¸à¸³à¹à¸žà¸‡", TH2="à¸•à¹‰à¸­à¸‡à¸­à¸˜à¸´à¸šà¸²à¸¢à¸”à¹‰à¸§à¸¢à¸«à¸£à¸­", Path="Client/Noclip"},
+                        {type="Slider", EN="Walk Speed", EN2="Change the speed of your walk.", TH1="à¸„à¸§à¸²à¸¡à¹€à¸£à¹‡à¸§à¹ƒà¸™à¸à¸²à¸£à¹€à¸”à¸´à¸™", TH2="à¸›à¸£à¸±à¸šà¸„à¸§à¸²à¸¡à¹€à¸£à¹‡à¸§à¸à¸²à¸£à¹€à¸”à¸´à¸™", Value={Min=1, Max=100}, Path="Client/WalkSpeed"},
+                        {type="Toggle", EN="Enable Walk Speed", EN2="Enable walk speed modification.", TH1="à¹€à¸›à¸´à¸”à¹ƒà¸Šà¹‰à¸‡à¸²à¸™à¸„à¸§à¸²à¸¡à¹€à¸£à¹‡à¸§à¹ƒà¸™à¸à¸²à¸£à¹€à¸”à¸´à¸™", TH2="à¸›à¸£à¸±à¸šà¸„à¸§à¸²à¸¡à¹€à¸£à¹‡à¸§à¹ƒà¸™à¸à¸²à¸£à¹€à¸”à¸´à¸™", Path="Client/Enable WalkSpeed"},
+                        {type="Slider", EN="Teleport Walk Speed", EN2="Change the speed of teleport walk.", TH1="à¸„à¸§à¸²à¸¡à¹€à¸£à¹‡à¸§à¹ƒà¸™à¸à¸²à¸£à¹€à¸”à¸´à¸™à¹à¸šà¸šà¸§à¸²à¸£à¹Œà¸›", TH2="à¸›à¸£à¸±à¸šà¸„à¸§à¸²à¸¡à¹€à¸£à¹‡à¸§à¹ƒà¸™à¸à¸²à¸£à¹€à¸”à¸´à¸™à¹à¸šà¸šà¸§à¸²à¸£à¹Œà¸›", Value={Min=1, Max=10}, Path="Client/TeleportWalk Speed"},
+                        {type="Toggle", EN="Enable Teleport Walk", EN2="Enable teleport walk.", TH1="à¹€à¸›à¸´à¸”à¹ƒà¸Šà¹‰à¸‡à¸²à¸™à¹€à¸”à¸´à¸™à¹à¸šà¸šà¸§à¸²à¸£à¹Œà¸›", TH2="à¹€à¸›à¸´à¸”à¹ƒà¸Šà¹‰à¸‡à¸²à¸™à¹€à¸”à¸´à¸™à¹‚à¸”à¸¢à¸à¸²à¸£à¸§à¸²à¸£à¹Œà¸›à¹„à¸›à¹€à¸£à¸·à¹ˆà¸­à¸¢à¹†", Path="Client/Enable TeleportWalk"},
+                        {type="Slider", EN="Jump Power", EN2="Change the power of your jump.", TH1="à¸„à¸§à¸²à¸¡à¹à¸£à¸‡à¹ƒà¸™à¸à¸²à¸£à¸à¸£à¸°à¹‚à¸”à¸”", TH2="à¸›à¸£à¸±à¸šà¸„à¸§à¸²à¸¡à¹à¸£à¸‡à¹ƒà¸™à¸à¸²à¸£à¸à¸£à¸°à¹‚à¸”à¸”", Value={Min=1, Max=300}, Path="Client/JumpPower"},
+                        {type="Toggle", EN="Enable Jump Power", EN2="Enable jump power modification.", TH1="à¹€à¸›à¸´à¸”à¹ƒà¸Šà¹‰à¸‡à¸²à¸™à¸„à¸§à¸²à¸¡à¹à¸£à¸‡à¹ƒà¸™à¸à¸²à¸£à¸à¸£à¸°à¹‚à¸”à¸”", TH2="à¸›à¸£à¸±à¸šà¸„à¸§à¸²à¸¡à¹à¸£à¸‡à¹ƒà¸™à¸à¸²à¸£à¸à¸£à¸°à¹‚à¸”à¸”", Path="Client/Enable JumpPower"}, {type="Space"},
                     }, Title="Client", Open=true};
                 }};
                 {type="Group", dats={
                     {dat={
-                        {type="Button", Title="Fetch Dragon Features", TH1="ดึงค่าจากมังกร", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", Title="Fetch Dragon Features", TH1="à¸”à¸¶à¸‡à¸„à¹ˆà¸²à¸ˆà¸²à¸à¸¡à¸±à¸‡à¸à¸£", Callback=IB_NO_VIRTUALIZE(function()
                             function Slider(name, val)
                                 local MaxVal, MinVal = 100, 0.1;
                                 if val > 100 then
@@ -1142,7 +1142,7 @@ return {
                                 });
                             end; return;
                         end)},
-                        {type="Button", EN="Godmode 1", EN2="Your dragon need to die to use this.", TH1="อมตะ 1", TH2="มังกรตายก่อนถึงจะใช้ได้", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Button", EN="Godmode 1", EN2="Your dragon need to die to use this.", TH1="à¸­à¸¡à¸•à¸° 1", TH2="à¸¡à¸±à¸‡à¸à¸£à¸•à¸²à¸¢à¸à¹ˆà¸­à¸™à¸–à¸¶à¸‡à¸ˆà¸°à¹ƒà¸Šà¹‰à¹„à¸”à¹‰", Callback=IB_NO_VIRTUALIZE(function()
                             for _, v in pairs(GetChildren(selc.Dragons)) do
                                 if v and FindFirstChild(v, "Data") and FindFirstChild(v.Data, "Dead") then
                                     if v.Data.Dead.Value then
@@ -1151,91 +1151,91 @@ return {
                                 end;
                             end;
                         end)},
-                        {type="Toggle", EN="Godmode 2", EN2="Required high UNC", TH1="อมตะ 2", TH2="ต้องใช้ตัวรันดีๆ ถึงจะใช้ได้", Path="Dragon/Godmode", Locked=not GG.UpperC}, {type="Space"}; {type="Space"};
+                        {type="Toggle", EN="Godmode 2", EN2="Required high UNC", TH1="à¸­à¸¡à¸•à¸° 2", TH2="à¸•à¹‰à¸­à¸‡à¹ƒà¸Šà¹‰à¸•à¸±à¸§à¸£à¸±à¸™à¸”à¸µà¹† à¸–à¸¶à¸‡à¸ˆà¸°à¹ƒà¸Šà¹‰à¹„à¸”à¹‰", Path="Dragon/Godmode", Locked=not GG.UpperC}, {type="Space"}; {type="Space"};
                     }, Title="Dragon Modding", Global="DragonMod"};
                 }};
             };
             BaseTab = {
                 {type="Group", dats={
                     {dat={
-                        {type="Dropdown", Title="Select Egg", TH1="เลือกไข่", AllowNone=true, Values={}, Path="Eggs/Select", RECall={
+                        {type="Dropdown", Title="Select Egg", TH1="à¹€à¸¥à¸·à¸­à¸à¹„à¸‚à¹ˆ", AllowNone=true, Values={}, Path="Eggs/Select", RECall={
                             Title = "Refresh Eggs",
                             RECall = Functions.GetSEggs;
                         }};
-                        {type="Button", EN="Incubate", EN2="You need to be in your plot.", TH1="เอาใส่หม้อ", TH2="ต้องยืนอยู่ใกล้ฐาน", Callback=Functions.Incubate};
-                        {type="Button", EN="Hatch", EN2="You need to be in your plot. This will hatch any egg it found.", TH1="ฟักไข่", TH2="ต้องยืนอยู่ใกล้ฐาน, จะฟักทุกฟองที่สคริปเจออยู่ในหม้อ", Callback=Functions.Incubate};
+                        {type="Button", EN="Incubate", EN2="You need to be in your plot.", TH1="à¹€à¸­à¸²à¹ƒà¸ªà¹ˆà¸«à¸¡à¹‰à¸­", TH2="à¸•à¹‰à¸­à¸‡à¸¢à¸·à¸™à¸­à¸¢à¸¹à¹ˆà¹ƒà¸à¸¥à¹‰à¸à¸²à¸™", Callback=Functions.Incubate};
+                        {type="Button", EN="Hatch", EN2="You need to be in your plot. This will hatch any egg it found.", TH1="à¸Ÿà¸±à¸à¹„à¸‚à¹ˆ", TH2="à¸•à¹‰à¸­à¸‡à¸¢à¸·à¸™à¸­à¸¢à¸¹à¹ˆà¹ƒà¸à¸¥à¹‰à¸à¸²à¸™, à¸ˆà¸°à¸Ÿà¸±à¸à¸—à¸¸à¸à¸Ÿà¸­à¸‡à¸—à¸µà¹ˆà¸ªà¸„à¸£à¸´à¸›à¹€à¸ˆà¸­à¸­à¸¢à¸¹à¹ˆà¹ƒà¸™à¸«à¸¡à¹‰à¸­", Callback=Functions.Incubate};
                     }, Title="Eggs"};
                 }}; {type="Space"}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Dropdown", EN="Select Mode", EN2="Select which Mode you want to use.", TH1="เลือกโหมด", TH2="เลือกว่าจะใช้โหมดไหน", Values={"Food", "Resources"}, Path="Sell/Mode"};
-                        {type="Dropdown", EN="Select World", EN2="Sell foods/resources depend on your selected world.", TH1="เลือกโลก", TH2="ขายของตามโลกที่คุณเลือก", Values={"Lobby", "Grassland", "Jungle", "Volcano", "Tundra", "Ocean", "Desert", "Fantasy", "Toxic", "Prehistoric", "Shinrin"}, Path="Sell/World"};
-                        {type="Toggle", EN="Allow Lobby Teleport", EN2="Allow the script to teleport to lobby when hit backpack limit.", TH1="อนุญาตให้วาปกลับล็อบบี้", TH2="วาปไปล็อบบี้เมื่อเต็มกระเป๋า", Path="Sell/AllowLobbyTP"};
-                        {type="Toggle", EN="Allow World Teleport", EN2="Allow the script to teleport to selected world after selling.", TH1="อนุญาตให้วาปไปโลก", TH2="วาปไปโลกที่เลือกไว้หลังจากขายของเสร็จ", Path="Sell/AllowWorldTP"};
-                        {type="Toggle", Title="Auto Sell", TH1="ออโต้ขาย", TH2="ขายของอัตโนมัติ", Path="Sell/Auto"};
+                        {type="Dropdown", EN="Select Mode", EN2="Select which Mode you want to use.", TH1="à¹€à¸¥à¸·à¸­à¸à¹‚à¸«à¸¡à¸”", TH2="à¹€à¸¥à¸·à¸­à¸à¸§à¹ˆà¸²à¸ˆà¸°à¹ƒà¸Šà¹‰à¹‚à¸«à¸¡à¸”à¹„à¸«à¸™", Values={"Food", "Resources"}, Path="Sell/Mode"};
+                        {type="Dropdown", EN="Select World", EN2="Sell foods/resources depend on your selected world.", TH1="à¹€à¸¥à¸·à¸­à¸à¹‚à¸¥à¸", TH2="à¸‚à¸²à¸¢à¸‚à¸­à¸‡à¸•à¸²à¸¡à¹‚à¸¥à¸à¸—à¸µà¹ˆà¸„à¸¸à¸“à¹€à¸¥à¸·à¸­à¸", Values={"Lobby", "Grassland", "Jungle", "Volcano", "Tundra", "Ocean", "Desert", "Fantasy", "Toxic", "Prehistoric", "Shinrin"}, Path="Sell/World"};
+                        {type="Toggle", EN="Allow Lobby Teleport", EN2="Allow the script to teleport to lobby when hit backpack limit.", TH1="à¸­à¸™à¸¸à¸à¸²à¸•à¹ƒà¸«à¹‰à¸§à¸²à¸›à¸à¸¥à¸±à¸šà¸¥à¹‡à¸­à¸šà¸šà¸µà¹‰", TH2="à¸§à¸²à¸›à¹„à¸›à¸¥à¹‡à¸­à¸šà¸šà¸µà¹‰à¹€à¸¡à¸·à¹ˆà¸­à¹€à¸•à¹‡à¸¡à¸à¸£à¸°à¹€à¸›à¹‹à¸²", Path="Sell/AllowLobbyTP"};
+                        {type="Toggle", EN="Allow World Teleport", EN2="Allow the script to teleport to selected world after selling.", TH1="à¸­à¸™à¸¸à¸à¸²à¸•à¹ƒà¸«à¹‰à¸§à¸²à¸›à¹„à¸›à¹‚à¸¥à¸", TH2="à¸§à¸²à¸›à¹„à¸›à¹‚à¸¥à¸à¸—à¸µà¹ˆà¹€à¸¥à¸·à¸­à¸à¹„à¸§à¹‰à¸«à¸¥à¸±à¸‡à¸ˆà¸²à¸à¸‚à¸²à¸¢à¸‚à¸­à¸‡à¹€à¸ªà¸£à¹‡à¸ˆ", Path="Sell/AllowWorldTP"};
+                        {type="Toggle", Title="Auto Sell", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸‚à¸²à¸¢", TH2="à¸‚à¸²à¸¢à¸‚à¸­à¸‡à¸­à¸±à¸•à¹‚à¸™à¸¡à¸±à¸•à¸´", Path="Sell/Auto"};
                     }, Title="Sell"};
                 }};
             };
             AutomationTab = {
-                {type="Toggle", EN="Force Synced", EN2="Forcing the script to know that your game data is synced.", TH1="บังคับให้ Synced", TH2="บังคับให้สคริปรู้ว่า sync ข้อมูลเกมแล้ว", Path="ForceSync"};
-                {type="Toggle", EN="Auto Roaming", EN2="Fly around when there is no node nearby.", TH1="บินไปเรื่อยๆจนกว่าจะเจอจุดฟาม", TH2="บินไปเรื่อยๆ ตอนไม่มี Node ให้ฟาร์ม", Path="Roaming"}, {type="Space"}, {type="Space"},
+                {type="Toggle", EN="Force Synced", EN2="Forcing the script to know that your game data is synced.", TH1="à¸šà¸±à¸‡à¸„à¸±à¸šà¹ƒà¸«à¹‰ Synced", TH2="à¸šà¸±à¸‡à¸„à¸±à¸šà¹ƒà¸«à¹‰à¸ªà¸„à¸£à¸´à¸›à¸£à¸¹à¹‰à¸§à¹ˆà¸² sync à¸‚à¹‰à¸­à¸¡à¸¹à¸¥à¹€à¸à¸¡à¹à¸¥à¹‰à¸§", Path="ForceSync"};
+                {type="Toggle", EN="Auto Roaming", EN2="Fly around when there is no node nearby.", TH1="à¸šà¸´à¸™à¹„à¸›à¹€à¸£à¸·à¹ˆà¸­à¸¢à¹†à¸ˆà¸™à¸à¸§à¹ˆà¸²à¸ˆà¸°à¹€à¸ˆà¸­à¸ˆà¸¸à¸”à¸Ÿà¸²à¸¡", TH2="à¸šà¸´à¸™à¹„à¸›à¹€à¸£à¸·à¹ˆà¸­à¸¢à¹† à¸•à¸­à¸™à¹„à¸¡à¹ˆà¸¡à¸µ Node à¹ƒà¸«à¹‰à¸Ÿà¸²à¸£à¹Œà¸¡", Path="Roaming"}, {type="Space"}, {type="Space"},
                 {type="Group", dats={
                     {dat={
-                        {type="Toggle", EN="Auto Collect Guild Coins", EN2="Fly around with your dragon and collect guild coins.", TH1="เก็บเหรียญกิลด์อัตโนมัติ", TH2="บินเก็บเหรียญกิลด์ด้วยมังกร", Path="Guild/Coins"}, {type="Space"},
+                        {type="Toggle", EN="Auto Collect Guild Coins", EN2="Fly around with your dragon and collect guild coins.", TH1="à¹€à¸à¹‡à¸šà¹€à¸«à¸£à¸µà¸¢à¸à¸à¸´à¸¥à¸”à¹Œà¸­à¸±à¸•à¹‚à¸™à¸¡à¸±à¸•à¸´", TH2="à¸šà¸´à¸™à¹€à¸à¹‡à¸šà¹€à¸«à¸£à¸µà¸¢à¸à¸à¸´à¸¥à¸”à¹Œà¸”à¹‰à¸§à¸¢à¸¡à¸±à¸‡à¸à¸£", Path="Guild/Coins"}, {type="Space"},
                     }, Title="Guild"};
                 }}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Toggle", EN="Bond", EN2="", TH1="ความผูกพัน", TH2="เพิ่มค่าความผูกพัน", Path="Level/Bond"},
-                        {type="Toggle", EN="Tracking", EN2="", TH1="ระดับการติดตาม", TH2="เพิ่มระดับการติดตาม", Path="Level/Tracking"},
-                        {type="Toggle", EN="Riding", EN2="", TH1="ระดับการขี่", TH2="เพิ่มระดับการขี่", Path="Level/Riding"}, {type="Space"},
+                        {type="Toggle", EN="Bond", EN2="", TH1="à¸„à¸§à¸²à¸¡à¸œà¸¹à¸à¸žà¸±à¸™", TH2="à¹€à¸žà¸´à¹ˆà¸¡à¸„à¹ˆà¸²à¸„à¸§à¸²à¸¡à¸œà¸¹à¸à¸žà¸±à¸™", Path="Level/Bond"},
+                        {type="Toggle", EN="Tracking", EN2="", TH1="à¸£à¸°à¸”à¸±à¸šà¸à¸²à¸£à¸•à¸´à¸”à¸•à¸²à¸¡", TH2="à¹€à¸žà¸´à¹ˆà¸¡à¸£à¸°à¸”à¸±à¸šà¸à¸²à¸£à¸•à¸´à¸”à¸•à¸²à¸¡", Path="Level/Tracking"},
+                        {type="Toggle", EN="Riding", EN2="", TH1="à¸£à¸°à¸”à¸±à¸šà¸à¸²à¸£à¸‚à¸µà¹ˆ", TH2="à¹€à¸žà¸´à¹ˆà¸¡à¸£à¸°à¸”à¸±à¸šà¸à¸²à¸£à¸‚à¸µà¹ˆ", Path="Level/Riding"}, {type="Space"},
                     }, Title="Level"};
                 }}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Toggle", EN="Auto Farm", EN2="Fly around with your dragon and collect foods.", TH1="ออโต้ฟาม", TH2="บินฟามอาหารด้วยมังกร", Path="Food/Auto"},
-                        {type="Toggle", EN="ESP", EN2="Show food nodes.", TH1="ESP อาหาร", TH2="มองเห็น Node อาหาร", Path="Food/ESP", Callback=IB_NO_VIRTUALIZE(function(state)
+                        {type="Toggle", EN="Auto Farm", EN2="Fly around with your dragon and collect foods.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸Ÿà¸²à¸¡", TH2="à¸šà¸´à¸™à¸Ÿà¸²à¸¡à¸­à¸²à¸«à¸²à¸£à¸”à¹‰à¸§à¸¢à¸¡à¸±à¸‡à¸à¸£", Path="Food/Auto"},
+                        {type="Toggle", EN="ESP", EN2="Show food nodes.", TH1="ESP à¸­à¸²à¸«à¸²à¸£", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™ Node à¸­à¸²à¸«à¸²à¸£", Path="Food/ESP", Callback=IB_NO_VIRTUALIZE(function(state)
                             AutoCon.Food.ESP = state; ESPF.Destroy("Food");
                         end)}, {type="Space"},
                     }, Title="Foods"};
                 }}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Toggle", EN="Auto Farm", EN2="Fly around with your dragon and collect resources.", TH1="ออโต้ฟาม", TH2="บินฟามทรัพยากรด้วยมังกร", Path="Resources/Auto"},
-                        {type="Toggle", EN="ESP", EN2="Show resource nodes.", TH1="ESP ทรัพยากร", TH2="มองเห็น Node ทรัพยากร", Path="Resources/ESP", Callback=IB_NO_VIRTUALIZE(function(state)
+                        {type="Toggle", EN="Auto Farm", EN2="Fly around with your dragon and collect resources.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸Ÿà¸²à¸¡", TH2="à¸šà¸´à¸™à¸Ÿà¸²à¸¡à¸—à¸£à¸±à¸žà¸¢à¸²à¸à¸£à¸”à¹‰à¸§à¸¢à¸¡à¸±à¸‡à¸à¸£", Path="Resources/Auto"},
+                        {type="Toggle", EN="ESP", EN2="Show resource nodes.", TH1="ESP à¸—à¸£à¸±à¸žà¸¢à¸²à¸à¸£", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™ Node à¸—à¸£à¸±à¸žà¸¢à¸²à¸à¸£", Path="Resources/ESP", Callback=IB_NO_VIRTUALIZE(function(state)
                             AutoCon.Resources.ESP = state; ESPF.Destroy("Resources");
                         end)}, {type="Space"},
                     }, Title="Resources"};
                 }}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Toggle", EN="Auto Farm", EN2="Fly around with your dragon and collect bonemeals.", TH1="ออโต้ฟาม", TH2="บินฟามกระดูกด้วยมังกร", Path="BoneMeal/Auto"},
-                        {type="Toggle", EN="ESP", EN2="Show bone nodes.", TH1="ESP กระดูก", TH2="มองเห็น Node กระดูก", Path="BoneMeal/ESP", Callback=IB_NO_VIRTUALIZE(function(state)
+                        {type="Toggle", EN="Auto Farm", EN2="Fly around with your dragon and collect bonemeals.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸Ÿà¸²à¸¡", TH2="à¸šà¸´à¸™à¸Ÿà¸²à¸¡à¸à¸£à¸°à¸”à¸¹à¸à¸”à¹‰à¸§à¸¢à¸¡à¸±à¸‡à¸à¸£", Path="BoneMeal/Auto"},
+                        {type="Toggle", EN="ESP", EN2="Show bone nodes.", TH1="ESP à¸à¸£à¸°à¸”à¸¹à¸", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™ Node à¸à¸£à¸°à¸”à¸¹à¸", Path="BoneMeal/ESP", Callback=IB_NO_VIRTUALIZE(function(state)
                             AutoCon.BoneMeal.ESP = state; ESPF.Destroy("BoneMeal");
                         end)}, {type="Space"},
                     }, Title="Bonemeals"};
                 }}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Toggle", EN="Auto Farm", EN2="Fly around with your dragon and kill mobs.", TH1="ออโต้ฟาม", TH2="บินฟามมอนด้วยมังกร", Path="Mobs/Auto"},
-                        {type="Toggle", EN="ESP", EN2="Show bone nodes.", TH1="ESP มอน", TH2="มองเห็น Node มอน", Path="Mobs/ESP", Callback=IB_NO_VIRTUALIZE(function(state)
+                        {type="Toggle", EN="Auto Farm", EN2="Fly around with your dragon and kill mobs.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸Ÿà¸²à¸¡", TH2="à¸šà¸´à¸™à¸Ÿà¸²à¸¡à¸¡à¸­à¸™à¸”à¹‰à¸§à¸¢à¸¡à¸±à¸‡à¸à¸£", Path="Mobs/Auto"},
+                        {type="Toggle", EN="ESP", EN2="Show bone nodes.", TH1="ESP à¸¡à¸­à¸™", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™ Node à¸¡à¸­à¸™", Path="Mobs/ESP", Callback=IB_NO_VIRTUALIZE(function(state)
                             AutoCon.Mobs.ESP = state; ESPF.Destroy("Mobs");
                         end)}, {type="Space"},
                     }, Title="Mobs"};
                 }}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Toggle", EN="Safe Mode", EN2="Disable networking type of auto collect.", TH1="เพิ่มความปลอดภัย", TH2="ปิดการใช้ระบบ RE/RF Direct ในการเก็บไข่", Path="Eggs/SafeMode"}, {type="Space"}, {type="Space"},
-                        {type="Toggle", EN="Auto Farm", EN2="Fly around with your dragon and collect eggs.", TH1="ออโต้ฟาม", TH2="บินฟามไข่ด้วยมังกร", Path="Eggs/Auto"},
-                        {type="Toggle", EN="ESP", EN2="Show egg nodes.", TH1="ESP ไข่", TH2="มองเห็น Node ไข่", Path="Eggs/ESP", Callback=IB_NO_VIRTUALIZE(function(state)
+                        {type="Toggle", EN="Safe Mode", EN2="Disable networking type of auto collect.", TH1="à¹€à¸žà¸´à¹ˆà¸¡à¸„à¸§à¸²à¸¡à¸›à¸¥à¸­à¸”à¸ à¸±à¸¢", TH2="à¸›à¸´à¸”à¸à¸²à¸£à¹ƒà¸Šà¹‰à¸£à¸°à¸šà¸š RE/RF Direct à¹ƒà¸™à¸à¸²à¸£à¹€à¸à¹‡à¸šà¹„à¸‚à¹ˆ", Path="Eggs/SafeMode"}, {type="Space"}, {type="Space"},
+                        {type="Toggle", EN="Auto Farm", EN2="Fly around with your dragon and collect eggs.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸Ÿà¸²à¸¡", TH2="à¸šà¸´à¸™à¸Ÿà¸²à¸¡à¹„à¸‚à¹ˆà¸”à¹‰à¸§à¸¢à¸¡à¸±à¸‡à¸à¸£", Path="Eggs/Auto"},
+                        {type="Toggle", EN="ESP", EN2="Show egg nodes.", TH1="ESP à¹„à¸‚à¹ˆ", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™ Node à¹„à¸‚à¹ˆ", Path="Eggs/ESP", Callback=IB_NO_VIRTUALIZE(function(state)
                             AutoCon.Eggs.ESP = state; ESPF.Destroy("Eggs");
                         end)},
                     }, Title="Eggs"};
                 }}; {type="Space"};
                 {type="Group", dats={
                     {dat={
-                        {type="Button", EN="Teleport", EN2="Teleport to treasure with dragon.", TH1="วาปไปที่กล่องสมบัติ", TH2="วาปไปที่กล่องสมบัติด้วยมังกร", Callback=Functions.ChestTps},
-                        {type="Toggle", EN="ESP", EN2="Show treasure nodes.", TH1="ESP กล่องสมบัติ", TH2="มองเห็น Node กล่องสมบัติ", Path="Treasures/ESP", Callback=IB_NO_VIRTUALIZE(function(state)
+                        {type="Button", EN="Teleport", EN2="Teleport to treasure with dragon.", TH1="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¸à¸¥à¹ˆà¸­à¸‡à¸ªà¸¡à¸šà¸±à¸•à¸´", TH2="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¸à¸¥à¹ˆà¸­à¸‡à¸ªà¸¡à¸šà¸±à¸•à¸´à¸”à¹‰à¸§à¸¢à¸¡à¸±à¸‡à¸à¸£", Callback=Functions.ChestTps},
+                        {type="Toggle", EN="ESP", EN2="Show treasure nodes.", TH1="ESP à¸à¸¥à¹ˆà¸­à¸‡à¸ªà¸¡à¸šà¸±à¸•à¸´", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™ Node à¸à¸¥à¹ˆà¸­à¸‡à¸ªà¸¡à¸šà¸±à¸•à¸´", Path="Treasures/ESP", Callback=IB_NO_VIRTUALIZE(function(state)
                             AutoCon.Treasures.ESP = state; ESPF.Destroy("Chests");
                         end)}, {type="Space"},
                     }, Title="Treasures"};
@@ -1244,67 +1244,67 @@ return {
             EventsTab = {
                 {type="Group", dats={
                     {dat={
-                        {type="Toggle", EN="Unlock Cave Boundaries", EN2="This is needed to bypass teleport/noclip in the cave.",TH1="ปลดล็อคพื้นที่ในเหมือง", TH2="ต้องเปิดเพื่อให้สามารถวาปและทะลุกำแพงได้", Path="Galaxy/Unlock Sections"};
-                        {type="Toggle", EN="Auto Eggs", EN2="PowerUp crates & collect eggs.",TH1="ออโต้ไข่", TH2="ใส่ถ่านแล้วเก็บไข่", Path="Galaxy/AutoEggs"};
-                        {type="Toggle", EN="Auto Green Crate", EN2="PowerUp crates.",TH1="ออโต้กล่องเขียว", TH2="ใส่ถ่านแล้วเปิดกล่องเขียวอัตโนมัติ", Path="Galaxy/AutoGreenCrate"};
-                        {type="Toggle", EN="Auto Mecha Meteor", EN2="This function search your inventory for key and if it can't find the key, it will insert batteries to the mecha meteor.",TH1="ออโต้ Mecha Meteor", TH2="ค้นหากุญแจในกระเป๋าและใส่ถ่านใน Mecha Meteor", Path="Galaxy/AutoMecha"};
-                        {type="Toggle", EN="Auto Meteor Shower", EN2="Auto collect meteor shower",TH1="ออโต้ฝนดาวตก", TH2="เก็บฝนดาวตกอัตโนมัติ", Path="Galaxy/AutoMeteorShower"};
-                        {type="Button", EN="Reduce Lag", EN2="Remove decorations for 'Auto Eggs'", TH1="ลดแล็ค", TH2="ลบของตกแต่งให้ 'ออโต้ไข่'", Callback=IB_NO_VIRTUALIZE(function()
+                        {type="Toggle", EN="Unlock Cave Boundaries", EN2="This is needed to bypass teleport/noclip in the cave.",TH1="à¸›à¸¥à¸”à¸¥à¹‡à¸­à¸„à¸žà¸·à¹‰à¸™à¸—à¸µà¹ˆà¹ƒà¸™à¹€à¸«à¸¡à¸·à¸­à¸‡", TH2="à¸•à¹‰à¸­à¸‡à¹€à¸›à¸´à¸”à¹€à¸žà¸·à¹ˆà¸­à¹ƒà¸«à¹‰à¸ªà¸²à¸¡à¸²à¸£à¸–à¸§à¸²à¸›à¹à¸¥à¸°à¸—à¸°à¸¥à¸¸à¸à¸³à¹à¸žà¸‡à¹„à¸”à¹‰", Path="Galaxy/Unlock Sections"};
+                        {type="Toggle", EN="Auto Eggs", EN2="PowerUp crates & collect eggs.",TH1="à¸­à¸­à¹‚à¸•à¹‰à¹„à¸‚à¹ˆ", TH2="à¹ƒà¸ªà¹ˆà¸–à¹ˆà¸²à¸™à¹à¸¥à¹‰à¸§à¹€à¸à¹‡à¸šà¹„à¸‚à¹ˆ", Path="Galaxy/AutoEggs"};
+                        {type="Toggle", EN="Auto Green Crate", EN2="PowerUp crates.",TH1="à¸­à¸­à¹‚à¸•à¹‰à¸à¸¥à¹ˆà¸­à¸‡à¹€à¸‚à¸µà¸¢à¸§", TH2="à¹ƒà¸ªà¹ˆà¸–à¹ˆà¸²à¸™à¹à¸¥à¹‰à¸§à¹€à¸›à¸´à¸”à¸à¸¥à¹ˆà¸­à¸‡à¹€à¸‚à¸µà¸¢à¸§à¸­à¸±à¸•à¹‚à¸™à¸¡à¸±à¸•à¸´", Path="Galaxy/AutoGreenCrate"};
+                        {type="Toggle", EN="Auto Mecha Meteor", EN2="This function search your inventory for key and if it can't find the key, it will insert batteries to the mecha meteor.",TH1="à¸­à¸­à¹‚à¸•à¹‰ Mecha Meteor", TH2="à¸„à¹‰à¸™à¸«à¸²à¸à¸¸à¸à¹à¸ˆà¹ƒà¸™à¸à¸£à¸°à¹€à¸›à¹‹à¸²à¹à¸¥à¸°à¹ƒà¸ªà¹ˆà¸–à¹ˆà¸²à¸™à¹ƒà¸™ Mecha Meteor", Path="Galaxy/AutoMecha"};
+                        {type="Toggle", EN="Auto Meteor Shower", EN2="Auto collect meteor shower",TH1="à¸­à¸­à¹‚à¸•à¹‰à¸à¸™à¸”à¸²à¸§à¸•à¸", TH2="à¹€à¸à¹‡à¸šà¸à¸™à¸”à¸²à¸§à¸•à¸à¸­à¸±à¸•à¹‚à¸™à¸¡à¸±à¸•à¸´", Path="Galaxy/AutoMeteorShower"};
+                        {type="Button", EN="Reduce Lag", EN2="Remove decorations for 'Auto Eggs'", TH1="à¸¥à¸”à¹à¸¥à¹‡à¸„", TH2="à¸¥à¸šà¸‚à¸­à¸‡à¸•à¸à¹à¸•à¹ˆà¸‡à¹ƒà¸«à¹‰ 'à¸­à¸­à¹‚à¸•à¹‰à¹„à¸‚à¹ˆ'", Callback=IB_NO_VIRTUALIZE(function()
                             for _,v in pairs(GetChildren(W.Environment.Decorational)) do
                                 if v.Name == "CarryBomb" or v.Name == "CarryBattery" then
                                     continue;
                                 end; v:Destroy();
                             end;
                         end)}; {type="Space"}; {type="Space"};
-                        {type="Button", EN="Teleport To Battery", EN2="Fastly tween to the battery", TH1="วาปไปที่ถ่าน", TH2="บินไปที่ถ่านด้วยความเร็ว", Callback=function()
+                        {type="Button", EN="Teleport To Battery", EN2="Fastly tween to the battery", TH1="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¸–à¹ˆà¸²à¸™", TH2="à¸šà¸´à¸™à¹„à¸›à¸—à¸µà¹ˆà¸–à¹ˆà¸²à¸™à¸”à¹‰à¸§à¸¢à¸„à¸§à¸²à¸¡à¹€à¸£à¹‡à¸§", Callback=function()
                             Functions:GalaxyTeleport("Battery");
                         end};
-                        {type="Button", EN="Teleport To Egg Crate", EN2="Fastly tween to the egg crate", TH1="วาปไปที่ไข่", TH2="บินไปที่ไข่ด้วยความเร็ว", Callback=function()
+                        {type="Button", EN="Teleport To Egg Crate", EN2="Fastly tween to the egg crate", TH1="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¹„à¸‚à¹ˆ", TH2="à¸šà¸´à¸™à¹„à¸›à¸—à¸µà¹ˆà¹„à¸‚à¹ˆà¸”à¹‰à¸§à¸¢à¸„à¸§à¸²à¸¡à¹€à¸£à¹‡à¸§", Callback=function()
                             Functions:GalaxyTeleport("Crate");
                         end};
-                        {type="Button", EN="Teleport To Spaceship", EN2="Fastly tween to the spaceship", TH1="วาปไปที่ยาน", TH2="บินไปที่ยานUFOด้วยความเร็ว", Callback=function()
+                        {type="Button", EN="Teleport To Spaceship", EN2="Fastly tween to the spaceship", TH1="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¸¢à¸²à¸™", TH2="à¸šà¸´à¸™à¹„à¸›à¸—à¸µà¹ˆà¸¢à¸²à¸™UFOà¸”à¹‰à¸§à¸¢à¸„à¸§à¸²à¸¡à¹€à¸£à¹‡à¸§", Callback=function()
                             Functions:GalaxyTeleport("Ship");
                         end};
-                        {type="Button", EN="Teleport To Mecha", EN2="Fastly tween to the mecha meteor", TH1="วาปไปที่ Mecha", TH2="บินไปที่ Mecha Meteor ด้วยความเร็ว", Callback=function()
+                        {type="Button", EN="Teleport To Mecha", EN2="Fastly tween to the mecha meteor", TH1="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆ Mecha", TH2="à¸šà¸´à¸™à¹„à¸›à¸—à¸µà¹ˆ Mecha Meteor à¸”à¹‰à¸§à¸¢à¸„à¸§à¸²à¸¡à¹€à¸£à¹‡à¸§", Callback=function()
                             Functions:GalaxyTeleport("Mecha");
                         end};
-                        {type="Button", EN="Teleport To Boss Waiting Zone", EN2="Fastly tween to the zone", TH1="วาปไปที่จุดรอตีบอส", TH2="บินไปที่จุดรอตีบอสด้วยความเร็ว", Callback=function()
+                        {type="Button", EN="Teleport To Boss Waiting Zone", EN2="Fastly tween to the zone", TH1="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¸ˆà¸¸à¸”à¸£à¸­à¸•à¸µà¸šà¸­à¸ª", TH2="à¸šà¸´à¸™à¹„à¸›à¸—à¸µà¹ˆà¸ˆà¸¸à¸”à¸£à¸­à¸•à¸µà¸šà¸­à¸ªà¸”à¹‰à¸§à¸¢à¸„à¸§à¸²à¸¡à¹€à¸£à¹‡à¸§", Callback=function()
                             Functions:GalaxyTeleport("Boss");
                         end};
-                        {type="Button", EN="Teleport To Green Crate", EN2="Fastly tween to the green crate", TH1="วาปไปที่กล่องเขียว", TH2="บินไปที่กล่องเขียวด้วยความเร็ว", Callback=function()
+                        {type="Button", EN="Teleport To Green Crate", EN2="Fastly tween to the green crate", TH1="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¸à¸¥à¹ˆà¸­à¸‡à¹€à¸‚à¸µà¸¢à¸§", TH2="à¸šà¸´à¸™à¹„à¸›à¸—à¸µà¹ˆà¸à¸¥à¹ˆà¸­à¸‡à¹€à¸‚à¸µà¸¢à¸§à¸”à¹‰à¸§à¸¢à¸„à¸§à¸²à¸¡à¹€à¸£à¹‡à¸§", Callback=function()
                             Functions:GalaxyTeleport("Green");
                         end}; {type="Space"}; {type="Space"};
-                        {type="Button", EN="Battery Deposite A", EN2="Fastly tween to the Capsule A", TH1="วาปไปที่ใส่ถ่าน A", TH2="บินไปที่ใส่ถ่านAด้วยความเร็ว", Callback=function()
+                        {type="Button", EN="Battery Deposite A", EN2="Fastly tween to the Capsule A", TH1="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¹ƒà¸ªà¹ˆà¸–à¹ˆà¸²à¸™ A", TH2="à¸šà¸´à¸™à¹„à¸›à¸—à¸µà¹ˆà¹ƒà¸ªà¹ˆà¸–à¹ˆà¸²à¸™Aà¸”à¹‰à¸§à¸¢à¸„à¸§à¸²à¸¡à¹€à¸£à¹‡à¸§", Callback=function()
                             Functions:GalaxyTeleport("BatteryDep", "A");
                         end};
-                        {type="Button", EN="Battery Deposite B", EN2="Fastly tween to the Capsule B", TH1="วาปไปที่ใส่ถ่าน B", TH2="บินไปที่ใส่ถ่านBด้วยความเร็ว", Callback=function()
+                        {type="Button", EN="Battery Deposite B", EN2="Fastly tween to the Capsule B", TH1="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¹ƒà¸ªà¹ˆà¸–à¹ˆà¸²à¸™ B", TH2="à¸šà¸´à¸™à¹„à¸›à¸—à¸µà¹ˆà¹ƒà¸ªà¹ˆà¸–à¹ˆà¸²à¸™Bà¸”à¹‰à¸§à¸¢à¸„à¸§à¸²à¸¡à¹€à¸£à¹‡à¸§", Callback=function()
                             Functions:GalaxyTeleport("BatteryDep", "B");
                         end};
-                        {type="Button", EN="Battery Deposite C", EN2="Fastly tween to the Capsule C", TH1="วาปไปที่ใส่ถ่าน C", TH2="บินไปที่ใส่ถ่านCด้วยความเร็ว", Callback=function()
+                        {type="Button", EN="Battery Deposite C", EN2="Fastly tween to the Capsule C", TH1="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¹ƒà¸ªà¹ˆà¸–à¹ˆà¸²à¸™ C", TH2="à¸šà¸´à¸™à¹„à¸›à¸—à¸µà¹ˆà¹ƒà¸ªà¹ˆà¸–à¹ˆà¸²à¸™Cà¸”à¹‰à¸§à¸¢à¸„à¸§à¸²à¸¡à¹€à¸£à¹‡à¸§", Callback=function()
                             Functions:GalaxyTeleport("BatteryDep", "C");
                         end};
-                        {type="Button", EN="Battery Deposite D", EN2="Fastly tween to the Capsule D", TH1="วาปไปที่ใส่ถ่าน D", TH2="บินไปที่ใส่ถ่านDด้วยความเร็ว", Callback=function()
+                        {type="Button", EN="Battery Deposite D", EN2="Fastly tween to the Capsule D", TH1="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¹ƒà¸ªà¹ˆà¸–à¹ˆà¸²à¸™ D", TH2="à¸šà¸´à¸™à¹„à¸›à¸—à¸µà¹ˆà¹ƒà¸ªà¹ˆà¸–à¹ˆà¸²à¸™Dà¸”à¹‰à¸§à¸¢à¸„à¸§à¸²à¸¡à¹€à¸£à¹‡à¸§", Callback=function()
                             Functions:GalaxyTeleport("BatteryDep", "D");
                         end};
-                        {type="Button", EN="Battery Deposite E", EN2="Fastly tween to the Capsule E", TH1="วาปไปที่ใส่ถ่าน E", TH2="บินไปที่ใส่ถ่านEด้วยความเร็ว", Callback=function()
+                        {type="Button", EN="Battery Deposite E", EN2="Fastly tween to the Capsule E", TH1="à¸§à¸²à¸›à¹„à¸›à¸—à¸µà¹ˆà¹ƒà¸ªà¹ˆà¸–à¹ˆà¸²à¸™ E", TH2="à¸šà¸´à¸™à¹„à¸›à¸—à¸µà¹ˆà¹ƒà¸ªà¹ˆà¸–à¹ˆà¸²à¸™Eà¸”à¹‰à¸§à¸¢à¸„à¸§à¸²à¸¡à¹€à¸£à¹‡à¸§", Callback=function()
                             Functions:GalaxyTeleport("BatteryDep", "E");
                         end}; {type="Space"}; {type="Space"};
-                        {type="Toggle", Title="ESP Crates", TH1="ESP ไข่", Path="Galaxy/ESP Egg Crates", Callback=IB_NO_VIRTUALIZE(function(state)
+                        {type="Toggle", Title="ESP Crates", TH1="ESP à¹„à¸‚à¹ˆ", Path="Galaxy/ESP Egg Crates", Callback=IB_NO_VIRTUALIZE(function(state)
                             EventsCon.Galaxy["ESP Egg Crates"] = state; ESPF.Destroy("Crate");
                         end)};
-                        {type="Toggle", Title="ESP Batteries", TH1="ESP ถ่าน", Path="Galaxy/ESP Batteries", Callback=IB_NO_VIRTUALIZE(function(state)
+                        {type="Toggle", Title="ESP Batteries", TH1="ESP à¸–à¹ˆà¸²à¸™", Path="Galaxy/ESP Batteries", Callback=IB_NO_VIRTUALIZE(function(state)
                             EventsCon.Galaxy["ESP Batteries"] = state; ESPF.Destroy("Battery");
                         end)};
-                        {type="Toggle", Title="ESP Bombs", TH1="ESP ระเบิด", Path="Galaxy/ESP Bombs", Callback=IB_NO_VIRTUALIZE(function(state)
+                        {type="Toggle", Title="ESP Bombs", TH1="ESP à¸£à¸°à¹€à¸šà¸´à¸”", Path="Galaxy/ESP Bombs", Callback=IB_NO_VIRTUALIZE(function(state)
                             EventsCon.Galaxy["ESP Bombs"] = state; ESPF.Destroy("Bomb");
                         end)};
-                        {type="Toggle", EN="ESP Bomb Block", EN2="This is laggy.", TH1="ESP บล็อคระเบิด", TH2="อันนี้แล็คนิดนึง", Path="Galaxy/ESP Bomb Block", Callback=IB_NO_VIRTUALIZE(function(state)
+                        {type="Toggle", EN="ESP Bomb Block", EN2="This is laggy.", TH1="ESP à¸šà¸¥à¹‡à¸­à¸„à¸£à¸°à¹€à¸šà¸´à¸”", TH2="à¸­à¸±à¸™à¸™à¸µà¹‰à¹à¸¥à¹‡à¸„à¸™à¸´à¸”à¸™à¸¶à¸‡", Path="Galaxy/ESP Bomb Block", Callback=IB_NO_VIRTUALIZE(function(state)
                             EventsCon.Galaxy["ESP Bomb Block"] = state; ESPF.Destroy("BombBlock");
                         end)};
-                        {type="Toggle", EN="ESP Shards Block", EN2="This is laggy.", TH1="ESP บล็อคชาร์ด", TH2="อันนี้แล็คนิดนึง", Path="Galaxy/ESP Shards Block", Callback=IB_NO_VIRTUALIZE(function(state)
+                        {type="Toggle", EN="ESP Shards Block", EN2="This is laggy.", TH1="ESP à¸šà¸¥à¹‡à¸­à¸„à¸Šà¸²à¸£à¹Œà¸”", TH2="à¸­à¸±à¸™à¸™à¸µà¹‰à¹à¸¥à¹‡à¸„à¸™à¸´à¸”à¸™à¸¶à¸‡", Path="Galaxy/ESP Shards Block", Callback=IB_NO_VIRTUALIZE(function(state)
                             EventsCon.Galaxy["ESP Shards Block"] = state; ESPF.Destroy("Shard");
                         end)};
-                        {type="Toggle", EN="ESP Gears Block", EN2="This is laggy.", TH1="ESP บล็อคเกียร์", TH2="อันนี้แล็คนิดนึง", Path="Galaxy/ESP Gears Block", Callback=IB_NO_VIRTUALIZE(function(state)
+                        {type="Toggle", EN="ESP Gears Block", EN2="This is laggy.", TH1="ESP à¸šà¸¥à¹‡à¸­à¸„à¹€à¸à¸µà¸¢à¸£à¹Œ", TH2="à¸­à¸±à¸™à¸™à¸µà¹‰à¹à¸¥à¹‡à¸„à¸™à¸´à¸”à¸™à¸¶à¸‡", Path="Galaxy/ESP Gears Block", Callback=IB_NO_VIRTUALIZE(function(state)
                             EventsCon.Galaxy["ESP Gears Block"] = state; ESPF.Destroy("Gear");
                         end)};
                     }, Title="Galaxy"},
@@ -1448,21 +1448,8 @@ return {
 
             ScriptCache.WindUI = WindUI; ScriptCache.Window = Window;
         end; local LSecureLoad = function(AUTH_KEY)
-            Storing_AUTHENTICATION = Storing_AUTHENTICATION or AUTH_KEY;
-            if not Storing_AUTHENTICATION then return selff:Kick("Invalid Authentication 1PAC"); end;
-            local Splited1 = str.split(Storing_AUTHENTICATION, "+++os()");
-            local Splited2 = str.split(decrypt(Splited1[2], 3), "+++os()");
-            local D1Auth = decrypt(Splited2[2], 3);
-            local D2Auth = decrypt(Splited2[3], 2);
-            D1Auth = D1Auth:gsub("emptyspace", "");
-            D2Auth = D2Auth:gsub("emptyspace", "");
-            if D1Auth == "200" then
-                PremiumCheck = false;
-            elseif D1Auth == "201" then
-                PremiumCheck = true;
-            else
-                return selff:Kick("Invalid Authentication 2PAC");
-            end; local OneRunCallMain, OneRunErrorMain = pcall(function()
+            PremiumCheck = false;
+            local OneRunCallMain, OneRunErrorMain = pcall(function()
                 CoreDestroyed = false; PromptPackage.UpdateState(false);
                 ClientCon.WalkSpeed = HumSelf and HumSelf.WalkSpeed or 16;
                 ClientCon.JumpPower = HumSelf and HumSelf.JumpPower or 50;
@@ -1672,3 +1659,5 @@ return {
         end; GG.LSecureLoad = LSecureLoad; return LSecureLoad;
     end;
 };
+
+

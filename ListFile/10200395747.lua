@@ -1,4 +1,4 @@
-local GG=GG; if not GG then return game:GetService("Players").LocalPlayer:Kick("[Plasma Hub] : Really? Your account is now at risk for the next ban wave."); end;
+﻿local GG=GG; if not GG then return game:GetService("Players").LocalPlayer:Kick("[Plasma Hub] : Really? Your account is now at risk for the next ban wave."); end;
 
 local ScriptCache = GG.ScriptCache;
 local LoaderSettings = GG.LoaderSettings;
@@ -244,7 +244,7 @@ return {
                         EN=v.SeedName;
                         EN2="Cost: "..Price;
                         TH1=v.SeedName;
-                        TH2="ราคา: "..Price;
+                        TH2="à¸£à¸²à¸„à¸²: "..Price;
                         Path=goal.."/"..v.SeedName;
                     })
                 end
@@ -260,7 +260,7 @@ return {
                         EN=v.ItemName;
                         EN2="Cost: "..Price;
                         TH1=v.ItemName;
-                        TH2="ราคา: "..Price;
+                        TH2="à¸£à¸²à¸„à¸²: "..Price;
                         Path=goal.."/"..v.ItemName;
                     })
                 end;
@@ -273,7 +273,7 @@ return {
                         EN=i;
                         EN2="Cost: "..Price;
                         TH1=i;
-                        TH2="ราคา: "..Price;
+                        TH2="à¸£à¸²à¸„à¸²: "..Price;
                         Path=goal.."/"..i;
                     });
                 end;
@@ -301,10 +301,10 @@ return {
             Windy:CreateComponent(ScriptCache.HarvestTab, {
                 {type="Group", dats={
                     {dat={
-                        {type="Space"}; {type="Dropdown", Title="Select Mutation", TH1="เลือก Mutation", Multi=true, AllowNone=true, Value=Schema.Mutations, Values=Mutations, Callback=function(...)
+                        {type="Space"}; {type="Dropdown", Title="Select Mutation", TH1="à¹€à¸¥à¸·à¸­à¸ Mutation", Multi=true, AllowNone=true, Value=Schema.Mutations, Values=Mutations, Callback=function(...)
                             Schema.Mutations = ...;
                         end};
-                        {type="Input", Title="Weight Pool", TH1="ช่วงน้ำหนัก", Placeholder="Ex. 100-2000", Value=RWeight, Callback=function(val)
+                        {type="Input", Title="Weight Pool", TH1="à¸Šà¹ˆà¸§à¸‡à¸™à¹‰à¸³à¸«à¸™à¸±à¸", Placeholder="Ex. 100-2000", Value=RWeight, Callback=function(val)
                             local Split = str.split(val, "-");
                             if #Split == 2 then
                                 local Min = tonumber(Split[1]);
@@ -313,7 +313,7 @@ return {
                                 return;
                             end; Schema.Weight = nil;
                         end};
-                        {type="Button", Title="Delete This Schema", TH1="ลบตารางนี้", Callback=function()
+                        {type="Button", Title="Delete This Schema", TH1="à¸¥à¸šà¸•à¸²à¸£à¸²à¸‡à¸™à¸µà¹‰", Callback=function()
                             tble.remove(HarvestCon.Schemas[TargetSeed], tble.find(HarvestCon.Schemas[TargetSeed], Schema));
                             ScriptCache[Schema].ElementFrame.Parent:Destroy();
                             ScriptCache[GUIDs[1]].ElementFrame:Destroy();
@@ -347,7 +347,7 @@ return {
             Windy:CreateComponent(ScriptCache.SellTab, {
                 {type="Group", dats={
                     {dat={
-                        {type="Input", Title="Price", TH1="ช่วงราคา", Placeholder="Ex. 100-2000", Value=RPrice, Callback=function(val)
+                        {type="Input", Title="Price", TH1="à¸Šà¹ˆà¸§à¸‡à¸£à¸²à¸„à¸²", Placeholder="Ex. 100-2000", Value=RPrice, Callback=function(val)
                             local Split = str.split(val, "-");
                             if #Split == 2 then
                                 local Min = tonumber(Split[1]);
@@ -356,7 +356,7 @@ return {
                                 return;
                             end; Schema.Price = nil;
                         end};
-                        {type="Button", Title="Delete This Schema", TH1="ลบตารางนี้", Callback=function()
+                        {type="Button", Title="Delete This Schema", TH1="à¸¥à¸šà¸•à¸²à¸£à¸²à¸‡à¸™à¸µà¹‰", Callback=function()
                             tble.remove(SellCon.Schemas[TargetSeed], tble.find(SellCon.Schemas[TargetSeed], Schema));
                             ScriptCache[Schema].ElementFrame.Parent:Destroy();
                             ScriptCache[GUIDs[1]].ElementFrame:Destroy();
@@ -774,28 +774,28 @@ return {
             ClientTab = {
                 {type="Group", dats={
                     {dat={
-                        {type="Toggle", EN="Go Underground", EN2="Temporary remove the floor", TH1="ลงใต้ดิน", TH2="เอาพื้นออกชั่วคราว", Bindable="+", Path="Client/GoUnderground", Callback=function(state)
+                        {type="Toggle", EN="Go Underground", EN2="Temporary remove the floor", TH1="à¸¥à¸‡à¹ƒà¸•à¹‰à¸”à¸´à¸™", TH2="à¹€à¸­à¸²à¸žà¸·à¹‰à¸™à¸­à¸­à¸à¸Šà¸±à¹ˆà¸§à¸„à¸£à¸²à¸§", Bindable="+", Path="Client/GoUnderground", Callback=function(state)
                             ClientCon.GoUnderground = state;
                             W.Baseplate.TopLayer.CanCollide = not state;
                         end},
-                        {type="Toggle", EN="No Render", EN2="Disable Roblox's rendering.", TH1="ปิด Render", TH2="จอขาว", Path="Client/NoRender", Callback=function(state)
+                        {type="Toggle", EN="No Render", EN2="Disable Roblox's rendering.", TH1="à¸›à¸´à¸” Render", TH2="à¸ˆà¸­à¸‚à¸²à¸§", Path="Client/NoRender", Callback=function(state)
                             ClientCon.NoRender = state;
                             H:Set3dRenderingEnabled(not state);
                         end},
-                        {type="Slider", EN="FPS Cap", EN2="Limit your FPS.", TH1="จำกัด FPS", TH2="ประหยัดพลังงานและพื้นที่เครื่อง", Value={Min=1, Max=300}, Path="Client/FPSCap", Callback=function(value)
+                        {type="Slider", EN="FPS Cap", EN2="Limit your FPS.", TH1="à¸ˆà¸³à¸à¸±à¸” FPS", TH2="à¸›à¸£à¸°à¸«à¸¢à¸±à¸”à¸žà¸¥à¸±à¸‡à¸‡à¸²à¸™à¹à¸¥à¸°à¸žà¸·à¹‰à¸™à¸—à¸µà¹ˆà¹€à¸„à¸£à¸·à¹ˆà¸­à¸‡", Value={Min=1, Max=300}, Path="Client/FPSCap", Callback=function(value)
                             ClientCon.FPSCap = value;
                             setfpscap(tonumber(value));
                         end},
-                        {type="Toggle", EN="Full Bright", EN2="Make the game brighter, easier to see or look around.", TH1="แมพสว่าง", TH2="มองเห็นง่ายขึ้น", Path="Client/Full Bright"},
-                        {type="Toggle", EN="Noclip", EN2="Allow you to walk through walls.", TH1="เดินทะลุกำแพง", TH2="ต้องอธิบายด้วยหรอ", Path="Client/Noclip"},
-                        {type="Slider", EN="Teleport Walk Speed", EN2="Change the speed of teleport walk.", TH1="ความเร็วในการเดินแบบวาร์ป", TH2="ปรับความเร็วในการเดินแบบวาร์ป", Value={Min=0, Max=2}, Path="Client/TeleportWalk Speed"},
-                        {type="Toggle", EN="Enable Teleport Walk", EN2="Enable teleport walk.", TH1="เปิดใช้งานเดินแบบวาร์ป", TH2="เปิดใช้งานเดินโดยการวาร์ปไปเรื่อยๆ", Path="Client/Enable TeleportWalk"},
+                        {type="Toggle", EN="Full Bright", EN2="Make the game brighter, easier to see or look around.", TH1="à¹à¸¡à¸žà¸ªà¸§à¹ˆà¸²à¸‡", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™à¸‡à¹ˆà¸²à¸¢à¸‚à¸¶à¹‰à¸™", Path="Client/Full Bright"},
+                        {type="Toggle", EN="Noclip", EN2="Allow you to walk through walls.", TH1="à¹€à¸”à¸´à¸™à¸—à¸°à¸¥à¸¸à¸à¸³à¹à¸žà¸‡", TH2="à¸•à¹‰à¸­à¸‡à¸­à¸˜à¸´à¸šà¸²à¸¢à¸”à¹‰à¸§à¸¢à¸«à¸£à¸­", Path="Client/Noclip"},
+                        {type="Slider", EN="Teleport Walk Speed", EN2="Change the speed of teleport walk.", TH1="à¸„à¸§à¸²à¸¡à¹€à¸£à¹‡à¸§à¹ƒà¸™à¸à¸²à¸£à¹€à¸”à¸´à¸™à¹à¸šà¸šà¸§à¸²à¸£à¹Œà¸›", TH2="à¸›à¸£à¸±à¸šà¸„à¸§à¸²à¸¡à¹€à¸£à¹‡à¸§à¹ƒà¸™à¸à¸²à¸£à¹€à¸”à¸´à¸™à¹à¸šà¸šà¸§à¸²à¸£à¹Œà¸›", Value={Min=0, Max=2}, Path="Client/TeleportWalk Speed"},
+                        {type="Toggle", EN="Enable Teleport Walk", EN2="Enable teleport walk.", TH1="à¹€à¸›à¸´à¸”à¹ƒà¸Šà¹‰à¸‡à¸²à¸™à¹€à¸”à¸´à¸™à¹à¸šà¸šà¸§à¸²à¸£à¹Œà¸›", TH2="à¹€à¸›à¸´à¸”à¹ƒà¸Šà¹‰à¸‡à¸²à¸™à¹€à¸”à¸´à¸™à¹‚à¸”à¸¢à¸à¸²à¸£à¸§à¸²à¸£à¹Œà¸›à¹„à¸›à¹€à¸£à¸·à¹ˆà¸­à¸¢à¹†", Path="Client/Enable TeleportWalk"},
                     }, Title="Client", Open=true};
                 }};
             };
             GardenTab = {
-                {type="Toggle", EN="Player Nearby", EN2="Send notification when someone is near your garden.", TH1="ผู้เล่นเข้าใกล้", TH2="แจ้งเตือนเวลามาคนเข้ามาใกล้", Path="Notify"}, {type="Space"}, {type="Space"},
-                {type="Dropdown", Title="Select Player", TH1="เลือกผู้เล่น", AllowNone=true, Values={}, Path="Select Player", RECall={
+                {type="Toggle", EN="Player Nearby", EN2="Send notification when someone is near your garden.", TH1="à¸œà¸¹à¹‰à¹€à¸¥à¹ˆà¸™à¹€à¸‚à¹‰à¸²à¹ƒà¸à¸¥à¹‰", TH2="à¹à¸ˆà¹‰à¸‡à¹€à¸•à¸·à¸­à¸™à¹€à¸§à¸¥à¸²à¸¡à¸²à¸„à¸™à¹€à¸‚à¹‰à¸²à¸¡à¸²à¹ƒà¸à¸¥à¹‰", Path="Notify"}, {type="Space"}, {type="Space"},
+                {type="Dropdown", Title="Select Player", TH1="à¹€à¸¥à¸·à¸­à¸à¸œà¸¹à¹‰à¹€à¸¥à¹ˆà¸™", AllowNone=true, Values={}, Path="Select Player", RECall={
                     Title = "Refresh Players",
                     RECall = function()
                         local Players, tbl = GetPlayers(P), {};
@@ -804,7 +804,7 @@ return {
                         end; return tbl;
                     end;
                 }},
-                {type="Button", EN="Get Garden Info", EN2="Show player's best fruit and their garden informations.",TH1="รับข้อมูลสวน",TH2="แสดงข้อมูลสวนของผู้เล่นคนนั้น", Callback=Functions.PairGarden}, {type="Space"}, {type="Space"},
+                {type="Button", EN="Get Garden Info", EN2="Show player's best fruit and their garden informations.",TH1="à¸£à¸±à¸šà¸‚à¹‰à¸­à¸¡à¸¹à¸¥à¸ªà¸§à¸™",TH2="à¹à¸ªà¸”à¸‡à¸‚à¹‰à¸­à¸¡à¸¹à¸¥à¸ªà¸§à¸™à¸‚à¸­à¸‡à¸œà¸¹à¹‰à¹€à¸¥à¹ˆà¸™à¸„à¸™à¸™à¸±à¹‰à¸™", Callback=Functions.PairGarden}, {type="Space"}, {type="Space"},
                 {type="Group", dats={
                     {dat={
                         {type="Button", Title="-", Desc="-", Global=GPGuids[1]};
@@ -853,7 +853,7 @@ return {
                 }},
             };
             HarvestTab = {
-                {type="Dropdown", EN="Select Plant", EN2="Select plant to add to schema", TH1="เลือกผลไม้", TH2="เลือกผลไม้ที่จะเพิ่มลงใน Schema", AllowNone=true, Values=(function()
+                {type="Dropdown", EN="Select Plant", EN2="Select plant to add to schema", TH1="à¹€à¸¥à¸·à¸­à¸à¸œà¸¥à¹„à¸¡à¹‰", TH2="à¹€à¸¥à¸·à¸­à¸à¸œà¸¥à¹„à¸¡à¹‰à¸—à¸µà¹ˆà¸ˆà¸°à¹€à¸žà¸´à¹ˆà¸¡à¸¥à¸‡à¹ƒà¸™ Schema", AllowNone=true, Values=(function()
                     local tbl, NewS={}, tble.clone(SeedData);
                     tble.sort(NewS, function(a,b)
                         return str.lower(a.SeedName) < str.lower(b.SeedName)
@@ -863,11 +863,11 @@ return {
                         end;
                     end; return tbl;
                 end)(), Path="SelectPlant"},
-                {type="Button", EN="Add Schema", EN2="Add schema to auto harvest", TH1="เพิ่ม", TH2="เพิ่ม Schema", Callback=Functions.PairHarvest};
-                {type="Toggle", EN="Auto Harvest", EN2="Auto harvest selected plant using long distance harvesting.", TH1="ออโต้เก็บผลไม้", TH2="ออโต้เก็บผลไม้ที่เลือกแบบระยะไกล", Path="Auto"}, {type="Space"}, {type="Space"},
+                {type="Button", EN="Add Schema", EN2="Add schema to auto harvest", TH1="à¹€à¸žà¸´à¹ˆà¸¡", TH2="à¹€à¸žà¸´à¹ˆà¸¡ Schema", Callback=Functions.PairHarvest};
+                {type="Toggle", EN="Auto Harvest", EN2="Auto harvest selected plant using long distance harvesting.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¹€à¸à¹‡à¸šà¸œà¸¥à¹„à¸¡à¹‰", TH2="à¸­à¸­à¹‚à¸•à¹‰à¹€à¸à¹‡à¸šà¸œà¸¥à¹„à¸¡à¹‰à¸—à¸µà¹ˆà¹€à¸¥à¸·à¸­à¸à¹à¸šà¸šà¸£à¸°à¸¢à¸°à¹„à¸à¸¥", Path="Auto"}, {type="Space"}, {type="Space"},
             };
             SellTab = {
-                {type="Dropdown", EN="Select fruit", EN2="Select fruit to add to schema", TH1="เลือกผลไม้", TH2="เลือกผลไม้ที่จะเพิ่มลงใน Schema", AllowNone=true, Values=(function()
+                {type="Dropdown", EN="Select fruit", EN2="Select fruit to add to schema", TH1="à¹€à¸¥à¸·à¸­à¸à¸œà¸¥à¹„à¸¡à¹‰", TH2="à¹€à¸¥à¸·à¸­à¸à¸œà¸¥à¹„à¸¡à¹‰à¸—à¸µà¹ˆà¸ˆà¸°à¹€à¸žà¸´à¹ˆà¸¡à¸¥à¸‡à¹ƒà¸™ Schema", AllowNone=true, Values=(function()
                     local tbl, NewS={}, tble.clone(SeedData);
                     tble.sort(NewS, function(a,b)
                         return str.lower(a.SeedName) < str.lower(b.SeedName)
@@ -877,18 +877,18 @@ return {
                         end;
                     end; return tbl;
                 end)(), Path="SelectFruit"},
-                {type="Button", EN="Add Schema", EN2="Add schema to auto harvest", TH1="เพิ่ม", TH2="เพิ่ม Schema", Callback=Functions.PairSell};
-                {type="Toggle", EN="Use Sell All", EN2="This will make Auto Sell sell all fruits", TH1="ขายทั้งหมด", TH2="ขายผลไม้ทั้งหมดตอนเปิด ออโต้ขาย", Path="SellAll"},
-                {type="Toggle", EN="Auto Sell", EN2="Auto sell selected fruit using long distance selling.", TH1="ออโต้ขายผลไม้", TH2="ออโต้ขายผลไม้ที่เลือกแบบระยะไกล", Path="Auto"}, {type="Space"}, {type="Space"},
+                {type="Button", EN="Add Schema", EN2="Add schema to auto harvest", TH1="à¹€à¸žà¸´à¹ˆà¸¡", TH2="à¹€à¸žà¸´à¹ˆà¸¡ Schema", Callback=Functions.PairSell};
+                {type="Toggle", EN="Use Sell All", EN2="This will make Auto Sell sell all fruits", TH1="à¸‚à¸²à¸¢à¸—à¸±à¹‰à¸‡à¸«à¸¡à¸”", TH2="à¸‚à¸²à¸¢à¸œà¸¥à¹„à¸¡à¹‰à¸—à¸±à¹‰à¸‡à¸«à¸¡à¸”à¸•à¸­à¸™à¹€à¸›à¸´à¸” à¸­à¸­à¹‚à¸•à¹‰à¸‚à¸²à¸¢", Path="SellAll"},
+                {type="Toggle", EN="Auto Sell", EN2="Auto sell selected fruit using long distance selling.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸‚à¸²à¸¢à¸œà¸¥à¹„à¸¡à¹‰", TH2="à¸­à¸­à¹‚à¸•à¹‰à¸‚à¸²à¸¢à¸œà¸¥à¹„à¸¡à¹‰à¸—à¸µà¹ˆà¹€à¸¥à¸·à¸­à¸à¹à¸šà¸šà¸£à¸°à¸¢à¸°à¹„à¸à¸¥", Path="Auto"}, {type="Space"}, {type="Space"},
             };
             ShopTab = {
-                {type="Toggle", EN="Auto Expand Area", EN2="Auto buy 'Expand Area' to expand the garden area.", TH1="ออโต้ขยายพื้นที่", TH2="ออโต้ซื้อ 'ขยายพื้นที่' เพื่อขยายพื้นที่ในสวน", Path="Shop/AutoExpandArea"}, {type="Space"},
+                {type="Toggle", EN="Auto Expand Area", EN2="Auto buy 'Expand Area' to expand the garden area.", TH1="à¸­à¸­à¹‚à¸•à¹‰à¸‚à¸¢à¸²à¸¢à¸žà¸·à¹‰à¸™à¸—à¸µà¹ˆ", TH2="à¸­à¸­à¹‚à¸•à¹‰à¸‹à¸·à¹‰à¸­ 'à¸‚à¸¢à¸²à¸¢à¸žà¸·à¹‰à¸™à¸—à¸µà¹ˆ' à¹€à¸žà¸·à¹ˆà¸­à¸‚à¸¢à¸²à¸¢à¸žà¸·à¹‰à¸™à¸—à¸µà¹ˆà¹ƒà¸™à¸ªà¸§à¸™", Path="Shop/AutoExpandArea"}, {type="Space"},
             };
             EventsTab = {
                 {type="Group", dats={
                     {dat={
-                        {type="Toggle", EN="Gold Seed", EN2="Teleport & collect gold seeds", TH1="เมล็ดทอง", TH2="วาปเก็บเมล็ดทอง", Path="Seeds/Gold"},
-                        {type="Toggle", EN="Rainbow Seed", EN2="Teleport & collect rainbow seeds.", TH1="เมล็ดรุ้ง", TH2="วาปเก็บเมล็ดรุ้ง", Path="Seeds/Rainbow"},
+                        {type="Toggle", EN="Gold Seed", EN2="Teleport & collect gold seeds", TH1="à¹€à¸¡à¸¥à¹‡à¸”à¸—à¸­à¸‡", TH2="à¸§à¸²à¸›à¹€à¸à¹‡à¸šà¹€à¸¡à¸¥à¹‡à¸”à¸—à¸­à¸‡", Path="Seeds/Gold"},
+                        {type="Toggle", EN="Rainbow Seed", EN2="Teleport & collect rainbow seeds.", TH1="à¹€à¸¡à¸¥à¹‡à¸”à¸£à¸¸à¹‰à¸‡", TH2="à¸§à¸²à¸›à¹€à¸à¹‡à¸šà¹€à¸¡à¸¥à¹‡à¸”à¸£à¸¸à¹‰à¸‡", Path="Seeds/Rainbow"},
                     }, Title="Seeds"};
                 }};
             };
@@ -987,21 +987,8 @@ return {
             ScriptCache.SellTab = Tabs.Sell;
             ScriptCache.GardenTab = Tabs.Garden;
         end; local LSecureLoad = function(AUTH_KEY)
-            Storing_AUTHENTICATION = Storing_AUTHENTICATION or AUTH_KEY;
-            if not Storing_AUTHENTICATION then return selff:Kick("Invalid Authentication 1PAC"); end;
-            local Splited1 = str.split(Storing_AUTHENTICATION, "+++os()");
-            local Splited2 = str.split(decrypt(Splited1[2], 3), "+++os()");
-            local D1Auth = decrypt(Splited2[2], 3);
-            local D2Auth = decrypt(Splited2[3], 2);
-            D1Auth = D1Auth:gsub("emptyspace", "");
-            D2Auth = D2Auth:gsub("emptyspace", "");
-            if D1Auth == "200" then
-                PremiumCheck = false;
-            elseif D1Auth == "201" then
-                PremiumCheck = true;
-            else
-                return selff:Kick("Invalid Authentication 2PAC");
-            end; local OneRunCallMain, OneRunErrorMain = pcall(function()
+            PremiumCheck = false;
+            local OneRunCallMain, OneRunErrorMain = pcall(function()
                 CoreDestroyed = false;
                 
                 LSecureUI();
@@ -1087,3 +1074,5 @@ return {
         end; GG.LSecureLoad = LSecureLoad; return LSecureLoad;
     end;
 };
+
+

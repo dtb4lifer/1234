@@ -1,4 +1,4 @@
-local GG=GG; if not GG then return game:GetService("Players").LocalPlayer:Kick("[Plasma Hub] : Really? Your account is now at risk for the next ban wave."); end;
+﻿local GG=GG; if not GG then return game:GetService("Players").LocalPlayer:Kick("[Plasma Hub] : Really? Your account is now at risk for the next ban wave."); end;
 
 local ScriptCache = GG.ScriptCache;
 local LoaderSettings = GG.LoaderSettings;
@@ -428,7 +428,7 @@ return {
             ClientTab = {
                 {type="Group", dats={
                     {dat={
-                        {type="Toggle", EN="Third Person", EN2="Make the camera switch between first person and third person.", TH1="มุมมองบุคคลที่สาม", TH2="เปลี่ยนมุมกล้องเป็นบุคคลที่สาม", Bindable="+", Path="Client/ThirdPerson", Callback=IB_NO_VIRTUALIZE(function(state)
+                        {type="Toggle", EN="Third Person", EN2="Make the camera switch between first person and third person.", TH1="à¸¡à¸¸à¸¡à¸¡à¸­à¸‡à¸šà¸¸à¸„à¸„à¸¥à¸—à¸µà¹ˆà¸ªà¸²à¸¡", TH2="à¹€à¸›à¸¥à¸µà¹ˆà¸¢à¸™à¸¡à¸¸à¸¡à¸à¸¥à¹‰à¸­à¸‡à¹€à¸›à¹‡à¸™à¸šà¸¸à¸„à¸„à¸¥à¸—à¸µà¹ˆà¸ªà¸²à¸¡", Bindable="+", Path="Client/ThirdPerson", Callback=IB_NO_VIRTUALIZE(function(state)
                             ClientCon.ThirdPerson = state;
                             Functions.UpdateCamState(not state);
                             if not CameraController then return; end;
@@ -441,48 +441,48 @@ return {
                                 end;
                             end;
                         end)},
-                        {type="Toggle", EN="Instant Reload", EN2="Faster reloading. This function was not approved by Plasma, which means we don't know whether it will be detected.", TH1="รีโหลดปืนทันที", TH2="รีโหลดเร็วขึ้น; ฟังก์ชันนี้ไม่ได้รับการอนุมัติจาก Plasma ซึ่งหมายความว่าเราไม่ทราบว่าจะถูกตรวจพบหรือไม่", Path="Client/Instant Reload"},
-                        {type="Toggle", EN="Full Bright", EN2="Make the game brighter, easier to see or look around.", TH1="แมพสว่าง", TH2="มองเห็นง่ายขึ้น", Path="Client/Full Bright"},
-                        {type="Toggle", EN="Float", EN2="Make your character float in the air.", TH1="ลอย", TH2="ทำให้ตัวละครเดินบนอากาศได้", Path="Client/Float"},
-                        {type="Slider", EN="Teleport Walk Speed", EN2="Change the speed of teleport walk.", TH1="ความเร็วในการเดินแบบวาร์ป", TH2="ปรับความเร็วในการเดินแบบวาร์ป", Value={Min=1, Max=10}, Path="Client/TeleportWalk Speed"},
-                        {type="Toggle", EN="Enable Teleport Walk", EN2="Enable teleport walk.", TH1="เปิดใช้งานเดินแบบวาร์ป", TH2="เปิดใช้งานเดินโดยการวาร์ปไปเรื่อยๆ", Path="Client/Enable TeleportWalk"},
-                        {type="Slider", EN="Jump Power", EN2="Change the power of your jump.", TH1="ความแรงในการกระโดด", TH2="ปรับความแรงในการกระโดด", Value={Min=1, Max=300}, Path="Client/JumpPower"},
-                        {type="Toggle", EN="Enable Jump Power", EN2="Enable jump power modification.", TH1="เปิดใช้งานความแรงในการกระโดด", TH2="ปรับความแรงในการกระโดด", Path="Client/Enable JumpPower"},
+                        {type="Toggle", EN="Instant Reload", EN2="Faster reloading. This function was not approved by Plasma, which means we don't know whether it will be detected.", TH1="à¸£à¸µà¹‚à¸«à¸¥à¸”à¸›à¸·à¸™à¸—à¸±à¸™à¸—à¸µ", TH2="à¸£à¸µà¹‚à¸«à¸¥à¸”à¹€à¸£à¹‡à¸§à¸‚à¸¶à¹‰à¸™; à¸Ÿà¸±à¸‡à¸à¹Œà¸Šà¸±à¸™à¸™à¸µà¹‰à¹„à¸¡à¹ˆà¹„à¸”à¹‰à¸£à¸±à¸šà¸à¸²à¸£à¸­à¸™à¸¸à¸¡à¸±à¸•à¸´à¸ˆà¸²à¸ Plasma à¸‹à¸¶à¹ˆà¸‡à¸«à¸¡à¸²à¸¢à¸„à¸§à¸²à¸¡à¸§à¹ˆà¸²à¹€à¸£à¸²à¹„à¸¡à¹ˆà¸—à¸£à¸²à¸šà¸§à¹ˆà¸²à¸ˆà¸°à¸–à¸¹à¸à¸•à¸£à¸§à¸ˆà¸žà¸šà¸«à¸£à¸·à¸­à¹„à¸¡à¹ˆ", Path="Client/Instant Reload"},
+                        {type="Toggle", EN="Full Bright", EN2="Make the game brighter, easier to see or look around.", TH1="à¹à¸¡à¸žà¸ªà¸§à¹ˆà¸²à¸‡", TH2="à¸¡à¸­à¸‡à¹€à¸«à¹‡à¸™à¸‡à¹ˆà¸²à¸¢à¸‚à¸¶à¹‰à¸™", Path="Client/Full Bright"},
+                        {type="Toggle", EN="Float", EN2="Make your character float in the air.", TH1="à¸¥à¸­à¸¢", TH2="à¸—à¸³à¹ƒà¸«à¹‰à¸•à¸±à¸§à¸¥à¸°à¸„à¸£à¹€à¸”à¸´à¸™à¸šà¸™à¸­à¸²à¸à¸²à¸¨à¹„à¸”à¹‰", Path="Client/Float"},
+                        {type="Slider", EN="Teleport Walk Speed", EN2="Change the speed of teleport walk.", TH1="à¸„à¸§à¸²à¸¡à¹€à¸£à¹‡à¸§à¹ƒà¸™à¸à¸²à¸£à¹€à¸”à¸´à¸™à¹à¸šà¸šà¸§à¸²à¸£à¹Œà¸›", TH2="à¸›à¸£à¸±à¸šà¸„à¸§à¸²à¸¡à¹€à¸£à¹‡à¸§à¹ƒà¸™à¸à¸²à¸£à¹€à¸”à¸´à¸™à¹à¸šà¸šà¸§à¸²à¸£à¹Œà¸›", Value={Min=1, Max=10}, Path="Client/TeleportWalk Speed"},
+                        {type="Toggle", EN="Enable Teleport Walk", EN2="Enable teleport walk.", TH1="à¹€à¸›à¸´à¸”à¹ƒà¸Šà¹‰à¸‡à¸²à¸™à¹€à¸”à¸´à¸™à¹à¸šà¸šà¸§à¸²à¸£à¹Œà¸›", TH2="à¹€à¸›à¸´à¸”à¹ƒà¸Šà¹‰à¸‡à¸²à¸™à¹€à¸”à¸´à¸™à¹‚à¸”à¸¢à¸à¸²à¸£à¸§à¸²à¸£à¹Œà¸›à¹„à¸›à¹€à¸£à¸·à¹ˆà¸­à¸¢à¹†", Path="Client/Enable TeleportWalk"},
+                        {type="Slider", EN="Jump Power", EN2="Change the power of your jump.", TH1="à¸„à¸§à¸²à¸¡à¹à¸£à¸‡à¹ƒà¸™à¸à¸²à¸£à¸à¸£à¸°à¹‚à¸”à¸”", TH2="à¸›à¸£à¸±à¸šà¸„à¸§à¸²à¸¡à¹à¸£à¸‡à¹ƒà¸™à¸à¸²à¸£à¸à¸£à¸°à¹‚à¸”à¸”", Value={Min=1, Max=300}, Path="Client/JumpPower"},
+                        {type="Toggle", EN="Enable Jump Power", EN2="Enable jump power modification.", TH1="à¹€à¸›à¸´à¸”à¹ƒà¸Šà¹‰à¸‡à¸²à¸™à¸„à¸§à¸²à¸¡à¹à¸£à¸‡à¹ƒà¸™à¸à¸²à¸£à¸à¸£à¸°à¹‚à¸”à¸”", TH2="à¸›à¸£à¸±à¸šà¸„à¸§à¸²à¸¡à¹à¸£à¸‡à¹ƒà¸™à¸à¸²à¸£à¸à¸£à¸°à¹‚à¸”à¸”", Path="Client/Enable JumpPower"},
                     }, Title="Client", Open=true};
                 }};
             };
             SilentAimTab = {
-                {type="Dropdown", EN="Target", EN2="Select where the script should aim at.", TH1="เป้าหมาย", TH2="เลือกจุดที่สคริปควรเล็ง", Values={"Head", "HumanoidRootPart"}, Path="Target"},
-                {type="Toggle", EN="Wall Check", EN2="You can turn this off in Sniper gamemode; Don't abuse it.", TH1="เช็คกำแพง", TH2="สามารถปิดได้ในโหมด Sniper แต่ก็อย่าใช้บ่อยดีกว่า", Path="Wall Check"},
-                {type="Toggle", EN="Ignore Bots", EN2="Blocking the script from silent aiming at bots.", TH1="ไม่สนใจบอท", TH2="ป้องกัน silent aiming บอท", Path="Ignore Bots"},
-                {type="Toggle", EN="Ignore Players", EN2="Blocking the script from silent aiming at players.", TH1="ไม่สนใจผู้เล่น", TH2="ป้องกัน silent aiming ผู้เล่น", Path="Ignore Players"},
-                {type="Toggle", EN="Enable", EN2="Enable silent aiming.", TH1="เปิดใช้งาน", TH2="เปิดใช้งาน silent aiming", Bindable="+", Path="Enable"},
+                {type="Dropdown", EN="Target", EN2="Select where the script should aim at.", TH1="à¹€à¸›à¹‰à¸²à¸«à¸¡à¸²à¸¢", TH2="à¹€à¸¥à¸·à¸­à¸à¸ˆà¸¸à¸”à¸—à¸µà¹ˆà¸ªà¸„à¸£à¸´à¸›à¸„à¸§à¸£à¹€à¸¥à¹‡à¸‡", Values={"Head", "HumanoidRootPart"}, Path="Target"},
+                {type="Toggle", EN="Wall Check", EN2="You can turn this off in Sniper gamemode; Don't abuse it.", TH1="à¹€à¸Šà¹‡à¸„à¸à¸³à¹à¸žà¸‡", TH2="à¸ªà¸²à¸¡à¸²à¸£à¸–à¸›à¸´à¸”à¹„à¸”à¹‰à¹ƒà¸™à¹‚à¸«à¸¡à¸” Sniper à¹à¸•à¹ˆà¸à¹‡à¸­à¸¢à¹ˆà¸²à¹ƒà¸Šà¹‰à¸šà¹ˆà¸­à¸¢à¸”à¸µà¸à¸§à¹ˆà¸²", Path="Wall Check"},
+                {type="Toggle", EN="Ignore Bots", EN2="Blocking the script from silent aiming at bots.", TH1="à¹„à¸¡à¹ˆà¸ªà¸™à¹ƒà¸ˆà¸šà¸­à¸—", TH2="à¸›à¹‰à¸­à¸‡à¸à¸±à¸™ silent aiming à¸šà¸­à¸—", Path="Ignore Bots"},
+                {type="Toggle", EN="Ignore Players", EN2="Blocking the script from silent aiming at players.", TH1="à¹„à¸¡à¹ˆà¸ªà¸™à¹ƒà¸ˆà¸œà¸¹à¹‰à¹€à¸¥à¹ˆà¸™", TH2="à¸›à¹‰à¸­à¸‡à¸à¸±à¸™ silent aiming à¸œà¸¹à¹‰à¹€à¸¥à¹ˆà¸™", Path="Ignore Players"},
+                {type="Toggle", EN="Enable", EN2="Enable silent aiming.", TH1="à¹€à¸›à¸´à¸”à¹ƒà¸Šà¹‰à¸‡à¸²à¸™", TH2="à¹€à¸›à¸´à¸”à¹ƒà¸Šà¹‰à¸‡à¸²à¸™ silent aiming", Bindable="+", Path="Enable"},
             };
             AimbotTab = {
-                {type="Dropdown", EN="Target", EN2="Select where the script should aim at.", TH1="เป้าหมาย", TH2="เลือกจุดที่สคริปควรเล็ง", Values={"Head", "HumanoidRootPart"}, Path="Target"},
-                {type="Toggle", EN="Wall Check", EN2="You can turn this off in Sniper gamemode; Don't abuse it.", TH1="เช็คกำแพง", TH2="สามารถปิดได้ในโหมด Sniper แต่ก็อย่าใช้บ่อยดีกว่า", Path="Wall Check"},
-                {type="Toggle", EN="Ignore Bots", EN2="Blocking the script from silent aiming at bots.", TH1="ไม่สนใจบอท", TH2="ป้องกัน silent aiming บอท", Path="Ignore Bots"},
-                {type="Toggle", EN="Ignore Players", EN2="Blocking the script from silent aiming at players.", TH1="ไม่สนใจผู้เล่น", TH2="ป้องกัน silent aiming ผู้เล่น", Path="Ignore Players"},
+                {type="Dropdown", EN="Target", EN2="Select where the script should aim at.", TH1="à¹€à¸›à¹‰à¸²à¸«à¸¡à¸²à¸¢", TH2="à¹€à¸¥à¸·à¸­à¸à¸ˆà¸¸à¸”à¸—à¸µà¹ˆà¸ªà¸„à¸£à¸´à¸›à¸„à¸§à¸£à¹€à¸¥à¹‡à¸‡", Values={"Head", "HumanoidRootPart"}, Path="Target"},
+                {type="Toggle", EN="Wall Check", EN2="You can turn this off in Sniper gamemode; Don't abuse it.", TH1="à¹€à¸Šà¹‡à¸„à¸à¸³à¹à¸žà¸‡", TH2="à¸ªà¸²à¸¡à¸²à¸£à¸–à¸›à¸´à¸”à¹„à¸”à¹‰à¹ƒà¸™à¹‚à¸«à¸¡à¸” Sniper à¹à¸•à¹ˆà¸à¹‡à¸­à¸¢à¹ˆà¸²à¹ƒà¸Šà¹‰à¸šà¹ˆà¸­à¸¢à¸”à¸µà¸à¸§à¹ˆà¸²", Path="Wall Check"},
+                {type="Toggle", EN="Ignore Bots", EN2="Blocking the script from silent aiming at bots.", TH1="à¹„à¸¡à¹ˆà¸ªà¸™à¹ƒà¸ˆà¸šà¸­à¸—", TH2="à¸›à¹‰à¸­à¸‡à¸à¸±à¸™ silent aiming à¸šà¸­à¸—", Path="Ignore Bots"},
+                {type="Toggle", EN="Ignore Players", EN2="Blocking the script from silent aiming at players.", TH1="à¹„à¸¡à¹ˆà¸ªà¸™à¹ƒà¸ˆà¸œà¸¹à¹‰à¹€à¸¥à¹ˆà¸™", TH2="à¸›à¹‰à¸­à¸‡à¸à¸±à¸™ silent aiming à¸œà¸¹à¹‰à¹€à¸¥à¹ˆà¸™", Path="Ignore Players"},
                 {type="Space"}; {type="Space"};
-                {type="Slider", Title="Circle Size", TH1="ขนาดวงกลม", Value={Min=1, Max=360}, Step=0.1, Path="Circle Size"},
-                {type="Toggle", Title="Show Circle", TH1="แสดงวงกลม", Path="Show Circle"},
+                {type="Slider", Title="Circle Size", TH1="à¸‚à¸™à¸²à¸”à¸§à¸‡à¸à¸¥à¸¡", Value={Min=1, Max=360}, Step=0.1, Path="Circle Size"},
+                {type="Toggle", Title="Show Circle", TH1="à¹à¸ªà¸”à¸‡à¸§à¸‡à¸à¸¥à¸¡", Path="Show Circle"},
                 {type="Space"}; {type="Space"};
-                {type="Toggle", EN="Enable", EN2="You need to hold/press the key you binded to; not just click the key. Before holding the key; you have to enable it first.", TH1="เปิดใช้งาน", TH2="เปิดใช้งาน silent aiming", Bindable="++", BindToGlobal="AimKey", Path="Enable"},
+                {type="Toggle", EN="Enable", EN2="You need to hold/press the key you binded to; not just click the key. Before holding the key; you have to enable it first.", TH1="à¹€à¸›à¸´à¸”à¹ƒà¸Šà¹‰à¸‡à¸²à¸™", TH2="à¹€à¸›à¸´à¸”à¹ƒà¸Šà¹‰à¸‡à¸²à¸™ silent aiming", Bindable="++", BindToGlobal="AimKey", Path="Enable"},
             };
             ESPTab = {
-                {type="Toggle", EN="Bots", EN2="Show ESP bots.", TH1="บอท", TH2="เปิดใช้งาน ESP บอท", Path="Bots", Callback=IB_NO_VIRTUALIZE(function(state)
+                {type="Toggle", EN="Bots", EN2="Show ESP bots.", TH1="à¸šà¸­à¸—", TH2="à¹€à¸›à¸´à¸”à¹ƒà¸Šà¹‰à¸‡à¸²à¸™ ESP à¸šà¸­à¸—", Path="Bots", Callback=IB_NO_VIRTUALIZE(function(state)
                     ESPCon.Bots = state;
                     ESPF.Destroy("Bot");
                 end)},
-                {type="Toggle", EN="Players", EN2="Show ESP players.", TH1="ผู้เล่น", TH2="เปิดใช้งาน ESP ผู้เล่น", Path="Players", Callback=IB_NO_VIRTUALIZE(function(state)
+                {type="Toggle", EN="Players", EN2="Show ESP players.", TH1="à¸œà¸¹à¹‰à¹€à¸¥à¹ˆà¸™", TH2="à¹€à¸›à¸´à¸”à¹ƒà¸Šà¹‰à¸‡à¸²à¸™ ESP à¸œà¸¹à¹‰à¹€à¸¥à¹ˆà¸™", Path="Players", Callback=IB_NO_VIRTUALIZE(function(state)
                     ESPCon.Players = state;
                     ESPF.Destroy("Player");
                 end)},
                 {type="Space"}; {type="Space"};
-                {type="Toggle", EN="Show Text", EN2="This is a charm ESP from the script package.", TH1="ข้อความ", TH2="แสดงชื่อศัตรู", Path="ShowText"},
-                {type="Toggle", EN="Show Box", EN2="This is a charm ESP from the script package.", TH1="กล่อง", TH2="แสดงกรอบศัตรู", Path="ShowBox"},
-                {type="Toggle", EN="Highlight On Top", EN2="This is a highlight ESP from the game itself. This will make the highlight visible through walls.", TH1="Highlight On Top", TH2="มองไฮไลท์ทะลุกำแพง", Path="Highlight On Top"},
-                {type="Toggle", EN="Tracer", EN2="Tracer line from the target to your crosshair.", TH1="เส้นเลเซอร์", TH2="เส้นเลเซอร์จากเป้าหมายไปยังจุดกึ่งกลางของหน้าจอ", Path="Tracer"},
+                {type="Toggle", EN="Show Text", EN2="This is a charm ESP from the script package.", TH1="à¸‚à¹‰à¸­à¸„à¸§à¸²à¸¡", TH2="à¹à¸ªà¸”à¸‡à¸Šà¸·à¹ˆà¸­à¸¨à¸±à¸•à¸£à¸¹", Path="ShowText"},
+                {type="Toggle", EN="Show Box", EN2="This is a charm ESP from the script package.", TH1="à¸à¸¥à¹ˆà¸­à¸‡", TH2="à¹à¸ªà¸”à¸‡à¸à¸£à¸­à¸šà¸¨à¸±à¸•à¸£à¸¹", Path="ShowBox"},
+                {type="Toggle", EN="Highlight On Top", EN2="This is a highlight ESP from the game itself. This will make the highlight visible through walls.", TH1="Highlight On Top", TH2="à¸¡à¸­à¸‡à¹„à¸®à¹„à¸¥à¸—à¹Œà¸—à¸°à¸¥à¸¸à¸à¸³à¹à¸žà¸‡", Path="Highlight On Top"},
+                {type="Toggle", EN="Tracer", EN2="Tracer line from the target to your crosshair.", TH1="à¹€à¸ªà¹‰à¸™à¹€à¸¥à¹€à¸‹à¸­à¸£à¹Œ", TH2="à¹€à¸ªà¹‰à¸™à¹€à¸¥à¹€à¸‹à¸­à¸£à¹Œà¸ˆà¸²à¸à¹€à¸›à¹‰à¸²à¸«à¸¡à¸²à¸¢à¹„à¸›à¸¢à¸±à¸‡à¸ˆà¸¸à¸”à¸à¸¶à¹ˆà¸‡à¸à¸¥à¸²à¸‡à¸‚à¸­à¸‡à¸«à¸™à¹‰à¸²à¸ˆà¸­", Path="Tracer"},
             };
         };
 
@@ -536,21 +536,8 @@ return {
 
             ScriptCache.WindUI = WindUI; ScriptCache.Window = Window;
         end; local LSecureLoad = function(AUTH_KEY)
-            Storing_AUTHENTICATION = Storing_AUTHENTICATION or AUTH_KEY;
-            if not Storing_AUTHENTICATION then return selff:Kick("Invalid Authentication 1PAC"); end;
-            local Splited1 = str.split(Storing_AUTHENTICATION, "+++os()");
-            local Splited2 = str.split(decrypt(Splited1[2], 3), "+++os()");
-            local D1Auth = decrypt(Splited2[2], 3);
-            local D2Auth = decrypt(Splited2[3], 2);
-            D1Auth = D1Auth:gsub("emptyspace", "");
-            D2Auth = D2Auth:gsub("emptyspace", "");
-            if D1Auth == "200" then
-                PremiumCheck = false;
-            elseif D1Auth == "201" then
-                PremiumCheck = true;
-            else
-                return selff:Kick("Invalid Authentication 2PAC");
-            end; local OneRunCallMain, OneRunErrorMain = pcall(function()
+            PremiumCheck = false;
+            local OneRunCallMain, OneRunErrorMain = pcall(function()
                 CoreDestroyed = false;
                 ClientCon.JumpPower = HumSelf and HumSelf.JumpPower or 50;
                 AimbotCir:SetColor(RED); AimbotCir:SetThickness(2);
@@ -647,3 +634,5 @@ return {
         end; GG.LSecureLoad = LSecureLoad; return LSecureLoad;
     end;
 };
+
+

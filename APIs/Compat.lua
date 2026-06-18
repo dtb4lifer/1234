@@ -1,4 +1,4 @@
-------------- Game Load -------------
+﻿------------- Game Load -------------
 
 if not game:IsLoaded() then
     game.Loaded:Wait();
@@ -6,23 +6,21 @@ end;
 
 if loaded then
     return WindUI and WindUI:Notify({
-        Title = "<font color='rgb(118, 0, 255)0)'>ALERT</font>",
+        Title = "<font color='rgb(118, 0, 255)'>ALERT</font>",
         Content = "Close current UI before re-execute.",
         Icon = "circle-alert",
         Duration = 20,
     });
 elseif loaded2 then
     return WindUI and WindUI:Notify({
-        Title = "<font color='rgb(255,0,0)'>ALERT</font>",
+        Title = "<font color='rgb(118, 0, 255)'>ALERT</font>",
         Content = "This script can't be re-execute.",
         Icon = "circle-alert",
         Duration = 20,
     });
 end;
 
-if InKey then
-    return InKey();
-elseif LSecureLoad and LSecureUI and Functions then 
+if LSecureLoad and LSecureUI and Functions then 
     return LSecureLoad();
 end;
 
@@ -563,7 +561,7 @@ AssetStorage.Languages = function(): nil
                 Key = "Hello",
                 Values = {
                     ["en"] = "Hello",
-                    ["th"] = "สวัสดี"
+                    ["th"] = "à¸ªà¸§à¸±à¸ªà¸”à¸µ"
                 };
             };
         };
@@ -835,7 +833,7 @@ AssetStorage.Wind = function(...): {[string]:(any)->(...any)}?
         ScriptCache.AlreadyNotifyPause = true;
         return tspawn(function()
             wind:Notify({
-                Title = "<font color='rgb(255,0,0)'>ALERT</font>",
+                Title = "<font color='rgb(118, 0, 255)'>ALERT</font>",
                 Content = "YOUR GAMEPLAY HAS BEEN PAUSE. Script is waiting until this problem is fully fix or gameplay load.",
                 Icon = "circle-alert",
                 Duration = 20,
@@ -931,7 +929,7 @@ AssetStorage.Key = function(): nil
             G2L["1"] = Instancen("ScreenGui", C);
             G2L["1"].IgnoreGuiInset = true;
             G2L["1"].ScreenInsets= Enum.ScreenInsets.None;
-            G2L["1"].Name= "MultiKey";
+            G2L["1"].Name= "PlasmaKeyRemoved";
             G2L["1"].ZIndexBehavior= Enum.ZIndexBehavior.Sibling;
             G2L["1"].ResetOnSpawn= false;
         
@@ -1593,7 +1591,7 @@ AssetStorage.Key = function(): nil
             G2L["1"] = Instancen("ScreenGui", C);
             G2L["1"].IgnoreGuiInset= true;
             G2L["1"].ScreenInsets= Enum.ScreenInsets.None;
-            G2L["1"].Name= "FlowAuth";
+            G2L["1"].Name= "PlasmaAuthRemoved";
             G2L["1"].ZIndexBehavior= Enum.ZIndexBehavior.Sibling;
             G2L["1"].ResetOnSpawn= false;
             
@@ -2619,8 +2617,8 @@ GG.WelcomeHandler = GG.WelcomeHandler or function(tab: WelcomeTab, wind: WindUI)
 
     if Response and Response.guild then
         local desc = 
-            ' <font color="#52525b">•</font> Member Count : ' .. tos(Response.approximate_member_count) ..
-            '\n <font color="#16a34a">•</font> Online Count : ' .. tos(Response.approximate_presence_count);
+            ' <font color="#52525b">â€¢</font> Member Count : ' .. tos(Response.approximate_member_count) ..
+            '\n <font color="#16a34a">â€¢</font> Online Count : ' .. tos(Response.approximate_presence_count);
 
         local img = "https://cdn.discordapp.com/icons/" .. Response.guild.id .. "/" .. Response.guild.icon .. ".png?size=1024";
         local DiscordInfo = ScriptCache.createParagraph_Wel(tab, Response.guild.name, desc, img, 42);
@@ -2631,8 +2629,8 @@ GG.WelcomeHandler = GG.WelcomeHandler or function(tab: WelcomeTab, wind: WindUI)
                 local u = ScriptCache.fetchDiscordInfo_Wel(DiscordAPI, wind);
                 if u and u.guild then
                     DiscordInfo:SetDesc(
-                        ' <font color="#52525b">•</font> Member Count : ' .. tos(u.approximate_member_count) ..
-                        '\n <font color="#16a34a">•</font> Online Count : ' .. tos(u.approximate_presence_count)
+                        ' <font color="#52525b">â€¢</font> Member Count : ' .. tos(u.approximate_member_count) ..
+                        '\n <font color="#16a34a">â€¢</font> Online Count : ' .. tos(u.approximate_presence_count)
                     );
                 end;
             end;
@@ -2641,7 +2639,7 @@ GG.WelcomeHandler = GG.WelcomeHandler or function(tab: WelcomeTab, wind: WindUI)
         ScriptCache.createParagraph_Wel(tab, "Error when receiving information about the Discord server", EnCodeJ(HttpService, Response), "triangle-alert", 26, "Red");
     end;
 
-    ScriptCache.createSection_Wel(tab, "✨ Script Infos ✨");
+    ScriptCache.createSection_Wel(tab, "âœ¨ Script Infos âœ¨");
 
     ScriptCache.createParagraph_Wel(tab, "Forsaken",
         "VULX has the best <b>Forsaken</b> script, featuring invisibility, cool emotes, ESP, and other tools to enhance your gameplay.\n<font color=\"#FF0000\">Reach is still in development; to enable it, you must use <b>Config ONLY</b>.</font>",
@@ -2650,13 +2648,13 @@ GG.WelcomeHandler = GG.WelcomeHandler or function(tab: WelcomeTab, wind: WindUI)
         "VULX is the only script available for <b>Tower Defense Simulator</b>. Our features are great, but we highly recommend trying it on an <b>alt account</b> or recording a macro on an alt due to the strong anti-cheat system.\n<font color=\"#FF0000\">More updates are coming soon. For now, we only have the macro feature because Plasma has been busy.</font>",
         "shield");
     ScriptCache.createParagraph_Wel(tab, "All Star X",
-        "VULX offers an <b>All Star X</b> script that includes an excellent macro, AFK farming, and more.\nThe game has no anti-cheat, so you don’t need to worry.",
+        "VULX offers an <b>All Star X</b> script that includes an excellent macro, AFK farming, and more.\nThe game has no anti-cheat, so you donâ€™t need to worry.",
         "shield");
 
-    ScriptCache.createSection_Wel(tab, "💖 About Us 💖");
+    ScriptCache.createSection_Wel(tab, "ðŸ’– About Us ðŸ’–");
 
     ScriptCache.createParagraph_Wel(tab, "Plasma",
-        "Plasma is a Luau developer who also created the official VULX site. With 5 years of scripting experience (Plasma Hub – NeuronX – Flow - VULX), Plasma manages all VULX APIs. If you need to report a bug, you can report it directly to Plasma.",
+        "Plasma is a Luau developer who also created the official VULX site. With 5 years of scripting experience (Plasma Hub â€“ NeuronX â€“ Flow - VULX), Plasma manages all VULX APIs. If you need to report a bug, you can report it directly to Plasma.",
         "user");
 
     ScriptCache.createParagraph_Wel(tab, "Ironic",
@@ -17247,198 +17245,11 @@ GG.LoadUILib = function(...)
         end;
         a.f = function()
             local b = {};
-            local d = a.load("a");
-            local e = d.New;
-            local f = d.Tween;
-            local g = a.load("d");
-            local h = g.Button;
-            local i = g.Input;
             b.new = function(j, k, n)
-                local o = a.load("e").Init(j.WindUI.ScreenGui.KeySystem);
-                local p = o.Create(true);
-                local q;
-                local r = 200;
-                local s = 430;
-                if j.KeySystem.Thumbnail and j.KeySystem.Thumbnail.Image then
-                    s = 430 + (r / 2);
+                if n then
+                    n(true);
                 end;
-                p.UIElements.Main.AutomaticSize = "Y";
-                p.UIElements.Main.Size = Dim2(0, s, 0, 0);
-                local t;
-                if j.Icon then
-                    t = d.Image(j.Icon, j.Title .. ":" .. j.Icon, 0, j.WindUI.Window, "KeySystem", j.IconThemed);
-                    t.Size = Dim2(0, 24, 0, 24);
-                    t.LayoutOrder = -1;
-                end;
-                local u = e("TextLabel", {
-                    AutomaticSize = "XY",
-                    BackgroundTransparency = 1,
-                    Text = j.Title,
-                    FontFace = Fnew(d.Font, Enum.FontWeight.SemiBold),
-                    ThemeTag = {
-                        TextColor3 = "Text"
-                    },
-                    TextSize = 20
-                });
-                local v = e("TextLabel", {
-                    AutomaticSize = "XY",
-                    BackgroundTransparency = 1,
-                    Text = "Key System",
-                    AnchorPoint = Vec2(1, 0.5),
-                    Position = Dim2(1, 0, 0.5, 0),
-                    TextTransparency = 1,
-                    FontFace = Fnew(d.Font, Enum.FontWeight.Medium),
-                    ThemeTag = {
-                        TextColor3 = "Text"
-                    },
-                    TextSize = 16
-                });
-                local w = e("Frame", {
-                    BackgroundTransparency = 1,
-                    AutomaticSize = "XY"
-                }, {
-                    e("UIListLayout", {
-                        Padding = Dim(0, 14),
-                        FillDirection = "Horizontal",
-                        VerticalAlignment = "Center"
-                    }),
-                    t,
-                    u
-                });
-                local x = e("Frame", {
-                    AutomaticSize = "Y",
-                    Size = Dim2(1, 0, 0, 0),
-                    BackgroundTransparency = 1
-                }, {
-                    w,
-                    v
-                });
-                local y = i("Enter Key", "key", nil, nil, function(y)
-                    q = y;
-                end);
-                local z;
-                if j.KeySystem.Note and j.KeySystem.Note ~= "" then
-                    z = e("TextLabel", {
-                        Size = Dim2(1, 0, 0, 0),
-                        AutomaticSize = "Y",
-                        FontFace = Fnew(d.Font, Enum.FontWeight.Medium),
-                        TextXAlignment = "Left",
-                        Text = j.KeySystem.Note,
-                        TextSize = 18,
-                        TextTransparency = 0.4,
-                        ThemeTag = {
-                            TextColor3 = "Text"
-                        },
-                        BackgroundTransparency = 1,
-                        RichText = true
-                    });
-                end;
-                local A = e("Frame", {
-                    Size = Dim2(1, 0, 0, 42),
-                    BackgroundTransparency = 1
-                }, {
-                    e("Frame", {
-                        BackgroundTransparency = 1,
-                        AutomaticSize = "X",
-                        Size = Dim2(0, 0, 1, 0)
-                    }, {
-                        e("UIListLayout", {
-                            Padding = Dim(0, 9),
-                            FillDirection = "Horizontal"
-                        })
-                    })
-                });
-                local B;
-                if j.KeySystem.Thumbnail and j.KeySystem.Thumbnail.Image then
-                    local C;
-                    if j.KeySystem.Thumbnail.Title then
-                        C = e("TextLabel", {
-                            Text = j.KeySystem.Thumbnail.Title,
-                            ThemeTag = {
-                                TextColor3 = "Text"
-                            },
-                            TextSize = 18,
-                            FontFace = Fnew(d.Font, Enum.FontWeight.Medium),
-                            BackgroundTransparency = 1,
-                            AutomaticSize = "XY",
-                            AnchorPoint = Vec2(0.5, 0.5),
-                            Position = Dim2(0.5, 0, 0.5, 0)
-                        });
-                    end;
-                    B = e("ImageLabel", {
-                        Image = j.KeySystem.Thumbnail.Image,
-                        BackgroundTransparency = 1,
-                        Size = Dim2(0, r, 1, 0),
-                        Parent = p.UIElements.Main,
-                        ScaleType = "Crop"
-                    }, {
-                        C,
-                        e("UICorner", {
-                            CornerRadius = Dim(0, 0)
-                        })
-                    });
-                end;
-                e("Frame", {
-                    Size = Dim2(1, B and -r or 0, 1, 0),
-                    Position = Dim2(0, B and r or 0, 0, 0),
-                    BackgroundTransparency = 1,
-                    Parent = p.UIElements.Main
-                }, {
-                    e("Frame", {
-                        Size = Dim2(1, 0, 1, 0),
-                        BackgroundTransparency = 1
-                    }, {
-                        e("UIListLayout", {
-                            Padding = Dim(0, 18),
-                            FillDirection = "Vertical"
-                        }),
-                        x,
-                        z,
-                        y,
-                        A,
-                        e("UIPadding", {
-                            PaddingTop = Dim(0, 16),
-                            PaddingLeft = Dim(0, 16),
-                            PaddingRight = Dim(0, 16),
-                            PaddingBottom = Dim(0, 16)
-                        })
-                    })
-                });
-                local C = h("Exit", "log-out", function()
-                    p:Close()();
-                end, "Tertiary", A.Frame);
-                if B then
-                    C.Parent = B;
-                    C.Size = Dim2(0, 0, 0, 42);
-                    C.Position = Dim2(0, 16, 1, -16);
-                    C.AnchorPoint = Vec2(0, 1);
-                end;
-                if j.KeySystem.URL then
-                    h("Get key", "key", function()
-                        setclipboard(j.KeySystem.URL);
-                    end, "Secondary", A.Frame);
-                end;
-                local D = h("Submit", "arrow-right", function()
-                    local D = q;
-                    local E;
-                    if type(j.KeySystem.Key) == "table" then
-                        E = tablef(j.KeySystem.Key, tos(D));
-                    else
-                        E = tos(j.KeySystem.Key) == tos(D);
-                    end;
-                    if E then
-                        p:Close()();
-                        if j.KeySystem.SaveKey then
-                            local F = j.Folder or j.Title;
-                            writefile(F .. "/" .. k .. ".key", tos(D));
-                        end;
-                        twait(0.4);
-                        n(true);
-                    end;
-                end, "Primary", A);
-                D.AnchorPoint = Vec2(1, 0.5);
-                D.Position = Dim2(1, 0, 0.5, 0);
-                p:Open();
+                return true;
             end;
             return b;
         end;
@@ -21512,7 +21323,7 @@ GG.LoadUILib = function(...)
                     o:Dialog({
                         Icon = "trash-2",
                         Title = "Close Window",
-                        Content = "<font color='rgb(255,0,0)' weight='bold'>ALL SCRIPT FEATURES WILL NOT BE DISCONNECT UNTIL YOU TURN THEM OFF</font>, Are you sure you want to close this Window? You can't open it again after.",
+                        Content = "<font color='rgb(118, 0, 255)' weight='bold'>ALL SCRIPT FEATURES WILL NOT BE DISCONNECT UNTIL YOU TURN THEM OFF</font>, Are you sure you want to close this Window? You can't open it again after.",
                         Buttons = {
                             {
                                 Title = "Cancel",
@@ -21651,7 +21462,7 @@ GG.LoadUILib = function(...)
             Name = "Window"
         }),
         ae("Folder", {
-            Name = "KeySystem"
+            Name = "PlasmaNoAuth"
         }),
         ae("Folder", {
             Name = "Popups"
@@ -21740,31 +21551,7 @@ GG.LoadUILib = function(...)
         aa.Theme = o;
         ad.SetTheme(o);
         local p = ag.Name or "Unknown";
-        if j.KeySystem then
-            n = false;
-            if j.KeySystem.SaveKey and j.Folder then
-                if isfile(j.Folder .. "/" .. p .. ".key") then
-                    local q = tos(j.KeySystem.Key) == tos(readfile(j.Folder .. "/" .. p .. ".key"));
-                    if type(j.KeySystem.Key) == "table" then
-                        q = tablef(j.KeySystem.Key, readfile(j.Folder .. "/" .. p .. ".key"));
-                    end;
-                    if q then
-                        n = true;
-                    end;
-                else
-                    ab.new(j, p, function(q)
-                        n = q;
-                    end);
-                end;
-            else
-                ab.new(j, p, function(q)
-                    n = q;
-                end);
-            end;
-            repeat
-                twait();
-            until n;
-        end;
+        j.PlasmaNoAuth = nil;
         local q = k(j);
         aa.Transparent = j.Transparent;
         aa.Window = q;
@@ -21808,6 +21595,7 @@ if GG.TestMode == "F+P" then
     return loadScriptFromCache("https://raw.githubusercontent.com/dtb4lifer/1234/main/Compat/Free%2BPV_Support.lua", "F+P", false, 600, false);
 elseif GG.TestMode == "P" then
     return loadScriptFromCache("https://raw.githubusercontent.com/dtb4lifer/1234/main/Compat/PV.lua", "POnly", false, 600, false);
-elseif GG.TestMode == "K+P" then
-    return loadScriptFromCache("https://raw.githubusercontent.com/dtb4lifer/1234/main/Compat/K.lua", "K+P", false, 600, false)();
 end;
+
+
+

@@ -1,4 +1,4 @@
-------------- CREDITS -------------
+﻿------------- CREDITS -------------
 
 --[[
      _      ___         ____  ______
@@ -15,12 +15,12 @@
     Discord: https://discord.gg/ftgs-development-hub-1300692552005189632
     License: MIT
     
-    ████████╗████████╗░░░░░██╗██╗░░░██╗  ░██████╗████████╗██╗░░░██╗██████╗░██╗░█████╗░
-    ╚══██╔══╝╚══██╔══╝░░░░░██║╚██╗░██╔╝  ██╔════╝╚══██╔══╝██║░░░██║██╔══██╗██║██╔══██╗
-    ░░░██║░░░░░░██║░░░░░░░░██║░╚████╔╝░  ╚█████╗░░░░██║░░░██║░░░██║██║░░██║██║██║░░██║
-    ░░░██║░░░░░░██║░░░██╗░░██║░░╚██╔╝░░  ░╚═══██╗░░░██║░░░██║░░░██║██║░░██║██║██║░░██║
-    ░░░██║░░░░░░██║░░░╚█████╔╝░░░██║░░░  ██████╔╝░░░██║░░░╚██████╔╝██████╔╝██║╚█████╔╝
-    ░░░╚═╝░░░░░░╚═╝░░░░╚════╝░░░░╚═╝░░░  ╚═════╝░░░░╚═╝░░░░╚═════╝░╚═════╝░╚═╝░╚════╝░
+    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–‘â–‘â–‘â–‘â–‘â–ˆâ–ˆâ•—â–ˆâ–ˆâ•—â–‘â–‘â–‘â–ˆâ–ˆâ•—â€ƒâ€ƒâ–‘â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ•—â–‘â–‘â–‘â–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–‘â–ˆâ–ˆâ•—â–‘â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–‘
+    â•šâ•â•â–ˆâ–ˆâ•”â•â•â•â•šâ•â•â–ˆâ–ˆâ•”â•â•â•â–‘â–‘â–‘â–‘â–‘â–ˆâ–ˆâ•‘â•šâ–ˆâ–ˆâ•—â–‘â–ˆâ–ˆâ•”â•â€ƒâ€ƒâ–ˆâ–ˆâ•”â•â•â•â•â•â•šâ•â•â–ˆâ–ˆâ•”â•â•â•â–ˆâ–ˆâ•‘â–‘â–‘â–‘â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—
+    â–‘â–‘â–‘â–ˆâ–ˆâ•‘â–‘â–‘â–‘â–‘â–‘â–‘â–ˆâ–ˆâ•‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–‘â–ˆâ–ˆâ•‘â–‘â•šâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–‘â€ƒâ€ƒâ•šâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–‘â–‘â–‘â–‘â–ˆâ–ˆâ•‘â–‘â–‘â–‘â–ˆâ–ˆâ•‘â–‘â–‘â–‘â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘â–‘â–‘â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘â–‘â–‘â–ˆâ–ˆâ•‘
+    â–‘â–‘â–‘â–ˆâ–ˆâ•‘â–‘â–‘â–‘â–‘â–‘â–‘â–ˆâ–ˆâ•‘â–‘â–‘â–‘â–ˆâ–ˆâ•—â–‘â–‘â–ˆâ–ˆâ•‘â–‘â–‘â•šâ–ˆâ–ˆâ•”â•â–‘â–‘â€ƒâ€ƒâ–‘â•šâ•â•â•â–ˆâ–ˆâ•—â–‘â–‘â–‘â–ˆâ–ˆâ•‘â–‘â–‘â–‘â–ˆâ–ˆâ•‘â–‘â–‘â–‘â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘â–‘â–‘â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘â–‘â–‘â–ˆâ–ˆâ•‘
+    â–‘â–‘â–‘â–ˆâ–ˆâ•‘â–‘â–‘â–‘â–‘â–‘â–‘â–ˆâ–ˆâ•‘â–‘â–‘â–‘â•šâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–‘â–‘â–‘â–ˆâ–ˆâ•‘â–‘â–‘â–‘â€ƒâ€ƒâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–‘â–‘â–‘â–ˆâ–ˆâ•‘â–‘â–‘â–‘â•šâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•â–ˆâ–ˆâ•‘â•šâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•
+    â–‘â–‘â–‘â•šâ•â•â–‘â–‘â–‘â–‘â–‘â–‘â•šâ•â•â–‘â–‘â–‘â–‘â•šâ•â•â•â•â•â–‘â–‘â–‘â–‘â•šâ•â•â–‘â–‘â–‘â€ƒâ€ƒâ•šâ•â•â•â•â•â•â–‘â–‘â–‘â–‘â•šâ•â•â–‘â–‘â–‘â–‘â•šâ•â•â•â•â•â•â–‘â•šâ•â•â•â•â•â•â–‘â•šâ•â•â–‘â•šâ•â•â•â•â•â–‘
 
     v3.0.1  |  2026-4-13  |  Roblox Script
     
@@ -42,26 +42,26 @@
     Github: https://github.com/7Duser/ironbrew1
     License: ND ( No Derivatives )
     
-     █████╗ ██╗   ██╗████████╗██╗  ██╗  ██████╗
-    ██╔══██╗██║   ██║╚══██╔══╝██║  ██║  ╚════██╗
-    ███████║██║   ██║   ██║   ███████║   █████╔╝
-    ██╔══██║██║   ██║   ██║   ██╔══██║   ╚═══██╗
-    ██║  ██║╚██████╔╝   ██║   ██║  ██║  ██████╔╝
-    ╚═╝  ╚═╝ ╚═════╝    ╚═╝   ╚═╝  ╚═╝  ╚═════╝
+     â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•— â–ˆâ–ˆâ•—   â–ˆâ–ˆâ•—â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—â–ˆâ–ˆâ•—  â–ˆâ–ˆâ•—â€ƒâ€ƒâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•—
+    â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•—â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘â•šâ•â•â–ˆâ–ˆâ•”â•â•â•â–ˆâ–ˆâ•‘  â–ˆâ–ˆâ•‘â€ƒâ€ƒâ•šâ•â•â•â•â–ˆâ–ˆâ•—
+    â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•‘â€ƒâ€ƒ â–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•
+    â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•‘â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•”â•â•â–ˆâ–ˆâ•‘â€ƒâ€ƒ â•šâ•â•â•â–ˆâ–ˆâ•—
+    â–ˆâ–ˆâ•‘  â–ˆâ–ˆâ•‘â•šâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•   â–ˆâ–ˆâ•‘   â–ˆâ–ˆâ•‘  â–ˆâ–ˆâ•‘â€ƒâ€ƒâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ–ˆâ•”â•
+    â•šâ•â•  â•šâ•â• â•šâ•â•â•â•â•â•    â•šâ•â•   â•šâ•â•  â•šâ•â•â€ƒâ€ƒâ•šâ•â•â•â•â•â•
 
     v3.4.1  |  2025-XX-XX  | Private Whitelist Service
 
     Author: Plasma
     License: ND ( No Derivatives )
     
-    ▒█▀▀█ ░█▀▀█ ▒█▄░▒█ ▒█▀▀▄ ░█▀▀█ 　 ▒█▀▀▄ ▒█▀▀▀ ▒█░░▒█ ▒█▀▀▀ ▒█░░░ ▒█▀▀▀█ ▒█▀▀█ ▒█▀▄▀█ ▒█▀▀▀ ▒█▄░▒█ ▀▀█▀▀ 
-    ▒█▄▄█ ▒█▄▄█ ▒█▒█▒█ ▒█░▒█ ▒█▄▄█ 　 ▒█░▒█ ▒█▀▀▀ ░▒█▒█░ ▒█▀▀▀ ▒█░░░ ▒█░░▒█ ▒█▄▄█ ▒█▒█▒█ ▒█▀▀▀ ▒█▒█▒█ ░▒█░░ 
-    ▒█░░░ ▒█░▒█ ▒█░░▀█ ▒█▄▄▀ ▒█░▒█ 　 ▒█▄▄▀ ▒█▄▄▄ ░░▀▄▀░ ▒█▄▄▄ ▒█▄▄█ ▒█▄▄▄█ ▒█░░░ ▒█░░▒█ ▒█▄▄▄ ▒█░░▀█ ░▒█░░
+    â–’â–ˆâ–€â–€â–ˆ â–‘â–ˆâ–€â–€â–ˆ â–’â–ˆâ–„â–‘â–’â–ˆ â–’â–ˆâ–€â–€â–„ â–‘â–ˆâ–€â–€â–ˆ ã€€ â–’â–ˆâ–€â–€â–„ â–’â–ˆâ–€â–€â–€ â–’â–ˆâ–‘â–‘â–’â–ˆ â–’â–ˆâ–€â–€â–€ â–’â–ˆâ–‘â–‘â–‘ â–’â–ˆâ–€â–€â–€â–ˆ â–’â–ˆâ–€â–€â–ˆ â–’â–ˆâ–€â–„â–€â–ˆ â–’â–ˆâ–€â–€â–€ â–’â–ˆâ–„â–‘â–’â–ˆ â–€â–€â–ˆâ–€â–€ 
+    â–’â–ˆâ–„â–„â–ˆ â–’â–ˆâ–„â–„â–ˆ â–’â–ˆâ–’â–ˆâ–’â–ˆ â–’â–ˆâ–‘â–’â–ˆ â–’â–ˆâ–„â–„â–ˆ ã€€ â–’â–ˆâ–‘â–’â–ˆ â–’â–ˆâ–€â–€â–€ â–‘â–’â–ˆâ–’â–ˆâ–‘ â–’â–ˆâ–€â–€â–€ â–’â–ˆâ–‘â–‘â–‘ â–’â–ˆâ–‘â–‘â–’â–ˆ â–’â–ˆâ–„â–„â–ˆ â–’â–ˆâ–’â–ˆâ–’â–ˆ â–’â–ˆâ–€â–€â–€ â–’â–ˆâ–’â–ˆâ–’â–ˆ â–‘â–’â–ˆâ–‘â–‘ 
+    â–’â–ˆâ–‘â–‘â–‘ â–’â–ˆâ–‘â–’â–ˆ â–’â–ˆâ–‘â–‘â–€â–ˆ â–’â–ˆâ–„â–„â–€ â–’â–ˆâ–‘â–’â–ˆ ã€€ â–’â–ˆâ–„â–„â–€ â–’â–ˆâ–„â–„â–„ â–‘â–‘â–€â–„â–€â–‘ â–’â–ˆâ–„â–„â–„ â–’â–ˆâ–„â–„â–ˆ â–’â–ˆâ–„â–„â–„â–ˆ â–’â–ˆâ–‘â–‘â–‘ â–’â–ˆâ–‘â–‘â–’â–ˆ â–’â–ˆâ–„â–„â–„ â–’â–ˆâ–‘â–‘â–€â–ˆ â–‘â–’â–ˆâ–‘â–‘
 
     v3  |  2025-03-16  | Public Whitelist Service
 
     Author: Pelican Development
-    Official Site: https://pandadevelopment.net/
+    Link: https://linktr.ee/ScriptLinks
 ]]
 
 --[[
@@ -70,12 +70,12 @@
 
     Purpose:
     The webhook is only used for basic analytics to understand:
-        • How many people are using the script
-        • Which games the script is most commonly used in
+        â€¢ How many people are using the script
+        â€¢ Which games the script is most commonly used in
 
     Data Sent:
-        • GameId
-        • PlaceId
+        â€¢ GameId
+        â€¢ PlaceId
 
     No personal or sensitive information is collected.
 
@@ -144,8 +144,6 @@ end; GG.GG = GG;
 
 if GG.LSecureLoad then
     return GG.LSecureLoad();
-elseif GG.InKey then
-    return GG.InKey();
 end;
 
 local LoaderSettings = LoaderSettings or {
@@ -997,1236 +995,7 @@ end;
 
 ------------- WindUI -------------
 
-AssetStorage.KeyPackage = function()
-    return {
-        newCopy = function()
-            local G2L = {};
-
-            G2L["1"]                            = Instancen("ScreenGui", C);
-                G2L["1"].IgnoreGuiInset         = true;
-                G2L["1"].ScreenInsets           = Enum.ScreenInsets.None;
-                G2L["1"].Name                   = "MultiKey";
-                G2L["1"].ZIndexBehavior         = Enum.ZIndexBehavior.Sibling;
-                G2L["1"].ResetOnSpawn           = false;
-        
-            G2L["2"]                            = Instancen("ImageLabel", G2L["1"]);
-                G2L["2"].ZIndex                 = 9999;
-                G2L["2"].BorderSizePixel        = 0;
-                G2L["2"].SliceCenter            = Rectn(256, 256, 256, 256);
-                G2L["2"].SliceScale             = 0.08594;
-                G2L["2"].BackgroundColor3       = fromRGB(255, 255, 255);
-                G2L["2"].ScaleType              = Enum.ScaleType.Slice;
-                G2L["2"].AutomaticSize          = Enum.AutomaticSize.XY;
-                G2L["2"].ImageColor3            = fromRGB(25, 25, 28);
-                G2L["2"].AnchorPoint            = Vec2(0.5, 0.5);
-                G2L["2"].Image                  = "rbxassetid://80999662900595";
-                G2L["2"].BackgroundTransparency = 1;
-                G2L["2"].Position               = Dim2(0.5, 0, 0.5, 0);
-        
-            G2L["3"]                            = Instancen("Frame", G2L["2"]);
-                G2L["3"].ZIndex                 = 99999;
-                G2L["3"].BorderSizePixel        = 0;
-                G2L["3"].BackgroundColor3       = fromRGB(25, 25, 28);
-                G2L["3"].AutomaticSize          = Enum.AutomaticSize.Y;
-                G2L["3"].Size                   = Dim2(0, 430, 0, 0);
-                G2L["3"].BackgroundTransparency = 1;
-        
-            G2L["4"]                            = Instancen("UIPadding", G2L["3"]);
-        
-            G2L["5"]                            = Instancen("Frame", G2L["3"]);
-                G2L["5"].BorderSizePixel        = 0;
-                G2L["5"].BackgroundColor3       = fromRGB(255, 255, 255);
-                G2L["5"].Size                   = Dim2(1, 0, 1, 0);
-                G2L["5"].BackgroundTransparency = 1;
-        
-            G2L["6"]                            = Instancen("Frame", G2L["5"]);
-                G2L["6"].BorderSizePixel        = 0;
-                G2L["6"].BackgroundColor3       = fromRGB(255, 255, 255);
-                G2L["6"].Size                   = Dim2(1, 0, 1, 0);
-                G2L["6"].BackgroundTransparency = 1;
-        
-            G2L["7"]                            = Instancen("UIListLayout", G2L["6"]);
-                G2L["7"].Padding                = Dim(0, 18);
-                G2L["7"].SortOrder              = Enum.SortOrder.LayoutOrder;
-        
-            G2L["8"]                            = Instancen("Frame", G2L["6"]);
-                G2L["8"].BorderSizePixel        = 0;
-                G2L["8"].BackgroundColor3       = fromRGB(255, 255, 255);
-                G2L["8"].AutomaticSize          = Enum.AutomaticSize.Y;
-                G2L["8"].Size                   = Dim2(1, 0, 0, 0);
-                G2L["8"].BackgroundTransparency = 1;
-        
-            G2L["9"]                            = Instancen("Frame", G2L["8"]);
-                G2L["9"].BorderSizePixel        = 0;
-                G2L["9"].BackgroundColor3       = fromRGB(255, 255, 255);
-                G2L["9"].AutomaticSize          = Enum.AutomaticSize.XY;
-                G2L["9"].BackgroundTransparency = 1;
-        
-            G2L.a                               = Instancen("UIListLayout", G2L["9"]);
-                G2L.a.Padding                   = Dim(0, 14);
-                G2L.a.VerticalAlignment         = Enum.VerticalAlignment.Center;
-                G2L.a.SortOrder                 = Enum.SortOrder.LayoutOrder;
-                G2L.a.FillDirection             = Enum.FillDirection.Horizontal;
-        
-            G2L.b                               = Instancen("Frame", G2L["9"]);
-                G2L.b.BorderSizePixel           = 0;
-                G2L.b.BackgroundColor3          = fromRGB(255, 255, 255);
-                G2L.b.Size                      = Dim2(0, 24, 0, 24);
-                G2L.b.LayoutOrder               = -1;
-                G2L.b.BackgroundTransparency    = 1;
-        
-            G2L.c                               = Instancen("ImageLabel", G2L.b);
-                G2L.c.BorderSizePixel           = 0;
-                G2L.c.BackgroundColor3          = fromRGB(255, 255, 255);
-                G2L.c.ScaleType                 = Enum.ScaleType.Crop;
-                G2L.c.Image                     = "rbxassetid://77771201330939";
-                G2L.c.ImageRectSize             = Vec2(96, 96);
-                G2L.c.Size                      = Dim2(1, 0, 1, 0);
-                G2L.c.BackgroundTransparency    = 1;
-                G2L.c.ImageRectOffset           = Vec2(0, 768);
-        
-            G2L.d                               = Instancen("UICorner", G2L.c);
-                G2L.d.CornerRadius              = Dim(0, 18);
-        
-            G2L.e                               = Instancen("TextLabel", G2L["9"]);
-                G2L.e.BorderSizePixel           = 0;
-                G2L.e.TextSize                  = 20;
-                G2L.e.BackgroundColor3          = fromRGB(255, 255, 255);
-                G2L.e.FontFace                  = Fnew("rbxassetid://12187365364", Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
-                G2L.e.TextColor3                = fromRGB(255, 255, 255);
-                G2L.e.BackgroundTransparency    = 1;
-                G2L.e.RichText                  = true;
-                G2L.e.Text                      = "Select Service";
-                G2L.e.AutomaticSize             = Enum.AutomaticSize.XY;
-        
-            G2L.f                               = Instancen("Frame", G2L["6"]);
-                G2L.f.BorderSizePixel           = 0;
-                G2L.f.BackgroundColor3          = fromRGB(255, 255, 255);
-                G2L.f.Size                      = Dim2(1, 0, 0, 42);
-                G2L.f.BackgroundTransparency    = 1;
-        
-            G2L["10"]                           = Instancen("UIListLayout", G2L.f);
-                G2L["10"].HorizontalAlignment   = Enum.HorizontalAlignment.Center;
-                G2L["10"].Padding               = Dim(0, 9);
-                G2L["10"].SortOrder             = Enum.SortOrder.LayoutOrder;
-                G2L["10"].FillDirection         = Enum.FillDirection.Horizontal;
-
-            G2L["11"]                           = Instancen("TextButton", G2L.f);
-                G2L["11"].BorderSizePixel       = 0;
-                G2L["11"].TextColor3            = fromRGB(255, 255, 255);
-                G2L["11"].AutoButtonColor       = false;
-                G2L["11"].TextSize              = 14;
-                G2L["11"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["11"].Size                  = Dim2(0.45, 0, 1, 0);
-                G2L["11"].BackgroundTransparency= 1;
-                G2L["11"].LayoutOrder           = 2;
-                G2L["11"].Text                  = "";
-                G2L["11"].Position              = Dim2(-0.00377, 0, 0, 0);
-        
-            G2L["12"]                           = Instancen("ImageLabel", G2L["11"]);
-                G2L["12"].BorderSizePixel       = 0;
-                G2L["12"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["12"].SliceScale            = 0.03906;
-                G2L["12"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["12"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["12"].ImageTransparency     = 1;
-                G2L["12"].ImageColor3           = fromRGB(83, 83, 92);
-                G2L["12"].Image                 = "rbxassetid://80999662900595";
-                G2L["12"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["12"].BackgroundTransparency= 1;
-                G2L["12"].Name                  = "Squircle";
-        
-            G2L["13"]                           = Instancen("ImageLabel", G2L["11"]);
-                G2L["13"].BorderSizePixel       = 0;
-                G2L["13"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["13"].SliceScale            = 0.03906;
-                G2L["13"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["13"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["13"].ImageTransparency     = 0.95;
-                G2L["13"].Image                 = "rbxassetid://80999662900595";
-                G2L["13"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["13"].BackgroundTransparency= 1;
-                G2L["13"].Name                  = "Special";
-        
-            G2L["14"]                           = Instancen("ImageLabel", G2L["11"]);
-                G2L["14"].BorderSizePixel       = 0;
-                G2L["14"].SliceCenter           = Rectn(512, 512, 512, 512);
-                G2L["14"].SliceScale            = 0.01953;
-                G2L["14"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["14"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["14"].ImageColor3           = fromRGB(0, 0, 0);
-                G2L["14"].AnchorPoint           = Vec2(0.5, 0.5);
-                G2L["14"].Image                 = "rbxassetid://84825982946844";
-                G2L["14"].Size                  = Dim2(1, 3, 1, 3);
-                G2L["14"].BackgroundTransparency= 1;
-                G2L["14"].Name                  = "Shadow";
-                G2L["14"].Position              = Dim2(0.5, 0, 0.5, 0);
-        
-            G2L["15"]                           = Instancen("ImageLabel", G2L["11"]);
-                G2L["15"].BorderSizePixel       = 0;
-                G2L["15"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["15"].SliceScale            = 0.03906;
-                G2L["15"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["15"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["15"].ImageTransparency     = 0.85;
-                G2L["15"].Image                 = "rbxassetid://117788349049947";
-                G2L["15"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["15"].BackgroundTransparency= 1;
-        
-            G2L["16"]                           = Instancen("ImageLabel", G2L["11"]);
-                G2L["16"].BorderSizePixel       = 0;
-                G2L["16"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["16"].SliceScale            = 0.03906;
-                G2L["16"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["16"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["16"].ImageTransparency     = 1;
-                G2L["16"].Image                 = "rbxassetid://80999662900595";
-                G2L["16"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["16"].BackgroundTransparency= 1;
-                G2L["16"].Name                  = "Frame";
-        
-            G2L["17"]                           = Instancen("UIPadding", G2L["16"]);
-                G2L["17"].PaddingRight          = Dim(0, 12);
-                G2L["17"].PaddingLeft           = Dim(0, 12);
-        
-            G2L["18"]                           = Instancen("UIListLayout", G2L["16"]);
-                G2L["18"].HorizontalAlignment   = Enum.HorizontalAlignment.Center;
-                G2L["18"].Padding               = Dim(0, 8);
-                G2L["18"].VerticalAlignment     = Enum.VerticalAlignment.Center;
-                G2L["18"].SortOrder             = Enum.SortOrder.LayoutOrder;
-                G2L["18"].FillDirection         = Enum.FillDirection.Horizontal;
-        
-            G2L["19"]                           = Instancen("TextLabel", G2L["16"]);
-                G2L["19"].BorderSizePixel       = 0;
-                G2L["19"].TextSize              = 18;
-                G2L["19"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["19"].FontFace              = Fnew("rbxassetid://12187365364", Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
-                G2L["19"].TextColor3            = fromRGB(255, 255, 255);
-                G2L["19"].BackgroundTransparency= 1;
-                G2L["19"].RichText              = true;
-                G2L["19"].Text                  = "Linkvertise ( Key )";
-                G2L["19"].AutomaticSize         = Enum.AutomaticSize.XY;
-        
-            G2L["1a"]                           = Instancen("TextButton", G2L.f);
-                G2L["1a"].BorderSizePixel       = 0;
-                G2L["1a"].TextColor3            = fromRGB(255, 255, 255);
-                G2L["1a"].AutoButtonColor       = false;
-                G2L["1a"].TextSize              = 14;
-                G2L["1a"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["1a"].Size                  = Dim2(0.45, 0, 1, 0);
-                G2L["1a"].BackgroundTransparency= 1;
-                G2L["1a"].LayoutOrder           = 2;
-                G2L["1a"].Text                  = "";
-                G2L["1a"].Position              = Dim2(-0.00377, 0, 0, 0);
-        
-            G2L["1b"]                           = Instancen("ImageLabel", G2L["1a"]);
-                G2L["1b"].BorderSizePixel       = 0;
-                G2L["1b"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["1b"].SliceScale            = 0.03906;
-                G2L["1b"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["1b"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["1b"].ImageTransparency     = 1;
-                G2L["1b"].ImageColor3           = fromRGB(83, 83, 92);
-                G2L["1b"].Image                 = "rbxassetid://80999662900595";
-                G2L["1b"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["1b"].BackgroundTransparency= 1;
-                G2L["1b"].Name                  = "Squircle";
-        
-            G2L["1c"]                           = Instancen("ImageLabel", G2L["1a"]);
-                G2L["1c"].BorderSizePixel       = 0;
-                G2L["1c"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["1c"].SliceScale            = 0.03906;
-                G2L["1c"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["1c"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["1c"].ImageTransparency     = 0.95;
-                G2L["1c"].Image                 = "rbxassetid://80999662900595";
-                G2L["1c"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["1c"].BackgroundTransparency = 1;
-                G2L["1c"].Name                  = "Special";
-        
-            G2L["1d"]                           = Instancen("ImageLabel", G2L["1a"]);
-                G2L["1d"].BorderSizePixel       = 0;
-                G2L["1d"].SliceCenter           = Rectn(512, 512, 512, 512);
-                G2L["1d"].SliceScale            = 0.01953;
-                G2L["1d"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["1d"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["1d"].ImageColor3           = fromRGB(0, 0, 0);
-                G2L["1d"].AnchorPoint           = Vec2(0.5, 0.5);
-                G2L["1d"].Image                 = "rbxassetid://84825982946844";
-                G2L["1d"].Size                  = Dim2(1, 3, 1, 3);
-                G2L["1d"].BackgroundTransparency = 1;
-                G2L["1d"].Name                  = "Shadow";
-                G2L["1d"].Position              = Dim2(0.5, 0, 0.5, 0);
-        
-            G2L["1e"]                           = Instancen("ImageLabel", G2L["1a"]);
-                G2L["1e"].BorderSizePixel       = 0;
-                G2L["1e"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["1e"].SliceScale            = 0.03906;
-                G2L["1e"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["1e"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["1e"].ImageTransparency     = 0.85;
-                G2L["1e"].Image                 = "rbxassetid://117788349049947";
-                G2L["1e"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["1e"].BackgroundTransparency = 1;
-        
-            G2L["1f"]                           = Instancen("ImageLabel", G2L["1a"]);
-                G2L["1f"].BorderSizePixel       = 0;
-                G2L["1f"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["1f"].SliceScale            = 0.03906;
-                G2L["1f"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["1f"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["1f"].ImageTransparency     = 1;
-                G2L["1f"].Image                 = "rbxassetid://80999662900595";
-                G2L["1f"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["1f"].BackgroundTransparency = 1;
-                G2L["1f"].Name                  = "Frame";
-        
-            G2L["20"]                           = Instancen("UIPadding", G2L["1f"]);
-                G2L["20"].PaddingRight          = Dim(0, 12);
-                G2L["20"].PaddingLeft           = Dim(0, 12);
-        
-            G2L["21"]                           = Instancen("UIListLayout", G2L["1f"]);
-                G2L["21"].HorizontalAlignment   = Enum.HorizontalAlignment.Center;
-                G2L["21"].Padding               = Dim(0, 8);
-                G2L["21"].VerticalAlignment     = Enum.VerticalAlignment.Center;
-                G2L["21"].SortOrder             = Enum.SortOrder.LayoutOrder;
-                G2L["21"].FillDirection         = Enum.FillDirection.Horizontal;
-        
-            G2L["22"]                           = Instancen("TextLabel", G2L["1f"]);
-                G2L["22"].BorderSizePixel       = 0;
-                G2L["22"].TextSize              = 18;
-                G2L["22"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["22"].FontFace              = Fnew("rbxassetid://12187365364", Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
-                G2L["22"].TextColor3            = fromRGB(255, 255, 255);
-                G2L["22"].BackgroundTransparency= 1;
-                G2L["22"].RichText              = true;
-                G2L["22"].Text                  = "-";
-                G2L["22"].AutomaticSize         = Enum.AutomaticSize.XY;
-        
-            G2L["23"]                           = Instancen("UIPadding", G2L["6"]);
-                G2L["23"].PaddingTop            = Dim(0, 16);
-                G2L["23"].PaddingRight          = Dim(0, 16);
-                G2L["23"].PaddingLeft           = Dim(0, 16);
-                G2L["23"].PaddingBottom         = Dim(0, 16);
-        
-            G2L["24"]                           = Instancen("Frame", G2L["6"]);
-                G2L["24"].BorderSizePixel       = 0;
-                G2L["24"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["24"].Size                  = Dim2(1, 0, 0, 42);
-                G2L["24"].LayoutOrder           = 100;
-                G2L["24"].BackgroundTransparency= 1;
-        
-            G2L["25"]                           = Instancen("UIListLayout", G2L["24"]);
-                G2L["25"].HorizontalAlignment   = Enum.HorizontalAlignment.Right;
-                G2L["25"].Padding               = Dim(0, 9);
-                G2L["25"].SortOrder             = Enum.SortOrder.LayoutOrder;
-                G2L["25"].FillDirection         = Enum.FillDirection.Horizontal;
-        
-            G2L["26"]                           = Instancen("TextButton", G2L["24"]);
-                G2L["26"].BorderSizePixel       = 0;
-                G2L["26"].TextColor3            = fromRGB(255, 255, 255);
-                G2L["26"].AutoButtonColor       = false;
-                G2L["26"].TextSize              = 14;
-                G2L["26"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["26"].AutomaticSize         = Enum.AutomaticSize.X;
-                G2L["26"].Size                  = Dim2(0, 0, 1, 0);
-                G2L["26"].BackgroundTransparency= 1;
-                G2L["26"].LayoutOrder           = 2;
-                G2L["26"].Text                  = "";
-        
-            G2L["27"]                           = Instancen("ImageLabel", G2L["26"]);
-                G2L["27"].BorderSizePixel       = 0;
-                G2L["27"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["27"].SliceScale            = 0.03906;
-                G2L["27"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["27"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["27"].ImageTransparency     = 1;
-                G2L["27"].ImageColor3           = fromRGB(83, 83, 92);
-                G2L["27"].Image                 = "rbxassetid://80999662900595";
-                G2L["27"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["27"].BackgroundTransparency= 1;
-                G2L["27"].Name                  = "Squircle";
-        
-            G2L["28"]                           = Instancen("ImageLabel", G2L["26"]);
-                G2L["28"].BorderSizePixel       = 0;
-                G2L["28"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["28"].SliceScale            = 0.03906;
-                G2L["28"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["28"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["28"].ImageTransparency     = 0.95;
-                G2L["28"].Image                 = "rbxassetid://80999662900595";
-                G2L["28"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["28"].BackgroundTransparency= 1;
-                G2L["28"].Name                  = "Special";
-        
-            G2L["29"]                           = Instancen("ImageLabel", G2L["26"]);
-                G2L["29"].BorderSizePixel       = 0;
-                G2L["29"].SliceCenter           = Rectn(512, 512, 512, 512);
-                G2L["29"].SliceScale            = 0.01953;
-                G2L["29"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["29"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["29"].ImageColor3           = fromRGB(0, 0, 0);
-                G2L["29"].AnchorPoint           = Vec2(0.5, 0.5);
-                G2L["29"].Image                 = "rbxassetid://84825982946844";
-                G2L["29"].Size                  = Dim2(1, 3, 1, 3);
-                G2L["29"].BackgroundTransparency= 1;
-                G2L["29"].Name                  = "Shadow";
-                G2L["29"].Position              = Dim2(0.5, 0, 0.5, 0);
-        
-            G2L["2a"]                           = Instancen("ImageLabel", G2L["26"]);
-                G2L["2a"].BorderSizePixel       = 0;
-                G2L["2a"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["2a"].SliceScale            = 0.03906;
-                G2L["2a"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["2a"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["2a"].ImageTransparency     = 0.85;
-                G2L["2a"].Image                 = "rbxassetid://117788349049947";
-                G2L["2a"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["2a"].BackgroundTransparency= 1;
-        
-            G2L["2b"]                           = Instancen("ImageLabel", G2L["26"]);
-                G2L["2b"].BorderSizePixel       = 0;
-                G2L["2b"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["2b"].SliceScale            = 0.03906;
-                G2L["2b"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["2b"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["2b"].ImageTransparency     = 1;
-                G2L["2b"].Image                 = "rbxassetid://80999662900595";
-                G2L["2b"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["2b"].BackgroundTransparency= 1;
-                G2L["2b"].Name                  = "Frame";
-        
-            G2L["2c"]                           = Instancen("UIPadding", G2L["2b"]);
-                G2L["2c"].PaddingRight          = Dim(0, 12);
-                G2L["2c"].PaddingLeft           = Dim(0, 12);
-        
-            G2L["2d"]                           = Instancen("UIListLayout", G2L["2b"]);
-                G2L["2d"].HorizontalAlignment   = Enum.HorizontalAlignment.Center;
-                G2L["2d"].Padding               = Dim(0, 8);
-                G2L["2d"].VerticalAlignment     = Enum.VerticalAlignment.Center;
-                G2L["2d"].SortOrder             = Enum.SortOrder.LayoutOrder;
-                G2L["2d"].FillDirection         = Enum.FillDirection.Horizontal;
-        
-            G2L["2e"]                           = Instancen("TextLabel", G2L["2b"]);
-                G2L["2e"].BorderSizePixel       = 0;
-                G2L["2e"].TextSize              = 18;
-                G2L["2e"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["2e"].FontFace              = Fnew("rbxassetid://12187365364", Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
-                G2L["2e"].TextColor3            = fromRGB(255, 255, 255);
-                G2L["2e"].BackgroundTransparency= 1;
-                G2L["2e"].RichText              = true;
-                G2L["2e"].Text                  = "Cancel";
-                G2L["2e"].AutomaticSize         = Enum.AutomaticSize.XY;
-        
-            G2L["2f"]                           = Instancen("Frame", G2L["6"]);
-                G2L["2f"].BorderSizePixel       = 0;
-                G2L["2f"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["2f"].Size                  = Dim2(1, 0, 0, 42);
-                G2L["2f"].BackgroundTransparency= 1;
-        
-            G2L["30"]                           = Instancen("UIListLayout", G2L["2f"]);
-                G2L["30"].HorizontalAlignment   = Enum.HorizontalAlignment.Center;
-                G2L["30"].Padding               = Dim(0, 9);
-                G2L["30"].SortOrder             = Enum.SortOrder.LayoutOrder;
-                G2L["30"].FillDirection         = Enum.FillDirection.Horizontal;
-        
-            G2L["31"]                           = Instancen("TextButton", G2L["2f"]);
-                G2L["31"].BorderSizePixel       = 0;
-                G2L["31"].TextColor3            = fromRGB(255, 255, 255);
-                G2L["31"].AutoButtonColor       = false;
-                G2L["31"].TextSize              = 14;
-                G2L["31"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["31"].Size                  = Dim2(0.45, 0, 1, 0);
-                G2L["31"].BackgroundTransparency= 1;
-                G2L["31"].LayoutOrder           = 2;
-                G2L["31"].Text                  = "";
-                G2L["31"].Position              = Dim2(-0.00377, 0, 0, 0);
-        
-            G2L["32"]                           = Instancen("ImageLabel", G2L["31"]);
-                G2L["32"].BorderSizePixel       = 0;
-                G2L["32"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["32"].SliceScale            = 0.03906;
-                G2L["32"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["32"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["32"].ImageTransparency     = 1;
-                G2L["32"].ImageColor3           = fromRGB(83, 83, 92);
-                G2L["32"].Image                 = "rbxassetid://80999662900595";
-                G2L["32"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["32"].BackgroundTransparency= 1;
-                G2L["32"].Name                  = "Squircle";
-        
-            G2L["33"]                           = Instancen("ImageLabel", G2L["31"]);
-                G2L["33"].BorderSizePixel       = 0;
-                G2L["33"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["33"].SliceScale            = 0.03906;
-                G2L["33"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["33"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["33"].ImageTransparency     = 0.95;
-                G2L["33"].Image                 = "rbxassetid://80999662900595";
-                G2L["33"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["33"].BackgroundTransparency= 1;
-                G2L["33"].Name                  = "Special";
-        
-            G2L["34"]                           = Instancen("ImageLabel", G2L["31"]);
-                G2L["34"].BorderSizePixel       = 0;
-                G2L["34"].SliceCenter           = Rectn(512, 512, 512, 512);
-                G2L["34"].SliceScale            = 0.01953;
-                G2L["34"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["34"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["34"].ImageColor3           = fromRGB(0, 0, 0);
-                G2L["34"].AnchorPoint           = Vec2(0.5, 0.5);
-                G2L["34"].Image                 = "rbxassetid://84825982946844";
-                G2L["34"].Size                  = Dim2(1, 3, 1, 3);
-                G2L["34"].BackgroundTransparency= 1;
-                G2L["34"].Name                  = "Shadow";
-                G2L["34"].Position              = Dim2(0.5, 0, 0.5, 0);
-        
-            G2L["35"]                           = Instancen("ImageLabel", G2L["31"]);
-                G2L["35"].BorderSizePixel       = 0;
-                G2L["35"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["35"].SliceScale            = 0.03906;
-                G2L["35"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["35"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["35"].ImageTransparency     = 0.85;
-                G2L["35"].Image                 = "rbxassetid://117788349049947";
-                G2L["35"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["35"].BackgroundTransparency= 1;
-        
-            G2L["36"]                           = Instancen("ImageLabel", G2L["31"]);
-                G2L["36"].BorderSizePixel       = 0;
-                G2L["36"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["36"].SliceScale            = 0.03906;
-                G2L["36"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["36"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["36"].ImageTransparency     = 1;
-                G2L["36"].Image                 = "rbxassetid://80999662900595";
-                G2L["36"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["36"].BackgroundTransparency= 1;
-                G2L["36"].Name                  = "Frame";
-        
-            G2L["37"]                           = Instancen("UIPadding", G2L["36"]);
-                G2L["37"].PaddingRight          = Dim(0, 12);
-                G2L["37"].PaddingLeft           = Dim(0, 12);
-        
-            G2L["38"]                           = Instancen("UIListLayout", G2L["36"]);
-                G2L["38"].HorizontalAlignment   = Enum.HorizontalAlignment.Center;
-                G2L["38"].Padding               = Dim(0, 8);
-                G2L["38"].VerticalAlignment     = Enum.VerticalAlignment.Center;
-                G2L["38"].SortOrder             = Enum.SortOrder.LayoutOrder;
-                G2L["38"].FillDirection         = Enum.FillDirection.Horizontal;
-        
-            G2L["39"]                           = Instancen("TextLabel", G2L["36"]);
-                G2L["39"].BorderSizePixel       = 0;
-                G2L["39"].TextSize              = 18;
-                G2L["39"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["39"].FontFace              = Fnew("rbxassetid://12187365364", Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
-                G2L["39"].TextColor3            = fromRGB(255, 255, 255);
-                G2L["39"].BackgroundTransparency= 1;
-                G2L["39"].RichText              = true;
-                G2L["39"].Text                  = "-";
-                G2L["39"].AutomaticSize         = Enum.AutomaticSize.XY;
-        
-            G2L["3a"]                           = Instancen("TextButton", G2L["2f"]);
-                G2L["3a"].BorderSizePixel       = 0;
-                G2L["3a"].TextColor3            = fromRGB(255, 255, 255);
-                G2L["3a"].AutoButtonColor       = false;
-                G2L["3a"].TextSize              = 14;
-                G2L["3a"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["3a"].Size                  = Dim2(0.45, 0, 1, 0);
-                G2L["3a"].BackgroundTransparency= 1;
-                G2L["3a"].LayoutOrder           = 2;
-                G2L["3a"].Text                  = "";
-                G2L["3a"].Position              = Dim2(-0.00377, 0, 0, 0);
-        
-            G2L["3b"]                           = Instancen("ImageLabel", G2L["3a"]);
-                G2L["3b"].BorderSizePixel       = 0;
-                G2L["3b"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["3b"].SliceScale            = 0.03906;
-                G2L["3b"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["3b"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["3b"].ImageTransparency     = 1;
-                G2L["3b"].ImageColor3           = fromRGB(83, 83, 92);
-                G2L["3b"].Image                 = "rbxassetid://80999662900595";
-                G2L["3b"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["3b"].BackgroundTransparency= 1;
-                G2L["3b"].Name                  = "Squircle";
-        
-            G2L["3c"]                           = Instancen("ImageLabel", G2L["3a"]);
-                G2L["3c"].BorderSizePixel       = 0;
-                G2L["3c"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["3c"].SliceScale            = 0.03906;
-                G2L["3c"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["3c"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["3c"].ImageTransparency     = 0.95;
-                G2L["3c"].Image                 = "rbxassetid://80999662900595";
-                G2L["3c"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["3c"].BackgroundTransparency= 1;
-                G2L["3c"].Name                  = "Special";
-        
-            G2L["3d"]                           = Instancen("ImageLabel", G2L["3a"]);
-                G2L["3d"].BorderSizePixel       = 0;
-                G2L["3d"].SliceCenter           = Rectn(512, 512, 512, 512);
-                G2L["3d"].SliceScale            = 0.01953;
-                G2L["3d"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["3d"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["3d"].ImageColor3           = fromRGB(0, 0, 0);
-                G2L["3d"].AnchorPoint           = Vec2(0.5, 0.5);
-                G2L["3d"].Image                 = "rbxassetid://84825982946844";
-                G2L["3d"].Size                  = Dim2(1, 3, 1, 3);
-                G2L["3d"].BackgroundTransparency= 1;
-                G2L["3d"].Name                  = "Shadow";
-                G2L["3d"].Position              = Dim2(0.5, 0, 0.5, 0);
-        
-            G2L["3e"]                           = Instancen("ImageLabel", G2L["3a"]);
-                G2L["3e"].BorderSizePixel       = 0;
-                G2L["3e"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["3e"].SliceScale            = 0.03906;
-                G2L["3e"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["3e"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["3e"].ImageTransparency     = 0.85;
-                G2L["3e"].Image                 = "rbxassetid://117788349049947";
-                G2L["3e"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["3e"].BackgroundTransparency= 1;
-        
-            G2L["3f"]                           = Instancen("ImageLabel", G2L["3a"]);
-                G2L["3f"].BorderSizePixel       = 0;
-                G2L["3f"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["3f"].SliceScale            = 0.03906;
-                G2L["3f"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["3f"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["3f"].ImageTransparency     = 1;
-                G2L["3f"].Image                 = "rbxassetid://80999662900595";
-                G2L["3f"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["3f"].BackgroundTransparency= 1;
-                G2L["3f"].Name                  = "Frame";
-        
-            G2L["40"]                           = Instancen("UIPadding", G2L["3f"]);
-                G2L["40"].PaddingRight          = Dim(0, 12);
-                G2L["40"].PaddingLeft           = Dim(0, 12);
-        
-            G2L["41"]                           = Instancen("UIListLayout", G2L["3f"]);
-                G2L["41"].HorizontalAlignment   = Enum.HorizontalAlignment.Center;
-                G2L["41"].Padding               = Dim(0, 8);
-                G2L["41"].VerticalAlignment     = Enum.VerticalAlignment.Center;
-                G2L["41"].SortOrder             = Enum.SortOrder.LayoutOrder;
-                G2L["41"].FillDirection         = Enum.FillDirection.Horizontal;
-        
-            G2L["42"]                           = Instancen("TextLabel", G2L["3f"]);
-                G2L["42"].BorderSizePixel       = 0;
-                G2L["42"].TextSize              = 18;
-                G2L["42"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["42"].FontFace              = Fnew("rbxassetid://12187365364", Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
-                G2L["42"].TextColor3            = fromRGB(255, 255, 255);
-                G2L["42"].BackgroundTransparency= 1;
-                G2L["42"].RichText              = true;
-                G2L["42"].Text                  = "-";
-                G2L["42"].AutomaticSize         = Enum.AutomaticSize.XY;
-        
-            G2L["43"]                           = Instancen("UIScale", G2L["2"]);
-        
-            G2L["44"]                           = Instancen("ImageLabel", G2L["2"]);
-                G2L["44"].BorderSizePixel       = 0;
-                G2L["44"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["44"].SliceScale            = 0.08594;
-                G2L["44"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["44"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["44"].ImageTransparency     = 0.9;
-                G2L["44"].Image                 = "rbxassetid://117788349049947";
-                G2L["44"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["44"].BackgroundTransparency= 1;
-        
-            G2L["45"]                           = Instancen("UIGradient", G2L["44"]);
-                G2L["45"].Rotation              = 90;
-                G2L["45"].Transparency          = NSnew{NSKnew(0.000, 0),NSKnew(1.000, 1)};
-        
-            G2L["26"].Activated:Connect(function()
-                G2L["1"]:Destroy(); G2L["1"] = nil;
-                G2L = nil;
-            end); G2L["11"].Activated:Connect(function()
-                G2L["1"]:Destroy(); G2L["1"] = nil;
-                G2L = nil;
-                return setc("https://pandadevelopment.net/getkey/Plasmahub?hwid="..gethwid());
-            end);
-        
-            return G2L;
-        end;
-        new = function(arg)
-            local G2L = {};
-            local tbl = {};
-            local configu = {
-                Auth = arg and arg.Auth or emptyfunction;
-                GetKey = arg and arg.GetKey or emptyfunction;
-            };
-        
-            local G2L = {};
-        
-            G2L["1"]                            = Instancen("ScreenGui", C);
-                G2L["1"].IgnoreGuiInset         = true;
-                G2L["1"].ScreenInsets           = Enum.ScreenInsets.None;
-                G2L["1"].Name                   = "FlowAuth";
-                G2L["1"].ZIndexBehavior         = Enum.ZIndexBehavior.Sibling;
-                G2L["1"].ResetOnSpawn           = false;
-            
-            G2L["2"]                            = Instancen("ImageLabel", G2L["1"]);
-                G2L["2"].ZIndex                 = 9999;
-                G2L["2"].BorderSizePixel        = 0;
-                G2L["2"].SliceCenter            = Rectn(256, 256, 256, 256);
-                G2L["2"].SliceScale             = 0.08594;
-                G2L["2"].BackgroundColor3       = fromRGB(255, 255, 255);
-                G2L["2"].ScaleType              = Enum.ScaleType.Slice;
-                G2L["2"].AutomaticSize          = Enum.AutomaticSize.XY;
-                G2L["2"].ImageColor3            = fromRGB(25, 25, 28);
-                G2L["2"].AnchorPoint            = Vec2(0.5, 0.5);
-                G2L["2"].Image                  = "rbxassetid://80999662900595";
-                G2L["2"].BackgroundTransparency = 1;
-                G2L["2"].Position               = Dim2(0.5, 0, 0.5, 0);
-            
-            G2L["3"]                            = Instancen("Frame", G2L["2"]);
-                G2L["3"].ZIndex                 = 99999;
-                G2L["3"].BorderSizePixel        = 0;
-                G2L["3"].BackgroundColor3       = fromRGB(25, 25, 28);
-                G2L["3"].AutomaticSize          = Enum.AutomaticSize.Y;
-                G2L["3"].Size                   = Dim2(0, 430, 0, 0);
-                G2L["3"].BackgroundTransparency = 1;
-            
-            G2L["4"]                            = Instancen("UIPadding", G2L["3"]);
-            
-            G2L["5"]                            = Instancen("Frame", G2L["3"]);
-                G2L["5"].BorderSizePixel        = 0;
-                G2L["5"].BackgroundColor3       = fromRGB(255, 255, 255);
-                G2L["5"].Size                   = Dim2(1, 0, 1, 0);
-                G2L["5"].BackgroundTransparency = 1;
-            
-            G2L["6"]                            = Instancen("Frame", G2L["5"]);
-                G2L["6"].BorderSizePixel        = 0;
-                G2L["6"].BackgroundColor3       = fromRGB(255, 255, 255);
-                G2L["6"].Size                   = Dim2(1, 0, 1, 0);
-                G2L["6"].BackgroundTransparency = 1;
-            
-            G2L["7"]                            = Instancen("UIListLayout", G2L["6"]);
-                G2L["7"].Padding                = Dim(0, 18);
-                G2L["7"].SortOrder              = Enum.SortOrder.LayoutOrder;
-            
-            G2L["8"]                            = Instancen("Frame", G2L["6"]);
-                G2L["8"].BorderSizePixel        = 0;
-                G2L["8"].BackgroundColor3       = fromRGB(255, 255, 255);
-                G2L["8"].AutomaticSize          = Enum.AutomaticSize.Y;
-                G2L["8"].Size                   = Dim2(1, 0, 0, 0);
-                G2L["8"].BackgroundTransparency = 1;
-        
-            
-            G2L["9"]                            = Instancen("Frame", G2L["8"]);
-                G2L["9"].BorderSizePixel        = 0;
-                G2L["9"].BackgroundColor3       = fromRGB(255, 255, 255);
-                G2L["9"].AutomaticSize          = Enum.AutomaticSize.XY;
-                G2L["9"].BackgroundTransparency = 1;
-            
-            G2L.a                               = Instancen("UIListLayout", G2L["9"]);
-                G2L.a.Padding                   = Dim(0, 14);
-                G2L.a.VerticalAlignment         = Enum.VerticalAlignment.Center;
-                G2L.a.SortOrder                 = Enum.SortOrder.LayoutOrder;
-                G2L.a.FillDirection             = Enum.FillDirection.Horizontal;
-            
-            G2L.b                               = Instancen("Frame", G2L["9"]);
-                G2L.b.BorderSizePixel           = 0;
-                G2L.b.BackgroundColor3          = fromRGB(255, 255, 255);
-                G2L.b.Size                      = Dim2(0, 24, 0, 24);
-                G2L.b.LayoutOrder               = -1;
-                G2L.b.BackgroundTransparency    = 1;
-            
-            G2L.c                               = Instancen("ImageLabel", G2L.b);
-                G2L.c.BorderSizePixel           = 0;
-                G2L.c.BackgroundColor3          = fromRGB(255, 255, 255);
-                G2L.c.ScaleType                 = Enum.ScaleType.Crop;
-                G2L.c.Image                     = "rbxassetid://77771201330939";
-                G2L.c.ImageRectSize             = Vec2(96, 96);
-                G2L.c.Size                      = Dim2(1, 0, 1, 0);
-                G2L.c.BackgroundTransparency    = 1;
-                G2L.c.ImageRectOffset           = Vec2(0, 768);
-            
-            G2L.d                               = Instancen("UICorner", G2L.c);
-                G2L.d.CornerRadius              = Dim(0, 18);
-            
-            G2L.e                               = Instancen("TextLabel", G2L["9"]);
-                G2L.e.BorderSizePixel           = 0;
-                G2L.e.TextSize                  = 20;
-                G2L.e.BackgroundColor3          = fromRGB(255, 255, 255);
-                G2L.e.FontFace                  = Fnew("rbxassetid://12187365364", Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
-                G2L.e.TextColor3                = fromRGB(255, 255, 255);
-                G2L.e.BackgroundTransparency    = 1;
-                G2L.e.RichText                  = true;
-                G2L.e.Text                      = "Authentication";
-                G2L.e.AutomaticSize             = Enum.AutomaticSize.XY;
-            
-            G2L.f                               = Instancen("TextLabel", G2L["6"]);
-                G2L.f.TextWrapped               = true;
-                G2L.f.BorderSizePixel           = 0;
-                G2L.f.TextSize                  = 18;
-                G2L.f.TextXAlignment            = Enum.TextXAlignment.Left;
-                G2L.f.TextTransparency          = 0.2;
-                G2L.f.BackgroundColor3          = fromRGB(255, 255, 255);
-                G2L.f.FontFace                  = Fnew("rbxassetid://12187365364", Enum.FontWeight.Medium, Enum.FontStyle.Normal);
-                G2L.f.TextColor3                = fromRGB(255, 255, 255);
-                G2L.f.BackgroundTransparency    = 1;
-                G2L.f.RichText                  = true;
-                G2L.f.Size                      = Dim2(1, 0, 0, 0);
-                G2L.f.Text                      = 'We are very <font color="rgb(0, 255, 135)">s</font><font color="rgb(19, 251, 159)">o</font><font color="rgb(38, 248, 183)">r</font><font color="rgb(57, 245, 207)">r</font><font color="rgb(76, 242, 231)">y</font>, to have this auth or key system but this means a lot to us, this is where you support our project. Linkvertise has "no" 1H waiting time.';
-                G2L.f.AutomaticSize             = Enum.AutomaticSize.Y;
-            
-            G2L["10"]                           = Instancen("Frame", G2L["6"]);
-                G2L["10"].BorderSizePixel       = 0;
-                G2L["10"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["10"].Size                  = Dim2(1, 0, 0, 42);
-                G2L["10"].BackgroundTransparency= 1;
-
-            G2L["11"]                           = Instancen("UIListLayout", G2L["10"]);
-                G2L["11"].HorizontalAlignment   = Enum.HorizontalAlignment.Right;
-                G2L["11"].Padding               = Dim(0, 9);
-                G2L["11"].SortOrder             = Enum.SortOrder.LayoutOrder;
-                G2L["11"].FillDirection         = Enum.FillDirection.Horizontal;
-
-            G2L["12"]                           = Instancen("TextButton", G2L["10"]);
-                G2L["12"].BorderSizePixel       = 0;
-                G2L["12"].TextColor3            = fromRGB(255, 255, 255);
-                G2L["12"].AutoButtonColor       = false;
-                G2L["12"].TextSize              = 14;
-                G2L["12"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["12"].AutomaticSize         = Enum.AutomaticSize.X;
-                G2L["12"].Size                  = Dim2(0, 0, 1, 0);
-                G2L["12"].BackgroundTransparency= 1;
-                G2L["12"].LayoutOrder           = 2;
-                G2L["12"].Text                  = "";
-
-            G2L["13"]                           = Instancen("ImageLabel", G2L["12"]);
-                G2L["13"].BorderSizePixel       = 0;
-                G2L["13"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["13"].SliceScale            = 0.03906;
-                G2L["13"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["13"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["13"].ImageTransparency     = 1;
-                G2L["13"].ImageColor3           = fromRGB(83, 83, 92);
-                G2L["13"].Image                 = "rbxassetid://80999662900595";
-                G2L["13"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["13"].BackgroundTransparency= 1;
-                G2L["13"].Name                  = "Squircle";
-
-            G2L["14"]                           = Instancen("ImageLabel", G2L["12"]);
-                G2L["14"].BorderSizePixel       = 0;
-                G2L["14"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["14"].SliceScale            = 0.03906;
-                G2L["14"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["14"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["14"].ImageTransparency     = 0.95;
-                G2L["14"].Image                 = "rbxassetid://80999662900595";
-                G2L["14"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["14"].BackgroundTransparency= 1;
-                G2L["14"].Name                  = "Special";
-
-            G2L["15"]                           = Instancen("ImageLabel", G2L["12"]);
-                G2L["15"].BorderSizePixel       = 0;
-                G2L["15"].SliceCenter           = Rectn(512, 512, 512, 512);
-                G2L["15"].SliceScale            = 0.01953;
-                G2L["15"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["15"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["15"].ImageColor3           = fromRGB(0, 0, 0);
-                G2L["15"].AnchorPoint           = Vec2(0.5, 0.5);
-                G2L["15"].Image                 = "rbxassetid://84825982946844";
-                G2L["15"].Size                  = Dim2(1, 3, 1, 3);
-                G2L["15"].BackgroundTransparency= 1;
-                G2L["15"].Name                  = "Shadow";
-                G2L["15"].Position              = Dim2(0.5, 0, 0.5, 0);
-
-            G2L["16"]                           = Instancen("ImageLabel", G2L["12"]);
-                G2L["16"].BorderSizePixel       = 0;
-                G2L["16"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["16"].SliceScale            = 0.03906;
-                G2L["16"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["16"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["16"].ImageTransparency     = 0.85;
-                G2L["16"].Image                 = "rbxassetid://117788349049947";
-                G2L["16"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["16"].BackgroundTransparency= 1;
-
-            G2L["17"]                           = Instancen("ImageLabel", G2L["12"]);
-                G2L["17"].BorderSizePixel       = 0;
-                G2L["17"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["17"].SliceScale            = 0.03906;
-                G2L["17"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["17"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["17"].ImageTransparency     = 1;
-                G2L["17"].Image                 = "rbxassetid://80999662900595";
-                G2L["17"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["17"].BackgroundTransparency= 1;
-                G2L["17"].Name                  = "Frame";
-
-            G2L["18"]                           = Instancen("UIPadding", G2L["17"]);
-                G2L["18"].PaddingRight          = Dim(0, 12);
-                G2L["18"].PaddingLeft           = Dim(0, 12);
-
-            G2L["19"]                           = Instancen("UIListLayout", G2L["17"]);
-                G2L["19"].HorizontalAlignment   = Enum.HorizontalAlignment.Center;
-                G2L["19"].Padding               = Dim(0, 8);
-                G2L["19"].VerticalAlignment     = Enum.VerticalAlignment.Center;
-                G2L["19"].SortOrder             = Enum.SortOrder.LayoutOrder;
-                G2L["19"].FillDirection         = Enum.FillDirection.Horizontal;
-
-            G2L["1a"]                           = Instancen("TextLabel", G2L["17"]);
-                G2L["1a"].BorderSizePixel       = 0;
-                G2L["1a"].TextSize              = 18;
-                G2L["1a"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["1a"].FontFace              = Fnew("rbxassetid://12187365364", Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
-                G2L["1a"].TextColor3            = fromRGB(255, 255, 255);
-                G2L["1a"].BackgroundTransparency= 1;
-                G2L["1a"].RichText              = true;
-                G2L["1a"].Text                  = "Cancel";
-                G2L["1a"].AutomaticSize         = Enum.AutomaticSize.XY;
-
-            G2L["1b"]                           = Instancen("TextButton", G2L["10"]);
-                G2L["1b"].BorderSizePixel       = 0;
-                G2L["1b"].TextColor3            = fromRGB(255, 255, 255);
-                G2L["1b"].AutoButtonColor       = false;
-                G2L["1b"].TextSize              = 14;
-                G2L["1b"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["1b"].AutomaticSize         = Enum.AutomaticSize.X;
-                G2L["1b"].Size                  = Dim2(0, 0, 1, 0);
-                G2L["1b"].BackgroundTransparency= 1;
-                G2L["1b"].LayoutOrder           = 3;
-                G2L["1b"].Text                  = "";
-
-            G2L["1c"]                           = Instancen("ImageLabel", G2L["1b"]);
-                G2L["1c"].BorderSizePixel       = 0;
-                G2L["1c"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["1c"].SliceScale            = 0.03906;
-                G2L["1c"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["1c"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["1c"].ImageColor3           = fromRGB(83, 83, 92);
-                G2L["1c"].Image                 = "rbxassetid://80999662900595";
-                G2L["1c"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["1c"].BackgroundTransparency= 1;
-                G2L["1c"].Name                  = "Squircle";
-
-            G2L["1d"]                           = Instancen("ImageLabel", G2L["1b"]);
-                G2L["1d"].BorderSizePixel       = 0;
-                G2L["1d"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["1d"].SliceScale            = 0.03906;
-                G2L["1d"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["1d"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["1d"].ImageTransparency     = 1;
-                G2L["1d"].Image                 = "rbxassetid://80999662900595";
-                G2L["1d"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["1d"].BackgroundTransparency= 1;
-                G2L["1d"].Name                  = "Special";
-
-            G2L["1e"]                           = Instancen("ImageLabel", G2L["1b"]);
-                G2L["1e"].BorderSizePixel       = 0;
-                G2L["1e"].SliceCenter           = Rectn(512, 512, 512, 512);
-                G2L["1e"].SliceScale            = 0.01953;
-                G2L["1e"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["1e"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["1e"].ImageTransparency     = 1;
-                G2L["1e"].ImageColor3           = fromRGB(0, 0, 0);
-                G2L["1e"].AnchorPoint           = Vec2(0.5, 0.5);
-                G2L["1e"].Image                 = "rbxassetid://84825982946844";
-                G2L["1e"].Size                  = Dim2(1, 3, 1, 3);
-                G2L["1e"].BackgroundTransparency= 1;
-                G2L["1e"].Name                  = "Shadow";
-                G2L["1e"].Position              = Dim2(0.5, 0, 0.5, 0);
-
-            G2L["1f"]                           = Instancen("ImageLabel", G2L["1b"]);
-                G2L["1f"].BorderSizePixel       = 0;
-                G2L["1f"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["1f"].SliceScale            = 0.03906;
-                G2L["1f"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["1f"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["1f"].ImageTransparency     = 0.95;
-                G2L["1f"].Image                 = "rbxassetid://117788349049947";
-                G2L["1f"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["1f"].BackgroundTransparency= 1;
-
-            G2L["20"]                           = Instancen("ImageLabel", G2L["1b"]);
-                G2L["20"].BorderSizePixel       = 0;
-                G2L["20"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["20"].SliceScale            = 0.03906;
-                G2L["20"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["20"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["20"].ImageTransparency     = 1;
-                G2L["20"].Image                 = "rbxassetid://80999662900595";
-                G2L["20"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["20"].BackgroundTransparency= 1;
-                G2L["20"].Name                  = "Frame";
-
-            G2L["21"]                           = Instancen("UIPadding", G2L["20"]);
-                G2L["21"].PaddingRight          = Dim(0, 12);
-                G2L["21"].PaddingLeft           = Dim(0, 12);
-
-            G2L["22"]                           = Instancen("UIListLayout", G2L["20"]);
-                G2L["22"].HorizontalAlignment   = Enum.HorizontalAlignment.Center;
-                G2L["22"].Padding               = Dim(0, 8);
-                G2L["22"].VerticalAlignment     = Enum.VerticalAlignment.Center;
-                G2L["22"].SortOrder             = Enum.SortOrder.LayoutOrder;
-                G2L["22"].FillDirection         = Enum.FillDirection.Horizontal;
-
-            G2L["23"]                           = Instancen("ImageLabel", G2L["20"]);
-                G2L["23"].BorderSizePixel       = 0;
-                G2L["23"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["23"].ImageColor3           = fromRGB(162, 162, 171);
-                G2L["23"].Image                 = "rbxassetid://131526378523863";
-                G2L["23"].ImageRectSize         = Vec2(96, 96);
-                G2L["23"].Size                  = Dim2(0, 21, 0, 21);
-                G2L["23"].BackgroundTransparency= 1;
-                G2L["23"].ImageRectOffset       = Vec2(480, 768);
-
-            G2L["24"]                           = Instancen("TextLabel", G2L["20"]);
-                G2L["24"].BorderSizePixel       = 0;
-                G2L["24"].TextSize              = 18;
-                G2L["24"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["24"].FontFace              = Fnew("rbxassetid://12187365364", Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
-                G2L["24"].TextColor3            = fromRGB(255, 255, 255);
-                G2L["24"].BackgroundTransparency= 1;
-                G2L["24"].RichText              = true;
-                G2L["24"].Text                  = "Continue";
-                G2L["24"].AutomaticSize         = Enum.AutomaticSize.XY;
-
-            G2L["25"]                           = Instancen("TextBox", G2L["10"]);
-                G2L["25"].BorderSizePixel       = 0;
-                G2L["25"].TextSize              = 14;
-                G2L["25"].TextColor3            = fromRGB(255, 255, 255);
-                G2L["25"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["25"].FontFace              = Fnew("rbxassetid://12187365364", Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
-                G2L["25"].ClipsDescendants      = true;
-                G2L["25"].PlaceholderText       = "Enter Key...";
-                G2L["25"].Size                  = Dim2(0.17, 0, 1, 0);
-                G2L["25"].BorderColor3          = fromRGB(0, 0, 0);
-                G2L["25"].Text                  = "";
-                G2L["25"].BackgroundTransparency= 1;
-
-            G2L["26"]                           = Instancen("ImageLabel", G2L["25"]);
-                G2L["26"].BorderSizePixel       = 0;
-                G2L["26"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["26"].SliceScale            = 0.03906;
-                G2L["26"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["26"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["26"].ImageTransparency     = 1;
-                G2L["26"].Image                 = "rbxassetid://80999662900595";
-                G2L["26"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["26"].BackgroundTransparency= 1;
-                G2L["26"].Name                  = "Frame";
-
-            G2L["27"]                           = Instancen("ImageLabel", G2L["25"]);
-                G2L["27"].BorderSizePixel       = 0;
-                G2L["27"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["27"].SliceScale            = 0.03906;
-                G2L["27"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["27"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["27"].ImageTransparency     = 0.85;
-                G2L["27"].Image                 = "rbxassetid://117788349049947";
-                G2L["27"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["27"].BackgroundTransparency= 1;
-
-            G2L["28"]                           = Instancen("ImageLabel", G2L["25"]);
-                G2L["28"].BorderSizePixel       = 0;
-                G2L["28"].SliceCenter           = Rectn(512, 512, 512, 512);
-                G2L["28"].SliceScale            = 0.01953;
-                G2L["28"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["28"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["28"].ImageColor3           = fromRGB(0, 0, 0);
-                G2L["28"].AnchorPoint           = Vec2(0.5, 0.5);
-                G2L["28"].Image                 = "rbxassetid://84825982946844";
-                G2L["28"].Size                  = Dim2(1, 3, 1, 3);
-                G2L["28"].BackgroundTransparency= 1;
-                G2L["28"].Name                  = "Shadow";
-                G2L["28"].Position              = Dim2(0.5, 0, 0.5, 0);
-
-            G2L["29"]                           = Instancen("ImageLabel", G2L["25"]);
-                G2L["29"].BorderSizePixel       = 0;
-                G2L["29"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["29"].SliceScale            = 0.03906;
-                G2L["29"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["29"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["29"].ImageTransparency     = 0.95;
-                G2L["29"].Image                 = "rbxassetid://80999662900595";
-                G2L["29"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["29"].BackgroundTransparency= 1;
-                G2L["29"].Name                  = "Special";
-
-            G2L["2a"]                           = Instancen("ImageLabel", G2L["25"]);
-                G2L["2a"].BorderSizePixel       = 0;
-                G2L["2a"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["2a"].SliceScale            = 0.03906;
-                G2L["2a"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["2a"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["2a"].ImageTransparency     = 1;
-                G2L["2a"].ImageColor3           = fromRGB(83, 83, 92);
-                G2L["2a"].Image                 = "rbxassetid://80999662900595";
-                G2L["2a"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["2a"].BackgroundTransparency= 1;
-                G2L["2a"].Name                  = "Squircle";
-
-            G2L["2b"]                           = Instancen("TextButton", G2L["10"]);
-                G2L["2b"].BorderSizePixel       = 0;
-                G2L["2b"].TextColor3            = fromRGB(255, 255, 255);
-                G2L["2b"].AutoButtonColor       = false;
-                G2L["2b"].TextSize              = 14;
-                G2L["2b"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["2b"].AutomaticSize         = Enum.AutomaticSize.X;
-                G2L["2b"].Size                  = Dim2(0, 0, 1, 0);
-                G2L["2b"].BackgroundTransparency= 1;
-                G2L["2b"].LayoutOrder           = 1;
-                G2L["2b"].Text                  = "";
-
-            G2L["2c"]                           = Instancen("ImageLabel", G2L["2b"]);
-                G2L["2c"].BorderSizePixel       = 0;
-                G2L["2c"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["2c"].SliceScale            = 0.03906;
-                G2L["2c"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["2c"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["2c"].ImageTransparency     = 1;
-                G2L["2c"].ImageColor3           = fromRGB(83, 83, 92);
-                G2L["2c"].Image                 = "rbxassetid://80999662900595";
-                G2L["2c"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["2c"].BackgroundTransparency= 1;
-                G2L["2c"].Name                  = "Squircle";
-
-            G2L["2d"]                           = Instancen("ImageLabel", G2L["2b"]);
-                G2L["2d"].BorderSizePixel       = 0;
-                G2L["2d"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["2d"].SliceScale            = 0.03906;
-                G2L["2d"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["2d"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["2d"].ImageTransparency     = 0.95;
-                G2L["2d"].Image                 = "rbxassetid://80999662900595";
-                G2L["2d"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["2d"].BackgroundTransparency= 1;
-                G2L["2d"].Name                  = "Special";
-
-            G2L["2e"]                           = Instancen("ImageLabel", G2L["2b"]);
-                G2L["2e"].BorderSizePixel       = 0;
-                G2L["2e"].SliceCenter           = Rectn(512, 512, 512, 512);
-                G2L["2e"].SliceScale            = 0.01953;
-                G2L["2e"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["2e"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["2e"].ImageColor3           = fromRGB(0, 0, 0);
-                G2L["2e"].AnchorPoint           = Vec2(0.5, 0.5);
-                G2L["2e"].Image                 = "rbxassetid://84825982946844";
-                G2L["2e"].Size                  = Dim2(1, 3, 1, 3);
-                G2L["2e"].BackgroundTransparency= 1;
-                G2L["2e"].Name                  = "Shadow";
-                G2L["2e"].Position              = Dim2(0.5, 0, 0.5, 0);
-
-            G2L["2f"]                           = Instancen("ImageLabel", G2L["2b"]);
-                G2L["2f"].BorderSizePixel       = 0;
-                G2L["2f"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["2f"].SliceScale            = 0.03906;
-                G2L["2f"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["2f"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["2f"].ImageTransparency     = 0.85;
-                G2L["2f"].Image                 = "rbxassetid://117788349049947";
-                G2L["2f"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["2f"].BackgroundTransparency= 1;
-
-            G2L["30"]                           = Instancen("ImageLabel", G2L["2b"]);
-                G2L["30"].BorderSizePixel       = 0;
-                G2L["30"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["30"].SliceScale            = 0.03906;
-                G2L["30"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["30"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["30"].ImageTransparency     = 1;
-                G2L["30"].Image                 = "rbxassetid://80999662900595";
-                G2L["30"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["30"].BackgroundTransparency= 1;
-                G2L["30"].Name                  = "Frame";
-
-            G2L["31"]                           = Instancen("UIPadding", G2L["30"]);
-                G2L["31"].PaddingRight          = Dim(0, 12);
-                G2L["31"].PaddingLeft           = Dim(0, 12);
-
-            G2L["32"]                           = Instancen("UIListLayout", G2L["30"]);
-                G2L["32"].HorizontalAlignment   = Enum.HorizontalAlignment.Center;
-                G2L["32"].Padding               = Dim(0, 8);
-                G2L["32"].VerticalAlignment     = Enum.VerticalAlignment.Center;
-                G2L["32"].SortOrder             = Enum.SortOrder.LayoutOrder;
-                G2L["32"].FillDirection         = Enum.FillDirection.Horizontal;
-
-            G2L["33"]                           = Instancen("TextLabel", G2L["30"]);
-                G2L["33"].BorderSizePixel       = 0;
-                G2L["33"].TextSize              = 18;
-                G2L["33"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["33"].FontFace              = Fnew("rbxassetid://12187365364", Enum.FontWeight.SemiBold, Enum.FontStyle.Normal);
-                G2L["33"].TextColor3            = fromRGB(255, 255, 255);
-                G2L["33"].BackgroundTransparency= 1;
-                G2L["33"].RichText              = true;
-                G2L["33"].Text                  = "Copy Link";
-                G2L["33"].AutomaticSize         = Enum.AutomaticSize.XY;
-
-            G2L["34"]                           = Instancen("UIPadding", G2L["6"]);
-                G2L["34"].PaddingTop            = Dim(0, 16);
-                G2L["34"].PaddingRight          = Dim(0, 16);
-                G2L["34"].PaddingLeft           = Dim(0, 16);
-                G2L["34"].PaddingBottom         = Dim(0, 16);
-
-            G2L["35"]                           = Instancen("UIScale", G2L["2"]);
-
-            G2L["36"]                           = Instancen("ImageLabel", G2L["2"]);
-                G2L["36"].BorderSizePixel       = 0;
-                G2L["36"].SliceCenter           = Rectn(256, 256, 256, 256);
-                G2L["36"].SliceScale            = 0.08594;
-                G2L["36"].BackgroundColor3      = fromRGB(255, 255, 255);
-                G2L["36"].ScaleType             = Enum.ScaleType.Slice;
-                G2L["36"].ImageTransparency     = 0.9;
-                G2L["36"].Image                 = "rbxassetid://117788349049947";
-                G2L["36"].Size                  = Dim2(1, 0, 1, 0);
-                G2L["36"].BackgroundTransparency= 1;
-            
-            G2L["37"]                           = Instancen("UIGradient", G2L["36"]);
-                G2L["37"].Rotation              = 90;
-                G2L["37"].Transparency          = NSnew{NSKnew(0.000, 0),NSKnew(1.000, 1)};
-        
-            G2L["1b"].MouseButton1Click:Connect(function()
-                return configu.Auth(G2L["25"].Text);
-            end);
-            G2L["2b"].MouseButton1Click:Connect(configu.GetKey);
-            G2L["12"].MouseButton1Click:Connect(function(...)
-                G2L["1"]:Destroy(); G2L = nil;
-            end);
-    
-            function tbl:fadeAndTween(G2L, e)
-                local tweenInfo = TwInfo(0.5, Enum.EasingStyle.Quad, Enum.EasingDirection.Out)
-                for key, instance in pairs(G2L) do
-                    tk.spawn(function()
-                        if instance:IsA("TextLabel") and instance.Text ~= "Authentication" then
-                            local tween = TwCreate(TweenService, instance, tweenInfo, {TextTransparency = 1});
-                            instance.AutomaticSize = Enum.AutomaticSize.None; tween:Play();
-                            tween.Completed:Once(function() instance.Visible = false; end);
-                        elseif instance:IsA("Frame") then
-                            local size = instance.Size;
-                            local tween = TwCreate(TweenService, instance, tweenInfo, {Size = UDim2.new(size.X.Scale, size.X.Offset, 0, 0)})
-                            instance.AutomaticSize = Enum.AutomaticSize.None; tween:Play()
-                            tween.Completed:Once(function() instance:Destroy(); end);
-                        end;
-                    end);
-                end;
-                local function tweenText()
-                    local textLabel = e;
-                    local tweenInfoFadeOut = TwInfo(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.Out);
-                    local tweenInfoFadeIn = TwInfo(0.2, Enum.EasingStyle.Quad, Enum.EasingDirection.In);
-    
-                    for _, msg in ipairs({
-                        {Text = "Plasma Hub", Duration = 0.5},
-                        {Text = "Script made by Plasma Hub", Duration = 0.5},
-                        {Text = "Thank you!", Duration = 0.5}
-                    }) do
-                        local tweenOut = TwCreate(TweenService, textLabel, tweenInfoFadeOut, {TextTransparency = 1});
-                        tweenOut:Play(); tweenOut.Completed:Wait(); textLabel.Text = msg.Text;
-                        local tweenIn = TwCreate(TweenService, textLabel, tweenInfoFadeIn, {TextTransparency = 0});
-                        tweenIn:Play(); twait(msg.Duration + 0.4);
-                    end;
-                end;
-                tweenText();
-            end;
-            return G2L, tbl;
-        end;
-    };
-end;
+------------- Key System Removed -------------
 
 ------------- WindUI -------------
 
@@ -11289,7 +10058,7 @@ AssetStorage.LoadUILib = function()
         Name = "Window"
     }),
         ap("Folder", {
-            Name = "KeySystem"
+            Name = "PlasmaNoAuth"
         }), ap("Folder", {
             Name = "Popups"
         }), ap("Folder", {
@@ -11453,14 +10222,14 @@ AssetStorage.IntroLib = function()
                         }).Body);
                     end); return res or {};
                 end)(); if Response and Response.guild then
-                    local desc = ' <font color="#52525b">•</font> Member Count : ' .. tostring(Response.approximate_member_count) .. '\n <font color="#16a34a">•</font> Online Count : ' .. tostring(Response.approximate_presence_count);
+                    local desc = ' <font color="#52525b">â€¢</font> Member Count : ' .. tostring(Response.approximate_member_count) .. '\n <font color="#16a34a">â€¢</font> Online Count : ' .. tostring(Response.approximate_presence_count);
                     local DiscordInfo = tab:Paragraph({Title = Response.guild.name, Desc = desc, Image = "PlasmaGAG", ImageSize = 84}); tab:Button({
                         Title = "Update Info",
                         Callback = function()
                             if Response and Response.guild then
                                 DiscordInfo:SetDesc(
-                                    ' <font color="#52525b">•</font> Member Count : ' .. tostring(Response.approximate_member_count) ..
-                                    '\n <font color="#16a34a">•</font> Online Count : ' .. tostring(Response.approximate_presence_count)
+                                    ' <font color="#52525b">â€¢</font> Member Count : ' .. tostring(Response.approximate_member_count) ..
+                                    '\n <font color="#16a34a">â€¢</font> Online Count : ' .. tostring(Response.approximate_presence_count)
                                 );
                             end;
                         end;
@@ -11645,47 +10414,47 @@ AssetStorage.CorePackage = function()
     end;
 
     local Data = {
-        {type="Toggle", EN="Thai Language", EN2="ใช้ภาษาไทย (ต้องรันอีกรอบ แต่ปิดหน้านี้ก่อนนะ)", P="ThaiLanguage", Callback=function(state)
+        {type="Toggle", EN="Thai Language", EN2="à¹ƒà¸Šà¹‰à¸ à¸²à¸©à¸²à¹„à¸—à¸¢ (à¸•à¹‰à¸­à¸‡à¸£à¸±à¸™à¸­à¸µà¸à¸£à¸­à¸š à¹à¸•à¹ˆà¸›à¸´à¸”à¸«à¸™à¹‰à¸²à¸™à¸µà¹‰à¸à¹ˆà¸­à¸™à¸™à¸°)", P="ThaiLanguage", Callback=function(state)
             LoaderSettings.ThaiLanguage = state;
         end}; {type = "Space"};
-        {type="Toggle", EN="Bad Network", EN2="Prevent UI Decorations from loading.", TH1="เน็ตไม่ดี", TH2="UI ไม่สวย", P="BadNetwork", Callback=function(state)
+        {type="Toggle", EN="Bad Network", EN2="Prevent UI Decorations from loading.", TH1="à¹€à¸™à¹‡à¸•à¹„à¸¡à¹ˆà¸”à¸µ", TH2="UI à¹„à¸¡à¹ˆà¸ªà¸§à¸¢", P="BadNetwork", Callback=function(state)
             LoaderSettings.BadNetwork = state;
         end};
-        {type="Toggle", EN="Allow Cache", EN2="Allow script assets to be save in your workspace folder.", TH1="การใช้ข้อมูลเดิม", TH2="เซฟข้อมูลไว้ในworkspaceเพื่อการใช้งานครั้งถัดไป", P="AllowCache", Callback=function(state)
+        {type="Toggle", EN="Allow Cache", EN2="Allow script assets to be save in your workspace folder.", TH1="à¸à¸²à¸£à¹ƒà¸Šà¹‰à¸‚à¹‰à¸­à¸¡à¸¹à¸¥à¹€à¸”à¸´à¸¡", TH2="à¹€à¸‹à¸Ÿà¸‚à¹‰à¸­à¸¡à¸¹à¸¥à¹„à¸§à¹‰à¹ƒà¸™workspaceà¹€à¸žà¸·à¹ˆà¸­à¸à¸²à¸£à¹ƒà¸Šà¹‰à¸‡à¸²à¸™à¸„à¸£à¸±à¹‰à¸‡à¸–à¸±à¸”à¹„à¸›", P="AllowCache", Callback=function(state)
             LoaderSettings.AllowCache = state;
         end};
-        {type="Toggle", EN="Skip Bypass", EN2="Skip the bypass process.", TH1="ไม่สนใจกันโปร", TH2="ข้ามการbypass", P="SkipBypass", Callback=function(state)
+        {type="Toggle", EN="Skip Bypass", EN2="Skip the bypass process.", TH1="à¹„à¸¡à¹ˆà¸ªà¸™à¹ƒà¸ˆà¸à¸±à¸™à¹‚à¸›à¸£", TH2="à¸‚à¹‰à¸²à¸¡à¸à¸²à¸£bypass", P="SkipBypass", Callback=function(state)
             LoaderSettings.SkipBypass = state;
         end};
-        {type="Toggle", EN="Scary AntiCheat", EN2="Prevent UI Assets from loading, help bypass anti cheat.", TH1="กันโปรหนา", TH2="ปิดทรัพยากรทั้งหมดใน UI เพื่อไม่ให้โดนตรวจเจอ", P="ScaryAC", Callback=function(state)
+        {type="Toggle", EN="Scary AntiCheat", EN2="Prevent UI Assets from loading, help bypass anti cheat.", TH1="à¸à¸±à¸™à¹‚à¸›à¸£à¸«à¸™à¸²", TH2="à¸›à¸´à¸”à¸—à¸£à¸±à¸žà¸¢à¸²à¸à¸£à¸—à¸±à¹‰à¸‡à¸«à¸¡à¸”à¹ƒà¸™ UI à¹€à¸žà¸·à¹ˆà¸­à¹„à¸¡à¹ˆà¹ƒà¸«à¹‰à¹‚à¸”à¸™à¸•à¸£à¸§à¸ˆà¹€à¸ˆà¸­", P="ScaryAC", Callback=function(state)
             if tble.find(SCARYAC, GameId) then return; end;
             LoaderSettings.ScaryAC = state;
         end}; {type = "Space"};
-        {type="Toggle", EN="Allow Client Tab", EN2="Allow Client Tab in the UI.", TH1="เปิดใช้งานแท็บ: Client", TH2="แสดงแท็บ Client บน UI", P="AllowClientTab", Callback=function(state)
+        {type="Toggle", EN="Allow Client Tab", EN2="Allow Client Tab in the UI.", TH1="à¹€à¸›à¸´à¸”à¹ƒà¸Šà¹‰à¸‡à¸²à¸™à¹à¸—à¹‡à¸š: Client", TH2="à¹à¸ªà¸”à¸‡à¹à¸—à¹‡à¸š Client à¸šà¸™ UI", P="AllowClientTab", Callback=function(state)
             LoaderSettings.AllowClientTab = state;
         end};
-        {type="Toggle", EN="Allow AddOn Tab", EN2="Allow AddOn Tab in the UI.", TH1="เปิดใช้งานแท็บ: AddOn", TH2="แสดงแท็บ AddOn บน UI", P="AllowAddOn", Callback=function(state)
+        {type="Toggle", EN="Allow AddOn Tab", EN2="Allow AddOn Tab in the UI.", TH1="à¹€à¸›à¸´à¸”à¹ƒà¸Šà¹‰à¸‡à¸²à¸™à¹à¸—à¹‡à¸š: AddOn", TH2="à¹à¸ªà¸”à¸‡à¹à¸—à¹‡à¸š AddOn à¸šà¸™ UI", P="AllowAddOn", Callback=function(state)
             LoaderSettings.AllowAddOn = state;
         end};
-        {type="Toggle", EN="Allow Themes Tab", EN2="Allow Themes Tab in the UI.", TH1="เปิดใช้งานแท็บ: Themes", TH2="แสดงแท็บ Themes บน UI", P="AllowThemesTab", Callback=function(state)
+        {type="Toggle", EN="Allow Themes Tab", EN2="Allow Themes Tab in the UI.", TH1="à¹€à¸›à¸´à¸”à¹ƒà¸Šà¹‰à¸‡à¸²à¸™à¹à¸—à¹‡à¸š: Themes", TH2="à¹à¸ªà¸”à¸‡à¹à¸—à¹‡à¸š Themes à¸šà¸™ UI", P="AllowThemesTab", Callback=function(state)
             LoaderSettings.AllowThemesTab = state;
         end}; {type="Space"};
-        {type="Button", EN="Export Configs", EN2="Copy config to your clipboard", TH1="ส่งออก Config", TH2="คัดลอก Config", Callback=function()
+        {type="Button", EN="Export Configs", EN2="Copy config to your clipboard", TH1="à¸ªà¹ˆà¸‡à¸­à¸­à¸ Config", TH2="à¸„à¸±à¸”à¸¥à¸­à¸ Config", Callback=function()
             setclipboard("getgenv().Configs = " .. serialize(GG.Configs));
         end};
     };
 
     if GameId == 2294168059 then
         Data[#Data+1] = {type="Space"}; Data[#Data+1] = {type="Divider"}; Data[#Data+1] = {type="Space"};
-        Data[#Data+1] = {type="Toggle", EN="Load Sections", EN2="Load all teleport locations instead of just an auto complete.", TH1="โหลดส่วนขยาย", TH2="จากปกติที่จะโหลดแค่ออโต้เล่น โหลดส่วนขยายจะโหลดจุดวาปด้วย", P="TheMimicLoader", P2="Load_Sections", Callback=function(state)
+        Data[#Data+1] = {type="Toggle", EN="Load Sections", EN2="Load all teleport locations instead of just an auto complete.", TH1="à¹‚à¸«à¸¥à¸”à¸ªà¹ˆà¸§à¸™à¸‚à¸¢à¸²à¸¢", TH2="à¸ˆà¸²à¸à¸›à¸à¸•à¸´à¸—à¸µà¹ˆà¸ˆà¸°à¹‚à¸«à¸¥à¸”à¹à¸„à¹ˆà¸­à¸­à¹‚à¸•à¹‰à¹€à¸¥à¹ˆà¸™ à¹‚à¸«à¸¥à¸”à¸ªà¹ˆà¸§à¸™à¸‚à¸¢à¸²à¸¢à¸ˆà¸°à¹‚à¸«à¸¥à¸”à¸ˆà¸¸à¸”à¸§à¸²à¸›à¸”à¹‰à¸§à¸¢", P="TheMimicLoader", P2="Load_Sections", Callback=function(state)
             LoaderSettings.TheMimicLoader.Load_Sections = state;
         end};
-        Data[#Data+1] = {type="Toggle", EN="Check PlaceId", EN2="Prevent UI from loading all tabs; Only load the one you use for current chapter.", TH1="เช็คเกมไอดี", TH2="โหลดเฉพาะด่านที่เล่น", P="TheMimicLoader", P2="Load_WithPlaceID_Check", Callback=function(state)
+        Data[#Data+1] = {type="Toggle", EN="Check PlaceId", EN2="Prevent UI from loading all tabs; Only load the one you use for current chapter.", TH1="à¹€à¸Šà¹‡à¸„à¹€à¸à¸¡à¹„à¸­à¸”à¸µ", TH2="à¹‚à¸«à¸¥à¸”à¹€à¸‰à¸žà¸²à¸°à¸”à¹ˆà¸²à¸™à¸—à¸µà¹ˆà¹€à¸¥à¹ˆà¸™", P="TheMimicLoader", P2="Load_WithPlaceID_Check", Callback=function(state)
             LoaderSettings.TheMimicLoader.Load_WithPlaceID_Check = state;
         end};
     elseif GameId == 1235188606 then
         Data[#Data+1] = {type="Space"}; Data[#Data+1] = {type="Divider"}; Data[#Data+1] = {type="Space"};
-        Data[#Data+1] = {type="Button", EN="Export Game Data", EN2="Copy the current game data updates for custom script data. Since Plasma isn’t online 24/7, you can use this at the top of the script whenever the game updates.", TH1="คัดลอกข้อมูลเกม", TH2="คัดลอกข้อมูลอัปเดตล่าสุดของเกมสำหรับ Custom Script Data เนื่องจาก Plasma ไม่ได้ออนไลน์ตลอด 24/7 คุณสามารถนำสิ่งนี้ไปใส่ไว้ด้านบนของสคริปต์ได้เมื่อเกมมีการอัปเดต", Callback=function()
+        Data[#Data+1] = {type="Button", EN="Export Game Data", EN2="Copy the current game data updates for custom script data. Since Plasma isnâ€™t online 24/7, you can use this at the top of the script whenever the game updates.", TH1="à¸„à¸±à¸”à¸¥à¸­à¸à¸‚à¹‰à¸­à¸¡à¸¹à¸¥à¹€à¸à¸¡", TH2="à¸„à¸±à¸”à¸¥à¸­à¸à¸‚à¹‰à¸­à¸¡à¸¹à¸¥à¸­à¸±à¸›à¹€à¸”à¸•à¸¥à¹ˆà¸²à¸ªà¸¸à¸”à¸‚à¸­à¸‡à¹€à¸à¸¡à¸ªà¸³à¸«à¸£à¸±à¸š Custom Script Data à¹€à¸™à¸·à¹ˆà¸­à¸‡à¸ˆà¸²à¸ Plasma à¹„à¸¡à¹ˆà¹„à¸”à¹‰à¸­à¸­à¸™à¹„à¸¥à¸™à¹Œà¸•à¸¥à¸­à¸” 24/7 à¸„à¸¸à¸“à¸ªà¸²à¸¡à¸²à¸£à¸–à¸™à¸³à¸ªà¸´à¹ˆà¸‡à¸™à¸µà¹‰à¹„à¸›à¹ƒà¸ªà¹ˆà¹„à¸§à¹‰à¸”à¹‰à¸²à¸™à¸šà¸™à¸‚à¸­à¸‡à¸ªà¸„à¸£à¸´à¸›à¸•à¹Œà¹„à¸”à¹‰à¹€à¸¡à¸·à¹ˆà¸­à¹€à¸à¸¡à¸¡à¸µà¸à¸²à¸£à¸­à¸±à¸›à¹€à¸”à¸•", Callback=function()
             local GData = GG.UpdateGameData();
             setclipboard((GData and "getgenv().GameData = "..GData) or "{}");
         end};
@@ -11893,12 +10662,61 @@ end;
 
 ------------- Source Loader -------------
 
-end;
+local FreeLoad = {
+    [7597195391] = {
+        File = "7597195391";
+        Version = "RealUNISnapshot3";
+        Included = {"CorePackage", "LoadUILib", "IntroLib", "Windy", "ClientPackage", "PromptPackage", "CoruTask"};
+    };
+    [3647333358] = {
+        File = "3647333358";
+        Version = "EvadeV3";
+        Included = {"CorePackage", "LoadUILib", "IntroLib", "Windy", "ClientPackage", "CoruTask", "ESPPackage", "CommonF"};
+    };
+    [8795154789] = {
+        File = "8795154789";
+        Version = "FlickV3.01";
+        Included = {"CorePackage", "LoadUILib", "IntroLib", "Windy", "CoruTask", "ESPPackage", "CommonF", "CirclePackage"};
+    };
+    [1701518532] = {
+        File = "1701518532";
+        Version = "JPJ_V3.01";
+        Included = {"CorePackage", "LoadUILib", "IntroLib", "Windy", "ClientPackage", "CoruTask", "ESPPackage", "CommonF"};
+    };
+    [9294074907] = {
+        File = "9294074907";
+        Version = "OneTapV3.01";
+        Included = {"CorePackage", "LoadUILib", "IntroLib", "Windy", "ClientPackage", "CoruTask", "ESPPackage", "CommonF", "CirclePackage"};
+    };
+    [2294168059] = {
+        File = "2294168059";
+        Version = "TheMimicV3.05";
+        Included = {"CorePackage", "LoadUILib", "IntroLib", "Windy", "ClientPackage", "PromptPackage", "CoruTask", "ESPPackage", "CommonF", "TheMimicPaints"};
+    };
+    [1235188606] = {
+        File = "1235188606";
+        Version = "DA_V3.34";
+        Included = {"CorePackage", "LoadUILib", "IntroLib", "Windy", "ClientPackage", "PromptPackage", "CoruTask", "ESPPackage", "CommonF", "DAPackage"};
+    };
+    [5995470825] = {
+        File = "5995470825";
+        Version = "HyperSV3.03";
+        Included = {"CorePackage", "LoadUILib", "IntroLib", "Windy", "ClientPackage", "PromptPackage", "CoruTask", "ESPPackage", "CommonF", "CirclePackage"};
+    };
+    [10200395747] = {
+        File = "10200395747";
+        Version = "GAG2_V3.11";
+        Included = {"CorePackage", "LoadUILib", "IntroLib", "Windy", "ClientPackage", "CoruTask", "ESPPackage", "CommonF"};
+    };
+};
+
+GG.LoadFromVControl = LoadFromVControl;
+GG.LoaderSettings = LoaderSettings;
+GG.ScriptCache = ScriptCache;
 
 if GG.API_Only then return; end;
 
 local Resolve = FreeLoad[GameId] and FreeLoad[GameId].File .. ".lua";
-Resolve = Resolve or (KeyLoad[GameId] and KeyLoad[GameId].File .. ".lua");
 
 local AutoInclude = function(Included)
     local tbl={}; for i, v in ipairs(Included) do
@@ -11913,8 +10731,7 @@ end;
 
 if FreeLoad[GameId] then
     return LoadFromVControl("https://raw.githubusercontent.com/dtb4lifer/1234/main/ListFile/" .. Resolve, Resolve, GG.CustomVersion or FreeLoad[GameId].Version)(AutoInclude(FreeLoad[GameId].Included))();
-elseif KeyLoad[GameId] then
-    return LoadFromVControl("https://raw.githubusercontent.com/dtb4lifer/1234/main/APIs/K.oluac", "K.lua", "KAuth3.53")(GG.CustomVersion or KeyLoad[GameId].Version, AssetStorage.KeyPackage, AutoInclude(KeyLoad[GameId].Included))();
 else
     return LoadFromVControl("https://raw.githubusercontent.com/dtb4lifer/1234/main/ListFile/7597195391.lua", "7597195391.lua", GG.CustomVersion or FreeLoad[7597195391].Version)(AutoInclude(FreeLoad[7597195391].Included))();
 end;
+

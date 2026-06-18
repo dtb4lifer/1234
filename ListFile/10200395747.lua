@@ -115,7 +115,7 @@ local decrypt = function(encryptedText ,key)
 end;
 
 return {
-    Version = "GAG2_V3.12_NOAUTH";
+    Version = "GAG2_V3.13_UIFIX";
     Function = function(CorePackage, WindLib, IntroLib, Windy, ClientPackage, CoruTask, ESPF, CommonF)
         local CoreConnection    = {};
         local CoreDestroyed     = false;
@@ -964,20 +964,39 @@ return {
                 AddOn = LoaderSettings.AllowAddOn and Window:Tab({ Title = "AddOn", Icon = "box" }),
                 Themes = LoaderSettings.AllowThemesTab and Window:Tab({ Title = "Themes", Icon = "palette" }),
                 Core = Window:Tab({ Title = "Core Settings", Icon = "settings" }),
-            }; IntroLib.Init(WindUI, Tabs.Welcome); IntroLib:Tutorial(WindUI);
-            Windy:CreateComponent(Tabs.Client, ScriptData.AutoData.ClientTab, "Client");
-            Windy:CreateComponent(Tabs.Core, CorePackage());
+            };
+            pcall(function() IntroLib.Init(WindUI, Tabs.Welcome); end);
+            pcall(function() IntroLib:Tutorial(WindUI); end);
 
-            Windy:CreateComponent(Tabs.Garden, ScriptData.AutoData.GardenTab, "Garden");
-            Windy:CreateComponent(Tabs.Harvest, ScriptData.AutoData.HarvestTab, "Harvest");
-            Windy:CreateComponent(Tabs.Sell, ScriptData.AutoData.SellTab, "Sell");
-            Windy:CreateComponent(Tabs.Shop, ScriptData.AutoData.ShopTab, "Shop");
-            Windy:CreateComponent(Tabs.Events, ScriptData.AutoData.EventsTab, "Events");
+            local SafeCreate = function(label, tab, data, path)
+                if not tab or not data then return; end;
+                local ok, err = pcall(function()
+                    Windy:CreateComponent(tab, data, path);
+                end);
+                if not ok then
+                    warn("[Plasma Hub] Failed to load " .. tostring(label) .. " tab: " .. tostring(err));
+                end;
+            end;
+            local SafeCall = function(label, callback)
+                local ok, err = pcall(callback);
+                if not ok then
+                    warn("[Plasma Hub] Failed to load " .. tostring(label) .. ": " .. tostring(err));
+                end;
+            end;
 
-            Functions.PairData(Tabs.Shop, "Seeds", SeedData);
-            Functions.PairData(Tabs.Shop, "Gears", GearData);
-            Functions.PairData(Tabs.Shop, "Pets", PetData);
+            SafeCreate("Client", Tabs.Client, ScriptData.AutoData.ClientTab, "Client");
+            SafeCreate("Core", Tabs.Core, CorePackage(), nil);
+            SafeCreate("Garden", Tabs.Garden, ScriptData.AutoData.GardenTab, "Garden");
+            SafeCreate("Harvest", Tabs.Harvest, ScriptData.AutoData.HarvestTab, "Harvest");
+            SafeCreate("Sell", Tabs.Sell, ScriptData.AutoData.SellTab, "Sell");
+            SafeCreate("Shop", Tabs.Shop, ScriptData.AutoData.ShopTab, "Shop");
+            SafeCreate("Events", Tabs.Events, ScriptData.AutoData.EventsTab, "Events");
 
+            SafeCall("Shop Seeds", function() Functions.PairData(Tabs.Shop, "Seeds", SeedData); end);
+            SafeCall("Shop Gears", function() Functions.PairData(Tabs.Shop, "Gears", GearData); end);
+            SafeCall("Shop Pets", function() Functions.PairData(Tabs.Shop, "Pets", PetData); end);
+
+            pcall(function() GG.LoadingSignal:Fire(100); end);
             Window:SelectTab(1); Window:OnDestroy(function()
                 CoreDestroyed = true;
             end);

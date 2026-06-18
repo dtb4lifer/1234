@@ -10717,7 +10717,7 @@ local FreeLoad = {
     };
     [10200395747] = {
         File = "10200395747";
-        Version = "GAG2_V3.12_NOAUTH";
+        Version = "GAG2_V3.13_UIFIX";
         Included = {"CorePackage", "LoadUILib", "IntroLib", "Windy", "ClientPackage", "CoruTask", "ESPPackage", "CommonF"};
     };
 };

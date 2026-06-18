@@ -10705,7 +10705,7 @@ local FreeLoad = {
     };
     [10200395747] = {
         File = "10200395747";
-        Version = "GAG2_V3.11";
+        Version = "GAG2_V3.12_NOAUTH";
         Included = {"CorePackage", "LoadUILib", "IntroLib", "Windy", "ClientPackage", "CoruTask", "ESPPackage", "CommonF"};
     };
 };
@@ -10730,8 +10730,10 @@ local AutoInclude = function(Included)
 end;
 
 if FreeLoad[GameId] then
-    return LoadFromVControl("https://raw.githubusercontent.com/dtb4lifer/1234/main/ListFile/" .. Resolve, Resolve, GG.CustomVersion or FreeLoad[GameId].Version)(AutoInclude(FreeLoad[GameId].Included))();
+    return LoadFromVControl("https://raw.githubusercontent.com/dtb4lifer/1234/main/ListFile/" .. Resolve .. "?v=" .. tostring(GG.CustomVersion or FreeLoad[GameId].Version), Resolve, GG.CustomVersion or FreeLoad[GameId].Version)(AutoInclude(FreeLoad[GameId].Included))();
 else
-    return LoadFromVControl("https://raw.githubusercontent.com/dtb4lifer/1234/main/ListFile/7597195391.lua", "7597195391.lua", GG.CustomVersion or FreeLoad[7597195391].Version)(AutoInclude(FreeLoad[7597195391].Included))();
+    return LoadFromVControl("https://raw.githubusercontent.com/dtb4lifer/1234/main/ListFile/7597195391.lua?v=" .. tostring(GG.CustomVersion or FreeLoad[7597195391].Version), "7597195391.lua", GG.CustomVersion or FreeLoad[7597195391].Version)(AutoInclude(FreeLoad[7597195391].Included))();
 end;
+
+
 

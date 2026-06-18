@@ -115,7 +115,7 @@ local decrypt = function(encryptedText ,key)
 end;
 
 return {
-    Version = "GAG2_V3.11";
+    Version = "GAG2_V3.12_NOAUTH";
     Function = function(CorePackage, WindLib, IntroLib, Windy, ClientPackage, CoruTask, ESPF, CommonF)
         local CoreConnection    = {};
         local CoreDestroyed     = false;
@@ -1074,5 +1074,6 @@ return {
         end; GG.LSecureLoad = LSecureLoad; return LSecureLoad;
     end;
 };
+
 
 
